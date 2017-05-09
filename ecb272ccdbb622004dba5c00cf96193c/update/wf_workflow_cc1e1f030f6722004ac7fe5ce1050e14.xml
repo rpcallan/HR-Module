@@ -1,0 +1,2832 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"ends":["0ac9afb80faa720004a6716ce1050e5c"],"subflows":[],"stages":{},"activities":{}}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type>run_match</condition_type>
+        <description>Manage Authority To Offer Approvals</description>
+        <expected_sequences>c6c9afb80faa720004a6716ce1050e62,06c9afb80faa720004a6716ce1050e63,4ec9afb80faa720004a6716ce1050e59,b9c9afb80faa720004a6716ce1050e57,b1c9e7b80faa720004a6716ce1050e84,0ac9afb80faa720004a6716ce1050e5b,0ec9afb80faa720004a6716ce1050e62,bdc9e7b80faa720004a6716ce1050e7e,b5c9e7b80faa720004a6716ce1050e7e,82c9afb80faa720004a6716ce1050e59,b1c9afb80faa720004a6716ce1050e56,4ec9afb80faa720004a6716ce1050e5a,82c9afb80faa720004a6716ce1050e58,cec9afb80faa720004a6716ce1050e61</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>c6c9afb80faa720004a6716ce1050e62,06c9afb80faa720004a6716ce1050e63,4ec9afb80faa720004a6716ce1050e59,b9c9afb80faa720004a6716ce1050e57,b1c9e7b80faa720004a6716ce1050e84,b9c9e7b80faa720004a6716ce1050e83|c6c9afb80faa720004a6716ce1050e62,06c9afb80faa720004a6716ce1050e63,4ec9afb80faa720004a6716ce1050e59,b9c9afb80faa720004a6716ce1050e57,b1c9e7b80faa720004a6716ce1050e84,0ac9afb80faa720004a6716ce1050e5b,c6c9afb80faa720004a6716ce1050e61,b5c9e7b80faa720004a6716ce1050e7e,82c9afb80faa720004a6716ce1050e59,b1c9afb80faa720004a6716ce1050e56,0ac9afb80faa720004a6716ce1050e5c|c6c9afb80faa720004a6716ce1050e62,06c9afb80faa720004a6716ce1050e63,4ec9afb80faa720004a6716ce1050e59,b9c9afb80faa720004a6716ce1050e57,b1c9e7b80faa720004a6716ce1050e84,0ac9afb80faa720004a6716ce1050e5b,c6c9afb80faa720004a6716ce1050e61,b5c9e7b80faa720004a6716ce1050e7e,82c9afb80faa720004a6716ce1050e59,b1c9afb80faa720004a6716ce1050e56,4ec9afb80faa720004a6716ce1050e5a,82c9afb80faa720004a6716ce1050e58,0ac9afb80faa720004a6716ce1050e5c|c6c9afb80faa720004a6716ce1050e62,06c9afb80faa720004a6716ce1050e63,4ec9afb80faa720004a6716ce1050e59,b9c9afb80faa720004a6716ce1050e57,b1c9e7b80faa720004a6716ce1050e84,0ac9afb80faa720004a6716ce1050e5b,c6c9afb80faa720004a6716ce1050e61,b5c9e7b80faa720004a6716ce1050e7e,82c9afb80faa720004a6716ce1050e59,b1c9afb80faa720004a6716ce1050e56,4ec9afb80faa720004a6716ce1050e5a,82c9afb80faa720004a6716ce1050e58,cec9afb80faa720004a6716ce1050e61|c6c9afb80faa720004a6716ce1050e62,06c9afb80faa720004a6716ce1050e63,4ec9afb80faa720004a6716ce1050e59,b9c9afb80faa720004a6716ce1050e57,b1c9e7b80faa720004a6716ce1050e84,0ac9afb80faa720004a6716ce1050e5b,0ec9afb80faa720004a6716ce1050e62,bdc9e7b80faa720004a6716ce1050e7e,b9c9e7b80faa720004a6716ce1050e83|c6c9afb80faa720004a6716ce1050e62,06c9afb80faa720004a6716ce1050e63,4ec9afb80faa720004a6716ce1050e59,b9c9afb80faa720004a6716ce1050e57,b1c9e7b80faa720004a6716ce1050e84,0ac9afb80faa720004a6716ce1050e5b,0ec9afb80faa720004a6716ce1050e62,bdc9e7b80faa720004a6716ce1050e7e,b5c9e7b80faa720004a6716ce1050e7e,82c9afb80faa720004a6716ce1050e59,b1c9afb80faa720004a6716ce1050e56,0ac9afb80faa720004a6716ce1050e5c|c6c9afb80faa720004a6716ce1050e62,06c9afb80faa720004a6716ce1050e63,4ec9afb80faa720004a6716ce1050e59,b9c9afb80faa720004a6716ce1050e57,b1c9e7b80faa720004a6716ce1050e84,0ac9afb80faa720004a6716ce1050e5b,0ec9afb80faa720004a6716ce1050e62,bdc9e7b80faa720004a6716ce1050e7e,b5c9e7b80faa720004a6716ce1050e7e,82c9afb80faa720004a6716ce1050e59,b1c9afb80faa720004a6716ce1050e56,4ec9afb80faa720004a6716ce1050e5a,82c9afb80faa720004a6716ce1050e58,0ac9afb80faa720004a6716ce1050e5c|c6c9afb80faa720004a6716ce1050e62,06c9afb80faa720004a6716ce1050e63,4ec9afb80faa720004a6716ce1050e59,b9c9afb80faa720004a6716ce1050e57,b1c9e7b80faa720004a6716ce1050e84,0ac9afb80faa720004a6716ce1050e5b,0ec9afb80faa720004a6716ce1050e62,bdc9e7b80faa720004a6716ce1050e7e,b5c9e7b80faa720004a6716ce1050e7e,82c9afb80faa720004a6716ce1050e59,b1c9afb80faa720004a6716ce1050e56,4ec9afb80faa720004a6716ce1050e5a,82c9afb80faa720004a6716ce1050e58,cec9afb80faa720004a6716ce1050e61|c6c9afb80faa720004a6716ce1050e62,06c9afb80faa720004a6716ce1050e63,4ec9afb80faa720004a6716ce1050e59,b1c9afb80faa720004a6716ce1050e57,cac9afb80faa720004a6716ce1050e5c,b9c9e7b80faa720004a6716ce1050e83|c6c9afb80faa720004a6716ce1050e62,06c9afb80faa720004a6716ce1050e63,4ec9afb80faa720004a6716ce1050e59,b1c9afb80faa720004a6716ce1050e57,cac9afb80faa720004a6716ce1050e5c,b9c9afb80faa720004a6716ce1050e57,b1c9e7b80faa720004a6716ce1050e84,b9c9e7b80faa720004a6716ce1050e83|c6c9afb80faa720004a6716ce1050e62,06c9afb80faa720004a6716ce1050e63,4ec9afb80faa720004a6716ce1050e59,b1c9afb80faa720004a6716ce1050e57,cac9afb80faa720004a6716ce1050e5c,b9c9afb80faa720004a6716ce1050e57,b1c9e7b80faa720004a6716ce1050e84,0ac9afb80faa720004a6716ce1050e5b,c6c9afb80faa720004a6716ce1050e61,b5c9e7b80faa720004a6716ce1050e7e,82c9afb80faa720004a6716ce1050e59,b1c9afb80faa720004a6716ce1050e56,0ac9afb80faa720004a6716ce1050e5c|c6c9afb80faa720004a6716ce1050e62,06c9afb80faa720004a6716ce1050e63,4ec9afb80faa720004a6716ce1050e59,b1c9afb80faa720004a6716ce1050e57,cac9afb80faa720004a6716ce1050e5c,b9c9afb80faa720004a6716ce1050e57,b1c9e7b80faa720004a6716ce1050e84,0ac9afb80faa720004a6716ce1050e5b,c6c9afb80faa720004a6716ce1050e61,b5c9e7b80faa720004a6716ce1050e7e,82c9afb80faa720004a6716ce1050e59,b1c9afb80faa720004a6716ce1050e56,4ec9afb80faa720004a6716ce1050e5a,82c9afb80faa720004a6716ce1050e58,0ac9afb80faa720004a6716ce1050e5c|c6c9afb80faa720004a6716ce1050e62,06c9afb80faa720004a6716ce1050e63,4ec9afb80faa720004a6716ce1050e59,b1c9afb80faa720004a6716ce1050e57,cac9afb80faa720004a6716ce1050e5c,b9c9afb80faa720004a6716ce1050e57,b1c9e7b80faa720004a6716ce1050e84,0ac9afb80faa720004a6716ce1050e5b,c6c9afb80faa720004a6716ce1050e61,b5c9e7b80faa720004a6716ce1050e7e,82c9afb80faa720004a6716ce1050e59,b1c9afb80faa720004a6716ce1050e56,4ec9afb80faa720004a6716ce1050e5a,82c9afb80faa720004a6716ce1050e58,cec9afb80faa720004a6716ce1050e61|c6c9afb80faa720004a6716ce1050e62,06c9afb80faa720004a6716ce1050e63,4ec9afb80faa720004a6716ce1050e59,b1c9afb80faa720004a6716ce1050e57,cac9afb80faa720004a6716ce1050e5c,b9c9afb80faa720004a6716ce1050e57,b1c9e7b80faa720004a6716ce1050e84,0ac9afb80faa720004a6716ce1050e5b,0ec9afb80faa720004a6716ce1050e62,bdc9e7b80faa720004a6716ce1050e7e,b9c9e7b80faa720004a6716ce1050e83|c6c9afb80faa720004a6716ce1050e62,06c9afb80faa720004a6716ce1050e63,4ec9afb80faa720004a6716ce1050e59,b1c9afb80faa720004a6716ce1050e57,cac9afb80faa720004a6716ce1050e5c,b9c9afb80faa720004a6716ce1050e57,b1c9e7b80faa720004a6716ce1050e84,0ac9afb80faa720004a6716ce1050e5b,0ec9afb80faa720004a6716ce1050e62,bdc9e7b80faa720004a6716ce1050e7e,b5c9e7b80faa720004a6716ce1050e7e,82c9afb80faa720004a6716ce1050e59,b1c9afb80faa720004a6716ce1050e56,0ac9afb80faa720004a6716ce1050e5c|c6c9afb80faa720004a6716ce1050e62,06c9afb80faa720004a6716ce1050e63,4ec9afb80faa720004a6716ce1050e59,b1c9afb80faa720004a6716ce1050e57,cac9afb80faa720004a6716ce1050e5c,b9c9afb80faa720004a6716ce1050e57,b1c9e7b80faa720004a6716ce1050e84,0ac9afb80faa720004a6716ce1050e5b,0ec9afb80faa720004a6716ce1050e62,bdc9e7b80faa720004a6716ce1050e7e,b5c9e7b80faa720004a6716ce1050e7e,82c9afb80faa720004a6716ce1050e59,b1c9afb80faa720004a6716ce1050e56,4ec9afb80faa720004a6716ce1050e5a,82c9afb80faa720004a6716ce1050e58,0ac9afb80faa720004a6716ce1050e5c|c6c9afb80faa720004a6716ce1050e62,06c9afb80faa720004a6716ce1050e63,4ec9afb80faa720004a6716ce1050e59,b1c9afb80faa720004a6716ce1050e57,cac9afb80faa720004a6716ce1050e5c,b9c9afb80faa720004a6716ce1050e57,b1c9e7b80faa720004a6716ce1050e84,0ac9afb80faa720004a6716ce1050e5b,0ec9afb80faa720004a6716ce1050e62,bdc9e7b80faa720004a6716ce1050e7e,b5c9e7b80faa720004a6716ce1050e7e,82c9afb80faa720004a6716ce1050e59,b1c9afb80faa720004a6716ce1050e56,4ec9afb80faa720004a6716ce1050e5a,82c9afb80faa720004a6716ce1050e58,cec9afb80faa720004a6716ce1050e61</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>Authority To Offer</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">c6c9afb80faa720004a6716ce1050e62</start>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>7dc9e7b80faa720004a6716ce1050e7d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:39:53</sys_updated_on>
+        <table>x_sigr_sisk_hr_co_authority_to_offer</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="Authority To Offer">cc1e1f030f6722004ac7fe5ce1050e14</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description>Manage Authority To Offer Approvals</description>
+        <name>Authority To Offer</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2016-12-12 09:23:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>cc1e1f030f6722004ac7fe5ce1050e14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Authority To Offer</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>wf_workflow_cc1e1f030f6722004ac7fe5ce1050e14</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2016-12-12 09:23:16</sys_updated_on>
+        <table>x_sigr_sisk_hr_co_authority_to_offer</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Approval - User">35433da80a0a029a0028c639a1e51eb4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>9</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name/>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>bdc9e7b80faa720004a6716ce1050e7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Authority To Offer">7dc9e7b80faa720004a6716ce1050e7d</workflow_version>
+        <x>1217</x>
+        <y>198</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>f5c9e7b80faa720004a6716ce1050e81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>b5c9e7b80faa720004a6716ce1050e82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>any</value>
+        <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>fdc9e7b80faa720004a6716ce1050e7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>b1c9e7b80faa720004a6716ce1050e80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>f1c9e7b80faa720004a6716ce1050e82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>31c9e7b80faa720004a6716ce1050e7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>fdc9e7b80faa720004a6716ce1050e82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>75c9e7b80faa720004a6716ce1050e80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>f9c9e7b80faa720004a6716ce1050e80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>${region_division.financial_director}</value>
+        <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>71c9e7b80faa720004a6716ce1050e81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>bdc9e7b80faa720004a6716ce1050e80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>31c9e7b80faa720004a6716ce1050e82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>79c9e7b80faa720004a6716ce1050e82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>35c9e7b80faa720004a6716ce1050e81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>b9c9e7b80faa720004a6716ce1050e81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>7dc9e7b80faa720004a6716ce1050e81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>b1c9e7b80faa720004a6716ce1050e83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>79c9e7b80faa720004a6716ce1050e7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>3dc9e7b80faa720004a6716ce1050e7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>39c9e7b80faa720004a6716ce1050e80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>b5c9e7b80faa720004a6716ce1050e7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>f1c9e7b80faa720004a6716ce1050e7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>bdc9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>3dc9e7b80faa720004a6716ce1050e82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+</value>
+        <variable display_value="">c35e582f0a0a0ba96248a70985207e63</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="">bdc9e7b80faa720004a6716ce1050e7e</activity>
+        <condition>activity.result == 'approved' || activity.result == 'skipped'</condition>
+        <condition_default display_value="Approved">586e1fa60a0a0b5c008121ab894f2b06</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Approved</name>
+        <order>2</order>
+        <short_description>Approval request was approved</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>f5c9e7b80faa720004a6716ce1050e83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="">bdc9e7b80faa720004a6716ce1050e7e</activity>
+        <condition>activity.result == 'rejected'</condition>
+        <condition_default display_value="Rejected">586e4ef60a0a0b5c00440b56c014c8a5</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Rejected</name>
+        <order>1</order>
+        <short_description>Approval request was rejected</short_description>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>75c9e7b80faa720004a6716ce1050e83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Approval - User">35433da80a0a029a0028c639a1e51eb4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>13</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Approval</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>b1c9e7b80faa720004a6716ce1050e84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Authority To Offer">7dc9e7b80faa720004a6716ce1050e7d</workflow_version>
+        <x>809</x>
+        <y>602</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>fdc9afb80faa720004a6716ce1050e53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>bdc9afb80faa720004a6716ce1050e54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>any</value>
+        <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>f1c9e7b80faa720004a6716ce1050e85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>b5c9e7b80faa720004a6716ce1050e85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>f9c9afb80faa720004a6716ce1050e54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>35c9e7b80faa720004a6716ce1050e84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>f5c9afb80faa720004a6716ce1050e55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>79c9e7b80faa720004a6716ce1050e85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>fdc9e7b80faa720004a6716ce1050e85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>${director.name}</value>
+        <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>79c9afb80faa720004a6716ce1050e53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>b5c9afb80faa720004a6716ce1050e53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>71c9afb80faa720004a6716ce1050e55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>39c9afb80faa720004a6716ce1050e54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>3dc9afb80faa720004a6716ce1050e53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>b1c9afb80faa720004a6716ce1050e54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>75c9afb80faa720004a6716ce1050e54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>b9c9afb80faa720004a6716ce1050e55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>7dc9e7b80faa720004a6716ce1050e84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>31c9e7b80faa720004a6716ce1050e85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>3dc9e7b80faa720004a6716ce1050e85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>b9c9e7b80faa720004a6716ce1050e84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>f5c9e7b80faa720004a6716ce1050e84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9e7b80faa720004a6716ce1050e84</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>35c9afb80faa720004a6716ce1050e55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+</value>
+        <variable display_value="">c35e582f0a0a0ba96248a70985207e63</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Approval">b1c9e7b80faa720004a6716ce1050e84</activity>
+        <condition>activity.result == 'approved' || activity.result == 'skipped'</condition>
+        <condition_default display_value="Approved">586e1fa60a0a0b5c008121ab894f2b06</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Approved</name>
+        <order>2</order>
+        <short_description>Approval request was approved</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>fdc9afb80faa720004a6716ce1050e55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Approval">b1c9e7b80faa720004a6716ce1050e84</activity>
+        <condition>activity.result == 'rejected'</condition>
+        <condition_default display_value="Rejected">586e4ef60a0a0b5c00440b56c014c8a5</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Rejected</name>
+        <order>1</order>
+        <short_description>Approval request was rejected</short_description>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>7dc9afb80faa720004a6716ce1050e55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>c6c9afb80faa720004a6716ce1050e62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Authority To Offer">7dc9e7b80faa720004a6716ce1050e7d</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">c6c9afb80faa720004a6716ce1050e62</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>4ac9afb80faa720004a6716ce1050e62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>14</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Contract State Changes</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>82c9afb80faa720004a6716ce1050e59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Authority To Offer">7dc9e7b80faa720004a6716ce1050e7d</workflow_version>
+        <x>1705</x>
+        <y>697</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>82c9afb80faa720004a6716ce1050e59</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>c6c9afb80faa720004a6716ce1050e59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>stateIN-16,-20,-21^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>82c9afb80faa720004a6716ce1050e59</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>06c9afb80faa720004a6716ce1050e59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Contract State Changes">82c9afb80faa720004a6716ce1050e59</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>8ac9afb80faa720004a6716ce1050e59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>0ac9afb80faa720004a6716ce1050e5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Authority To Offer">7dc9e7b80faa720004a6716ce1050e7d</workflow_version>
+        <x>2445</x>
+        <y>962</y>
+    </wf_activity>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>7</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Financial Approval</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>0ac9afb80faa720004a6716ce1050e5b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:49</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Authority To Offer">7dc9e7b80faa720004a6716ce1050e7d</workflow_version>
+        <x>966</x>
+        <y>793</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0ac9afb80faa720004a6716ce1050e5b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>8ac9afb80faa720004a6716ce1050e5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0ac9afb80faa720004a6716ce1050e5b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>4ec9afb80faa720004a6716ce1050e5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0ac9afb80faa720004a6716ce1050e5b</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>02c9afb80faa720004a6716ce1050e5c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:49</sys_updated_on>
+        <value>  answer = ifScript();&#13;
+&#13;
+  function ifScript() {&#13;
+     if (current.department.name == 'Excelerate Site Staff' || (current.basic_salary &gt; 70000 &amp;&amp; current.currency == 'Eur') || current.grade == 'band_6' || current.grade == 'band_7') {&#13;
+        return 'yes';&#13;
+     }&#13;
+     return 'no';&#13;
+  }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Financial Approval">0ac9afb80faa720004a6716ce1050e5b</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>c2c9afb80faa720004a6716ce1050e5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Financial Approval">0ac9afb80faa720004a6716ce1050e5b</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>46c9afb80faa720004a6716ce1050e5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Approval - User">35433da80a0a029a0028c639a1e51eb4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>20</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Local Director Aprroved</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>cac9afb80faa720004a6716ce1050e5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Authority To Offer">7dc9e7b80faa720004a6716ce1050e7d</workflow_version>
+        <x>522</x>
+        <y>547</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>06c9afb80faa720004a6716ce1050e5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>c2c9afb80faa720004a6716ce1050e60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>any</value>
+        <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>0ec9afb80faa720004a6716ce1050e5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>cec9afb80faa720004a6716ce1050e5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>02c9afb80faa720004a6716ce1050e60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>4ec9afb80faa720004a6716ce1050e5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>0ec9afb80faa720004a6716ce1050e60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>82c9afb80faa720004a6716ce1050e5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>0ac9afb80faa720004a6716ce1050e5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>${local_director}</value>
+        <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>8ec9afb80faa720004a6716ce1050e5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>cac9afb80faa720004a6716ce1050e5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>86c9afb80faa720004a6716ce1050e60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>4ec9afb80faa720004a6716ce1050e5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>42c9afb80faa720004a6716ce1050e5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>c6c9afb80faa720004a6716ce1050e5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>8ac9afb80faa720004a6716ce1050e5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>86c9afb80faa720004a6716ce1050e5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>cec9afb80faa720004a6716ce1050e60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>4ac9afb80faa720004a6716ce1050e5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>46c9afb80faa720004a6716ce1050e5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>c2c9afb80faa720004a6716ce1050e5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>02c9afb80faa720004a6716ce1050e5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cac9afb80faa720004a6716ce1050e5c</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>4ac9afb80faa720004a6716ce1050e60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+</value>
+        <variable display_value="">c35e582f0a0a0ba96248a70985207e63</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Local Director Aprroved">cac9afb80faa720004a6716ce1050e5c</activity>
+        <condition>activity.result == 'approved' || activity.result == 'skipped'</condition>
+        <condition_default display_value="Approved">586e1fa60a0a0b5c008121ab894f2b06</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Approved</name>
+        <order>2</order>
+        <short_description>Approval request was approved</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>06c9afb80faa720004a6716ce1050e61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Local Director Aprroved">cac9afb80faa720004a6716ce1050e5c</activity>
+        <condition>activity.result == 'rejected'</condition>
+        <condition_default display_value="Rejected">586e4ef60a0a0b5c00440b56c014c8a5</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Rejected</name>
+        <order>1</order>
+        <short_description>Approval request was rejected</short_description>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>82c9afb80faa720004a6716ce1050e61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>18</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Local Director Selected</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>4ec9afb80faa720004a6716ce1050e59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Authority To Offer">7dc9e7b80faa720004a6716ce1050e7d</workflow_version>
+        <x>373</x>
+        <y>206</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4ec9afb80faa720004a6716ce1050e59</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>cec9afb80faa720004a6716ce1050e59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>local_directorISEMPTY^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4ec9afb80faa720004a6716ce1050e59</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>82c9afb80faa720004a6716ce1050e5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4ec9afb80faa720004a6716ce1050e59</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>46c9afb80faa720004a6716ce1050e5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Local Director Selected">4ec9afb80faa720004a6716ce1050e59</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>0ac9afb80faa720004a6716ce1050e5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Local Director Selected">4ec9afb80faa720004a6716ce1050e59</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>8ac9afb80faa720004a6716ce1050e5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>15</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Negotiate</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>b1c9afb80faa720004a6716ce1050e56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Authority To Offer">7dc9e7b80faa720004a6716ce1050e7d</workflow_version>
+        <x>1881</x>
+        <y>887</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9afb80faa720004a6716ce1050e56</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>35c9afb80faa720004a6716ce1050e56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>state=-16^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9afb80faa720004a6716ce1050e56</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>f5c9afb80faa720004a6716ce1050e56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9afb80faa720004a6716ce1050e56</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>b9c9afb80faa720004a6716ce1050e56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Negotiate">b1c9afb80faa720004a6716ce1050e56</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>fdc9afb80faa720004a6716ce1050e56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Negotiate">b1c9afb80faa720004a6716ce1050e56</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>7dc9afb80faa720004a6716ce1050e56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Re Draft</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>b9c9e7b80faa720004a6716ce1050e83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Authority To Offer">7dc9e7b80faa720004a6716ce1050e7d</workflow_version>
+        <x>693</x>
+        <y>66</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b9c9e7b80faa720004a6716ce1050e83</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>3dc9e7b80faa720004a6716ce1050e83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>state=-6^approval=not requested^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Re Draft">b9c9e7b80faa720004a6716ce1050e83</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>fdc9e7b80faa720004a6716ce1050e83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>23</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Remove Approved</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>cec9afb80faa720004a6716ce1050e61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Authority To Offer">7dc9e7b80faa720004a6716ce1050e7d</workflow_version>
+        <x>1981</x>
+        <y>228</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cec9afb80faa720004a6716ce1050e61</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>42c9afb80faa720004a6716ce1050e62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>approval=requested^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Remove Approved">cec9afb80faa720004a6716ce1050e61</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>06c9afb80faa720004a6716ce1050e62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>22</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Remove CEO fields</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>c6c9afb80faa720004a6716ce1050e61</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:39:10</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Authority To Offer">7dc9e7b80faa720004a6716ce1050e7d</workflow_version>
+        <x>1206</x>
+        <y>898</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c6c9afb80faa720004a6716ce1050e61</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>4ac9afb80faa720004a6716ce1050e61</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:39:10</sys_updated_on>
+        <value>if(current.finance_director != ''){&#13;
+	current.finance_director = '';&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Remove CEO fields">c6c9afb80faa720004a6716ce1050e61</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>0ec9afb80faa720004a6716ce1050e61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Send for Director Approval</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>b9c9afb80faa720004a6716ce1050e57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Authority To Offer">7dc9e7b80faa720004a6716ce1050e7d</workflow_version>
+        <x>790</x>
+        <y>366</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b9c9afb80faa720004a6716ce1050e57</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>0ec9afb80faa720004a6716ce1050e57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>state=-10^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Send for Director Approval">b9c9afb80faa720004a6716ce1050e57</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>cec9afb80faa720004a6716ce1050e57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>10</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Send For Hr Review</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>b5c9e7b80faa720004a6716ce1050e7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Authority To Offer">7dc9e7b80faa720004a6716ce1050e7d</workflow_version>
+        <x>1460</x>
+        <y>815</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b5c9e7b80faa720004a6716ce1050e7e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>39c9e7b80faa720004a6716ce1050e7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>state=-12^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Send For Hr Review">b5c9e7b80faa720004a6716ce1050e7e</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>f9c9e7b80faa720004a6716ce1050e7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>17</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Sent For Review</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>82c9afb80faa720004a6716ce1050e58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Authority To Offer">7dc9e7b80faa720004a6716ce1050e7d</workflow_version>
+        <x>2192</x>
+        <y>390</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>82c9afb80faa720004a6716ce1050e58</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>06c9afb80faa720004a6716ce1050e58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>state=-7^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>82c9afb80faa720004a6716ce1050e58</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>c6c9afb80faa720004a6716ce1050e58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>82c9afb80faa720004a6716ce1050e58</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>8ac9afb80faa720004a6716ce1050e58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Sent For Review">82c9afb80faa720004a6716ce1050e58</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>4ec9afb80faa720004a6716ce1050e58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Sent For Review">82c9afb80faa720004a6716ce1050e58</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>cec9afb80faa720004a6716ce1050e58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>21</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set CEO fields</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>0ec9afb80faa720004a6716ce1050e62</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:38:52</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Authority To Offer">7dc9e7b80faa720004a6716ce1050e7d</workflow_version>
+        <x>1143</x>
+        <y>497</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0ec9afb80faa720004a6716ce1050e62</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>8ec9afb80faa720004a6716ce1050e62</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:38:52</sys_updated_on>
+        <value>current.state = -11;&#13;
+current.finance_director = current.region_division.finance_director;&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set CEO fields">0ec9afb80faa720004a6716ce1050e62</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>42c9afb80faa720004a6716ce1050e63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>19</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set Local Director</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>b1c9afb80faa720004a6716ce1050e57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Authority To Offer">7dc9e7b80faa720004a6716ce1050e7d</workflow_version>
+        <x>327</x>
+        <y>391</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b1c9afb80faa720004a6716ce1050e57</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>35c9afb80faa720004a6716ce1050e57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>state=-9^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set Local Director">b1c9afb80faa720004a6716ce1050e57</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>f5c9afb80faa720004a6716ce1050e57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>16</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>State Changes</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>4ec9afb80faa720004a6716ce1050e5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Authority To Offer">7dc9e7b80faa720004a6716ce1050e7d</workflow_version>
+        <x>2015</x>
+        <y>587</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4ec9afb80faa720004a6716ce1050e5a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>82c9afb80faa720004a6716ce1050e5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>stateIN-7,-20,-21^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4ec9afb80faa720004a6716ce1050e5a</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>cec9afb80faa720004a6716ce1050e5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="State Changes">4ec9afb80faa720004a6716ce1050e5a</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>46c9afb80faa720004a6716ce1050e5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Wait to be Requested</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>06c9afb80faa720004a6716ce1050e63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Authority To Offer">7dc9e7b80faa720004a6716ce1050e7d</workflow_version>
+        <x>98</x>
+        <y>187</y>
+    </wf_activity>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>06c9afb80faa720004a6716ce1050e63</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>4ac9afb80faa720004a6716ce1050e63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <value>approval=requested^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>06c9afb80faa720004a6716ce1050e63</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>86c9afb80faa720004a6716ce1050e63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait to be Requested">06c9afb80faa720004a6716ce1050e63</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>0ec9afb80faa720004a6716ce1050e63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">8ac9afb80faa720004a6716ce1050e59</condition>
+        <from display_value="Contract State Changes">82c9afb80faa720004a6716ce1050e59</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>42c9afb80faa720004a6716ce1050e65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="Negotiate">b1c9afb80faa720004a6716ce1050e56</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Rejected">75c9e7b80faa720004a6716ce1050e83</condition>
+        <from display_value="">bdc9e7b80faa720004a6716ce1050e7e</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>42c9afb80faa720004a6716ce1050e66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="Re Draft">b9c9e7b80faa720004a6716ce1050e83</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">fdc9e7b80faa720004a6716ce1050e83</condition>
+        <from display_value="Re Draft">b9c9e7b80faa720004a6716ce1050e83</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>42c9afb80faa720004a6716ce1050e67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="Wait to be Requested">06c9afb80faa720004a6716ce1050e63</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Rejected">82c9afb80faa720004a6716ce1050e61</condition>
+        <from display_value="Local Director Aprroved">cac9afb80faa720004a6716ce1050e5c</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>46c9afb80faa720004a6716ce1050e64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="Re Draft">b9c9e7b80faa720004a6716ce1050e83</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Rejected">7dc9afb80faa720004a6716ce1050e55</condition>
+        <from display_value="Approval">b1c9e7b80faa720004a6716ce1050e84</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>46c9afb80faa720004a6716ce1050e65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="Re Draft">b9c9e7b80faa720004a6716ce1050e83</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">8ac9afb80faa720004a6716ce1050e5a</condition>
+        <from display_value="Local Director Selected">4ec9afb80faa720004a6716ce1050e59</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>46c9afb80faa720004a6716ce1050e66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="Send for Director Approval">b9c9afb80faa720004a6716ce1050e57</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">4ec9afb80faa720004a6716ce1050e58</condition>
+        <from display_value="Sent For Review">82c9afb80faa720004a6716ce1050e58</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>4ac9afb80faa720004a6716ce1050e64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="End">0ac9afb80faa720004a6716ce1050e5c</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">cec9afb80faa720004a6716ce1050e57</condition>
+        <from display_value="Send for Director Approval">b9c9afb80faa720004a6716ce1050e57</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>4ac9afb80faa720004a6716ce1050e65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="Approval">b1c9e7b80faa720004a6716ce1050e84</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">0ec9afb80faa720004a6716ce1050e63</condition>
+        <from display_value="Wait to be Requested">06c9afb80faa720004a6716ce1050e63</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>4ac9afb80faa720004a6716ce1050e66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="Local Director Selected">4ec9afb80faa720004a6716ce1050e59</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">fdc9afb80faa720004a6716ce1050e56</condition>
+        <from display_value="Negotiate">b1c9afb80faa720004a6716ce1050e56</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>4ec9afb80faa720004a6716ce1050e64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="End">0ac9afb80faa720004a6716ce1050e5c</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">c2c9afb80faa720004a6716ce1050e5c</condition>
+        <from display_value="Financial Approval">0ac9afb80faa720004a6716ce1050e5b</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>4ec9afb80faa720004a6716ce1050e65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="Remove CEO fields">c6c9afb80faa720004a6716ce1050e61</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">06c9afb80faa720004a6716ce1050e62</condition>
+        <from display_value="Remove Approved">cec9afb80faa720004a6716ce1050e61</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>4ec9afb80faa720004a6716ce1050e66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="Local Director Selected">4ec9afb80faa720004a6716ce1050e59</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Approved">06c9afb80faa720004a6716ce1050e61</condition>
+        <from display_value="Local Director Aprroved">cac9afb80faa720004a6716ce1050e5c</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>c2c9afb80faa720004a6716ce1050e64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="Send for Director Approval">b9c9afb80faa720004a6716ce1050e57</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Approved">fdc9afb80faa720004a6716ce1050e55</condition>
+        <from display_value="Approval">b1c9e7b80faa720004a6716ce1050e84</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>c2c9afb80faa720004a6716ce1050e65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="Financial Approval">0ac9afb80faa720004a6716ce1050e5b</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Approved">f5c9e7b80faa720004a6716ce1050e83</condition>
+        <from display_value="">bdc9e7b80faa720004a6716ce1050e7e</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>c2c9afb80faa720004a6716ce1050e66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="Send For Hr Review">b5c9e7b80faa720004a6716ce1050e7e</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">0ec9afb80faa720004a6716ce1050e61</condition>
+        <from display_value="Remove CEO fields">c6c9afb80faa720004a6716ce1050e61</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>c2c9afb80faa720004a6716ce1050e67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="Send For Hr Review">b5c9e7b80faa720004a6716ce1050e7e</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">cec9afb80faa720004a6716ce1050e58</condition>
+        <from display_value="Sent For Review">82c9afb80faa720004a6716ce1050e58</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>c6c9afb80faa720004a6716ce1050e64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="Remove Approved">cec9afb80faa720004a6716ce1050e61</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">f5c9afb80faa720004a6716ce1050e57</condition>
+        <from display_value="Set Local Director">b1c9afb80faa720004a6716ce1050e57</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>c6c9afb80faa720004a6716ce1050e65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="Local Director Aprroved">cac9afb80faa720004a6716ce1050e5c</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">0ac9afb80faa720004a6716ce1050e5a</condition>
+        <from display_value="Local Director Selected">4ec9afb80faa720004a6716ce1050e59</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>c6c9afb80faa720004a6716ce1050e66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="Set Local Director">b1c9afb80faa720004a6716ce1050e57</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">42c9afb80faa720004a6716ce1050e63</condition>
+        <from display_value="Set CEO fields">0ec9afb80faa720004a6716ce1050e62</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>cac9afb80faa720004a6716ce1050e64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="">bdc9e7b80faa720004a6716ce1050e7e</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">46c9afb80faa720004a6716ce1050e5c</condition>
+        <from display_value="Financial Approval">0ac9afb80faa720004a6716ce1050e5b</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>cac9afb80faa720004a6716ce1050e65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="Set CEO fields">0ec9afb80faa720004a6716ce1050e62</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">f9c9e7b80faa720004a6716ce1050e7e</condition>
+        <from display_value="Send For Hr Review">b5c9e7b80faa720004a6716ce1050e7e</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>cac9afb80faa720004a6716ce1050e66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="Contract State Changes">82c9afb80faa720004a6716ce1050e59</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">7dc9afb80faa720004a6716ce1050e56</condition>
+        <from display_value="Negotiate">b1c9afb80faa720004a6716ce1050e56</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>cec9afb80faa720004a6716ce1050e64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="State Changes">4ec9afb80faa720004a6716ce1050e5a</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">4ac9afb80faa720004a6716ce1050e62</condition>
+        <from display_value="Begin">c6c9afb80faa720004a6716ce1050e62</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>cec9afb80faa720004a6716ce1050e65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="Wait to be Requested">06c9afb80faa720004a6716ce1050e63</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">46c9afb80faa720004a6716ce1050e5b</condition>
+        <from display_value="State Changes">4ec9afb80faa720004a6716ce1050e5a</from>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:31</sys_created_on>
+        <sys_id>cec9afb80faa720004a6716ce1050e66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:31</sys_updated_on>
+        <to display_value="Sent For Review">82c9afb80faa720004a6716ce1050e58</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-03 13:36:30</sys_created_on>
+        <sys_id>bdc9e7b80faa720004a6716ce1050e7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-03 13:36:30</sys_updated_on>
+        <workflow_version display_value="Authority To Offer">7dc9e7b80faa720004a6716ce1050e7d</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=cc1e1f030f6722004ac7fe5ce1050e14^sys_id!=7dc9e7b80faa720004a6716ce1050e7d">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

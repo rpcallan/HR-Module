@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>project_name</col_name_string>
+        <index_col_name element="project_name" name="x_sigr_sisk_hr_co_coins_projects">1384e36b37a472443955261953990e6a</index_col_name>
+        <logical_table_name>x_sigr_sisk_hr_co_coins_projects</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-02-01 19:30:54</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ca3290fb37e032003955261953990e0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sigr_sisk_hr_co_coins_projects</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sys_index_x_sigr_sisk_hr_co_coins_projects_project_name</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-02-01 19:30:54</sys_updated_on>
+        <table display_value="COINS Projects" name="x_sigr_sisk_hr_co_coins_projects">216add790f73e2004ac7fe5ce1050e62</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>contract_category</field>
+        <global>true</global>
+        <messages/>
+        <name>Contract Category onChange</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		setDisplay(newValue);
+		return;
+	}
+	
+	//Display 'Contact End Date' field if 'Contract Category' is part-time
+	setDisplay(newValue);
+}
+
+function setDisplay(newValue){
+	g_form.setMandatory('contract_end_date', false);
+	g_form.setDisplay('contract_end_date', false);
+	
+	if (newValue == 'fixed'){
+		g_form.setDisplay('contract_end_date', true);
+		var state = g_form.getValue('state');
+		if(state == '1' ){
+			g_form.setMandatory('contract_end_date', true);
+		} else {
+			g_form.setMandatory('contract_end_date', false);
+		}
+	}
+	
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-28 10:40:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>f57e37e4dbfe22004dba5c00cf961981</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Contract Category onChange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sys_script_client_f57e37e4dbfe22004dba5c00cf961981</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-04-14 14:36:24</sys_updated_on>
+        <table>x_sigr_sisk_hr_co_authority_to_offer</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

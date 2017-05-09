@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>source</field>
+        <global>true</global>
+        <messages/>
+        <name>Source OnChange</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		setDisplay(newValue);
+		return;
+	}
+	
+	//Type appropriate comment here, and begin script below
+	setDisplay(newValue);
+}
+
+function setDisplay(newValue){
+	g_form.setMandatory('agency_name', false);
+		g_form.setMandatory('recruitment_cost', false);
+		g_form.setMandatory('recruitment_currency', false);
+		g_form.setMandatory('referral_name', false);
+		g_form.setDisplay('agency_name', false);
+		g_form.setDisplay('recruitment_cost', false);
+		g_form.setDisplay('recruitment_currency', false);
+		g_form.setDisplay('referral_name', false);
+	
+	if(newValue == 'agency'){	
+		g_form.setDisplay('agency_name', true);
+		g_form.setDisplay('recruitment_cost', true);
+		g_form.setDisplay('recruitment_currency', true);
+		g_form.setMandatory('agency_name', true);
+		g_form.setMandatory('recruitment_cost', true);
+		g_form.setMandatory('recruitment_currency', true);
+	}
+	if(newValue == 'referral'){	
+		g_form.setDisplay('referral_name', true);
+		g_form.setMandatory('referral_name', true);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2016-11-15 17:24:29</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>a0e74aae0f87e200369a4c8b03050ec7</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Source OnChange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sys_script_client_a0e74aae0f87e200369a4c8b03050ec7</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-04-14 14:43:56</sys_updated_on>
+        <table>x_sigr_sisk_hr_co_authority_to_offer</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
