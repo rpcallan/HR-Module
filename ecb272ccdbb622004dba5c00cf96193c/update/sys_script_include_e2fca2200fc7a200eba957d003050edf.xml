@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_sigr_sisk_hr_co.SISK_HR_Contract</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>SISK_HR_Contract</name>
+        <script><![CDATA[var SISK_HR_Contract = Class.create();
+
+SISK_HR_Contract.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	//get the current date
+	getCurrentDate: function() {
+		return gs.now();
+	},
+	
+	//determine if job title is choice or free text based on department
+	getDirectorName: function() {
+		var name = '';
+		var gr = new GlideRecord('sys_user');
+		gr.addQuery('sys_id',this.getParameter('sysparm_cat'));
+		gr.query();
+		
+		if(gr.next())
+			gr.next();
+		
+		if (gr.x_sigr_sisk_hr_co_defined_job_titles == false){
+			name = 'freetext';
+		}
+		if (gr.x_sigr_sisk_hr_co_project == true){
+			if (name == 'freetext'){
+				name = 'both';
+			} else {
+				name = 'project';
+			}
+		}
+		
+		return name;
+	},
+	
+	
+	//determine if job title is choice or free text based on department
+	getJobTitleType: function() {
+		var name = '';
+		var gr = new GlideRecord('cmn_department');
+		gr.addQuery('sys_id',this.getParameter('sysparm_cat'));
+		gr.query();
+		
+		if(gr.next())
+			gr.next();
+		
+		if (gr.x_sigr_sisk_hr_co_defined_job_titles == false){
+			name = 'freetext';
+		}
+		if (gr.x_sigr_sisk_hr_co_project == true){
+			if (name == 'freetext'){
+				name = 'both';
+			} else {
+				name = 'project';
+			}
+		}
+		
+		return name;
+	},
+	
+	//get company name based on sys_id
+	getCompany: function() {
+		var name = '';
+		var gr = new GlideRecord('core_company');
+		gr.addQuery('sys_id',this.getParameter('sysparm_cat'));
+		gr.query();
+		
+		if(gr.next())
+			gr.next();
+		name = gr.name;
+		return name;
+	},
+	
+	//get country of company name based on sys_id
+	getCountry: function() {
+		gs.info('Getting Ctry');
+		var gr = new GlideRecord('core_company');
+		gr.addQuery('sys_id',this.getParameter('sysparm_cat'));
+		gr.query();
+		
+		if(gr.next())
+			gr.next();
+		gs.info('Ctry: ' + gr.country);
+		return gr.country;
+	},
+	
+	//get department name based on sys_id
+	getDepartment: function() {
+		var gr = new GlideRecord('cmn_department');
+		gr.addQuery('sys_id',this.getParameter('sysparm_cat'));
+		gr.query();
+		
+		if(gr.next())
+			gr.next();
+		return gr.name;
+	},
+	
+	//get department name based on dependant value
+	getGrades: function() {
+		var options='';
+		var gr = new GlideRecord('sys_choice');
+		gr.addQuery('name','x_sigr_sisk_hr_co_authority_to_offer');
+		gr.addQuery('element','grade');
+		gr.addQuery('dependent_value',this.getParameter('sysparm_cat'));
+		gr.orderBy('sequence');
+		gr.query();
+		
+		while(gr.next()) {
+			options=options+gr.label+'^'+gr.value+',';
+		}
+		return options;
+	},
+	
+	//get business units based on company
+	getBusinessUnits: function() {
+		var options='';
+		gs.info("getBusinessUnits called");
+		var gr = new GlideRecord('u_business_units');
+		gr.addQuery('u_company',this.getParameter('sysparm_cat'));
+		gr.query();
+		
+		while(gr.next()) {
+			options=options+gr.sys_id+'^'+gr.u_name+',';
+			gs.info("Business Unit {0} - {1}", gr.sys_id, gr.u_name);
+		}
+		return options;
+	},
+	
+	type: 'SISK_HR_Contract'
+});
+
+
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2016-11-09 15:01:39</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>e2fca2200fc7a200eba957d003050edf</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_name>SISK_HR_Contract</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sys_script_include_e2fca2200fc7a200eba957d003050edf</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-26 14:49:13</sys_updated_on>
+    </sys_script_include>
+</record_update>

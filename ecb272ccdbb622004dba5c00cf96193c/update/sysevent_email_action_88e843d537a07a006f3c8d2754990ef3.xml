@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition><![CDATA[answer = true;
+if(current.number.changes()){
+	answer = false;
+}]]></advanced_condition>
+        <affected_field_on_event/>
+        <collection>x_sigr_sisk_hr_co_authority_to_offer</collection>
+        <condition table="x_sigr_sisk_hr_co_authority_to_offer">basic_salaryVALCHANGES^ORgradeVALCHANGES^ORallowanceVALCHANGES^stateIN-9,-10,-11,-12,-16^EQ<item endquery="false" field="basic_salary" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="grade" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="allowance" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="-9,-10,-11,-12,-16"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from>Authority To Offer &lt;ato@sisk.ie&gt;</from>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div>${opened_by.first_name},</div>
+<div>
+<p>You are receiving this e-mail to inform you that the salary information has been changed on the Authority To Offer for ${name}</p>
+<p>Details of the change are:</p>
+<table style="border: 1px solid #707070; padding: 3px 7px 2px 7px; background-color: #d1d1d1;">
+<tbody>
+<tr>
+<td>&nbsp;Basic Salary:&nbsp;</td>
+<td>&nbsp;${basic_salary}&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;Grade:</td>
+<td>&nbsp;${grade}</td>
+</tr>
+<tr>
+<td>&nbsp;Car Allowance:</td>
+<td>&nbsp;${allowance}</td>
+</tr>
+</tbody>
+</table>
+<p><br />Regards</p>
+<p>Human Resources</p>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>ATO Salary Details Modified</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>director_name,local_director,opened_by</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to>siskgroup@service-now.com</reply_to>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Authority To Offer ${number} has been Modified</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-01-25 14:24:08</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>88e843d537a07a006f3c8d2754990ef3</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>ATO Salary Details Modified</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sysevent_email_action_88e843d537a07a006f3c8d2754990ef3</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-31 16:10:17</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
