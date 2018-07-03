@@ -10,6 +10,20 @@
 
 SISK_HR_Contract.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 	
+	//get company name and business unit based on user sys_id
+	//ga.addParam('sysparm_name', 'getUserDetails');
+	//ga.addParam('sysparm_id', usr);
+	//ga.getXML(userDetails);
+	getUserDetails: function() {
+		var sys_id = this.getParameter('sysparm_id');
+		var usr = new GlideRecord('sys_user');
+		usr.get(sys_id);
+		var name = usr.company + '|';
+		name += usr.x_sigr_sisk_hr_co_business_unit + '|' ;
+		name += usr.email;
+		return name;
+	},
+	
 	//get the current date
 	getCurrentDate: function() {
 		return gs.now();
@@ -140,9 +154,9 @@ SISK_HR_Contract.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
         <sys_created_on>2016-11-09 15:01:39</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>e2fca2200fc7a200eba957d003050edf</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name>SISK_HR_Contract</sys_name>
         <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
         <sys_policy>read</sys_policy>
@@ -150,6 +164,6 @@ SISK_HR_Contract.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
         <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
         <sys_update_name>sys_script_include_e2fca2200fc7a200eba957d003050edf</sys_update_name>
         <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-        <sys_updated_on>2017-05-26 14:49:13</sys_updated_on>
+        <sys_updated_on>2018-04-30 16:23:16</sys_updated_on>
     </sys_script_include>
 </record_update>

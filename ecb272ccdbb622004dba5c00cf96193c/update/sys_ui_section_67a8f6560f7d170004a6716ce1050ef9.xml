@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Transport" section_id="67a8f6560f7d170004a6716ce1050ef9" sys_domain="global" table="x_sigr_sisk_hr_co_leavers" version="3" view="HR">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company_car</element>
+            <position>0</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-06-21 10:53:11</sys_created_on>
+            <sys_id>de9647c2dbb61b00681c459d3b961997</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Transport" display_value="Transport" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="67a8b6560f7d170004a6716ce1050e02">67a8f6560f7d170004a6716ce1050ef9</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-06-21 10:53:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-06-21 10:53:11</sys_created_on>
+            <sys_id>529647c2dbb61b00681c459d3b961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Transport" display_value="Transport" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="67a8b6560f7d170004a6716ce1050e02">67a8f6560f7d170004a6716ce1050ef9</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-06-21 10:53:11</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fuel_card</element>
+            <position>2</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-06-21 10:53:11</sys_created_on>
+            <sys_id>d29647c2dbb61b00681c459d3b961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Transport" display_value="Transport" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="67a8b6560f7d170004a6716ce1050e02">67a8f6560f7d170004a6716ce1050ef9</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-06-21 10:53:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Transport</caption>
+            <header>false</header>
+            <name>x_sigr_sisk_hr_co_leavers</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-05-03 11:28:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>67a8f6560f7d170004a6716ce1050ef9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Transport</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+            <sys_update_name>sys_ui_section_67a8f6560f7d170004a6716ce1050ef9</sys_update_name>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-06-21 10:53:11</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="HR" name="HR">67a8b6560f7d170004a6716ce1050e02</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

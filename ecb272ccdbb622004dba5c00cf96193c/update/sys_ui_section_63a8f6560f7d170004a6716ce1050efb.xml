@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Watchlists" section_id="63a8f6560f7d170004a6716ce1050efb" sys_domain="global" table="x_sigr_sisk_hr_co_leavers" version="3" view="HR">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hr_staff</element>
+            <position>0</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-06-21 10:53:12</sys_created_on>
+            <sys_id>d69647c2dbb61b00681c459d3b9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Watchlists" display_value="Watchlists" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="67a8b6560f7d170004a6716ce1050e02">63a8f6560f7d170004a6716ce1050efb</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-06-21 10:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>finance_staff</element>
+            <position>1</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-06-21 10:53:12</sys_created_on>
+            <sys_id>5a9647c2dbb61b00681c459d3b9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Watchlists" display_value="Watchlists" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="67a8b6560f7d170004a6716ce1050e02">63a8f6560f7d170004a6716ce1050efb</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-06-21 10:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hseq_staff</element>
+            <position>2</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-06-21 10:53:12</sys_created_on>
+            <sys_id>da9647c2dbb61b00681c459d3b9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Watchlists" display_value="Watchlists" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="67a8b6560f7d170004a6716ce1050e02">63a8f6560f7d170004a6716ce1050efb</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-06-21 10:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>payroll_staff</element>
+            <position>3</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-06-21 10:53:12</sys_created_on>
+            <sys_id>5e9647c2dbb61b00681c459d3b9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Watchlists" display_value="Watchlists" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="67a8b6560f7d170004a6716ce1050e02">63a8f6560f7d170004a6716ce1050efb</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-06-21 10:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>application_staff</element>
+            <position>4</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-06-21 10:53:12</sys_created_on>
+            <sys_id>de9647c2dbb61b00681c459d3b9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Watchlists" display_value="Watchlists" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="67a8b6560f7d170004a6716ce1050e02">63a8f6560f7d170004a6716ce1050efb</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-06-21 10:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>access_staff</element>
+            <position>5</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-06-21 10:53:12</sys_created_on>
+            <sys_id>529647c2dbb61b00681c459d3b9619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Watchlists" display_value="Watchlists" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="67a8b6560f7d170004a6716ce1050e02">63a8f6560f7d170004a6716ce1050efb</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-06-21 10:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fleet_staff</element>
+            <position>6</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-06-21 10:53:12</sys_created_on>
+            <sys_id>d29647c2dbb61b00681c459d3b9619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Watchlists" display_value="Watchlists" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="67a8b6560f7d170004a6716ce1050e02">63a8f6560f7d170004a6716ce1050efb</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-06-21 10:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fuel_card_staff</element>
+            <position>7</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-06-21 10:53:12</sys_created_on>
+            <sys_id>569647c2dbb61b00681c459d3b9619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Watchlists" display_value="Watchlists" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="67a8b6560f7d170004a6716ce1050e02">63a8f6560f7d170004a6716ce1050efb</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-06-21 10:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>regional_staff</element>
+            <position>8</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-06-21 10:53:12</sys_created_on>
+            <sys_id>d69647c2dbb61b00681c459d3b9619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Watchlists" display_value="Watchlists" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="67a8b6560f7d170004a6716ce1050e02">63a8f6560f7d170004a6716ce1050efb</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-06-21 10:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Watchlists</caption>
+            <header>false</header>
+            <name>x_sigr_sisk_hr_co_leavers</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-05-03 11:28:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>63a8f6560f7d170004a6716ce1050efb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Watchlists</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+            <sys_update_name>sys_ui_section_63a8f6560f7d170004a6716ce1050efb</sys_update_name>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-05-03 11:28:06</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="HR" name="HR">67a8b6560f7d170004a6716ce1050e02</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

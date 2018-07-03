@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Leaver Request">0c0e1ec837f193406f3c8d2754990ebb</catalog_item>
+        <catalog_variable>IO:caded4d30f465b0004a6716ce1050eef</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2018-06-13 15:50:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>12dd366bdba29300ea56fce968961962</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>notice_period_start</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_12dd366bdba29300ea56fce968961962</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2018-06-13 15:50:30</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Company i s UK">41dd7a2bdba29300ea56fce96896192e</ui_policy>
+        <variable>notice_period_start</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

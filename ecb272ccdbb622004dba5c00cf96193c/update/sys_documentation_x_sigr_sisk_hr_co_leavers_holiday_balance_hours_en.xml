@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="holiday_balance_hours" label="Holiday Balance (Hours)" language="en" table="x_sigr_sisk_hr_co_leavers">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>holiday_balance_hours</element>
+            <help/>
+            <hint/>
+            <label>Holiday Balance (Hours)</label>
+            <language>en</language>
+            <name>x_sigr_sisk_hr_co_leavers</name>
+            <plural>Holiday Balance (Hours)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-05-18 14:44:01</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8c65f8d30f865b0004a6716ce1050e39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Holiday Balance (Hours)</sys_name>
+            <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+            <sys_update_name>sys_documentation_x_sigr_sisk_hr_co_leavers_holiday_balance_hours_en</sys_update_name>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-05-18 14:44:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

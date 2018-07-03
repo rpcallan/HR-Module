@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Leaver Request">0c0e1ec837f193406f3c8d2754990ebb</catalog_item>
+        <catalog_variable>IO:e3af14d30f465b0004a6716ce1050e22</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2018-05-16 15:42:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d36fea660fced70004a6716ce1050e59</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>paid_in_lieu</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_d36fea660fced70004a6716ce1050e59</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2018-05-18 13:30:17</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Ntice Period">8b3f2a660fced70004a6716ce1050e98</ui_policy>
+        <variable>paid_in_lieu</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>
