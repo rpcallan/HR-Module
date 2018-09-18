@@ -4,13 +4,13 @@
         <email_layout display_value="Sisk Email">8df8be160fb98b0004a6716ce1050e3f</email_layout>
         <message/>
         <message_html><![CDATA[<p>Hi Payroll Team,</p>
-<p>A Leaver Request has been submitted for ${leaver.name}. Their scheduled leaving date is ${leaving_date}. Details of the request can be found <a title="here" href="https://siskgroupdev.service-now.com/sp?sys_id=${sys_id}&amp;view=sp&amp;id=form&amp;table=x_sigr_sisk_hr_co_leavers">here</a>.</p>
+<p>A Leaver Request has been submitted for ${name}. Their scheduled leaving date is ${leaving_date}. Details of the request can be found <a title="here" href="https://siskgroup.service-now.com/sp?sys_id=${sys_id}&amp;view=sp&amp;id=form&amp;table=x_sigr_sisk_hr_co_leavers">here</a>.</p>
 <p><strong>Headline Information</strong></p>
 <table>
 <tbody>
 <tr>
 <td class="field-label">Name:</td>
-<td class="form-control">${leaver.name}</td>
+<td class="form-control">${name}</td>
 </tr>
 <tr>
 <td class="field-label">Email:</td>
@@ -42,13 +42,13 @@
         <message_text/>
         <name>leaver.headline.payroll</name>
         <sms_alternate/>
-        <subject>Leaver Request  -  ${leaver.name}, scheduled leaving date ${leaving_date}</subject>
+        <subject>Leaver Request  -  ${name}, scheduled leaving date ${leaving_date}</subject>
         <sys_class_name>sysevent_email_template</sys_class_name>
         <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
         <sys_created_on>2018-05-17 09:53:33</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>4f4926720f0a1b0004a6716ce1050e31</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>leaver.headline.payroll</sys_name>
         <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
         <sys_policy/>
@@ -56,7 +56,7 @@
         <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
         <sys_update_name>sysevent_email_template_4f4926720f0a1b0004a6716ce1050e31</sys_update_name>
         <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-        <sys_updated_on>2018-06-27 14:35:55</sys_updated_on>
+        <sys_updated_on>2018-08-22 09:19:12</sys_updated_on>
         <sys_version>2</sys_version>
     </sysevent_email_template>
 </record_update>

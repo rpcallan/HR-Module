@@ -4,97 +4,167 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2017-04-03 08:20:30</sys_created_on>
-            <sys_id>a8c1c85737393a403955261953990ea7</sys_id>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>9c658a7cdbe86b0096e2d0a1ca96195c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="HR Details" display_value="HR Details" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">f49d45b50f73e2004ac7fe5ce1050e58</sys_ui_section>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2017-04-03 08:20:30</sys_updated_on>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>full_address</element>
+            <element>hrpro_number</element>
             <position>1</position>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2017-04-03 08:20:30</sys_created_on>
-            <sys_id>2cc1c85737393a403955261953990ea7</sys_id>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>10658a7cdbe86b0096e2d0a1ca96195d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="HR Details" display_value="HR Details" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">f49d45b50f73e2004ac7fe5ce1050e58</sys_ui_section>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2017-04-03 08:20:30</sys_updated_on>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hrpro_level</element>
+            <position>2</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>90658a7cdbe86b0096e2d0a1ca96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HR Details" display_value="HR Details" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">f49d45b50f73e2004ac7fe5ce1050e58</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>director_name</element>
-            <position>2</position>
-            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2017-04-03 08:20:30</sys_created_on>
-            <sys_id>acc1c85737393a403955261953990ea7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="HR Details" display_value="HR Details" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">f49d45b50f73e2004ac7fe5ce1050e58</sys_ui_section>
-            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2017-04-03 08:20:30</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
             <position>3</position>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2017-04-03 08:20:30</sys_created_on>
-            <sys_id>20c1c85737393a403955261953990ea8</sys_id>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>14658a7cdbe86b0096e2d0a1ca96195d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="HR Details" display_value="HR Details" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">f49d45b50f73e2004ac7fe5ce1050e58</sys_ui_section>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2017-04-03 08:20:30</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>contract_template</element>
-            <position>4</position>
-            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2017-04-03 08:20:30</sys_created_on>
-            <sys_id>a0c1c85737393a403955261953990ea8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="HR Details" display_value="HR Details" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">f49d45b50f73e2004ac7fe5ce1050e58</sys_ui_section>
-            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2017-04-03 08:20:30</sys_updated_on>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sys_created_by</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2017-04-03 08:20:30</sys_created_on>
-            <sys_id>24c1c85737393a403955261953990ea8</sys_id>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>94658a7cdbe86b0096e2d0a1ca96195d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="HR Details" display_value="HR Details" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">f49d45b50f73e2004ac7fe5ce1050e58</sys_ui_section>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2017-04-03 08:20:30</sys_updated_on>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>uam_form</element>
+            <position>5</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>18658a7cdbe86b0096e2d0a1ca96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HR Details" display_value="HR Details" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">f49d45b50f73e2004ac7fe5ce1050e58</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>98658a7cdbe86b0096e2d0a1ca96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HR Details" display_value="HR Details" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">f49d45b50f73e2004ac7fe5ce1050e58</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>laptop_required</element>
+            <position>7</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>1c658a7cdbe86b0096e2d0a1ca96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HR Details" display_value="HR Details" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">f49d45b50f73e2004ac7fe5ce1050e58</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mobile_phone_required</element>
+            <position>8</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>9c658a7cdbe86b0096e2d0a1ca96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HR Details" display_value="HR Details" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">f49d45b50f73e2004ac7fe5ce1050e58</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>full_address</element>
+            <position>9</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>10658a7cdbe86b0096e2d0a1ca96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HR Details" display_value="HR Details" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">f49d45b50f73e2004ac7fe5ce1050e58</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_template</element>
+            <position>10</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>90658a7cdbe86b0096e2d0a1ca96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HR Details" display_value="HR Details" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">f49d45b50f73e2004ac7fe5ce1050e58</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>watch_list</element>
-            <position>6</position>
+            <position>11</position>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2017-04-03 08:20:30</sys_created_on>
-            <sys_id>a4c1c85737393a403955261953990ea8</sys_id>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>14658a7cdbe86b0096e2d0a1ca96195e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="HR Details" display_value="HR Details" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">f49d45b50f73e2004ac7fe5ce1050e58</sys_ui_section>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2017-04-03 08:20:30</sys_updated_on>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

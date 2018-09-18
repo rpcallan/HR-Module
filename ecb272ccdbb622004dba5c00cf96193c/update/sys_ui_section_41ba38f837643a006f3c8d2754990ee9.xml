@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="IT Equipment" section_id="41ba38f837643a006f3c8d2754990ee9" sys_domain="global" table="x_sigr_sisk_hr_co_authority_to_offer" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-08-21 10:00:49</sys_created_on>
+            <sys_id>21930939db04e30096e2d0a1ca961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-08-21 10:00:49</sys_updated_on>
+            <text>This section is to order standard IT Equipment. If the new hire is to get higher spec equipment, leave the sections below blank. Once the Authority to Offer is accepted by the user, you will be able to order from the Catalog</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-08-21 10:00:49</sys_created_on>
+            <sys_id>25930939db04e30096e2d0a1ca961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-08-21 10:00:49</sys_updated_on>
+            <text>Note: This section is to simplify the process of ordering of standard equipment. The order is only released to IT when HR confirm the contract has been accepted</text>
+            <type display_value="Info Box Red">823f88a80f930000b12e6903cfe01209</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>21930939db04e30096e2d0a1ca961968</element>
+            <position>0</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-08-21 10:00:49</sys_created_on>
+            <sys_id>e5930939db04e30096e2d0a1ca961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Equipment" display_value="IT Equipment" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">41ba38f837643a006f3c8d2754990ee9</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-08-21 10:00:49</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>25930939db04e30096e2d0a1ca961968</element>
+            <position>1</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-08-21 10:00:49</sys_created_on>
+            <sys_id>69930939db04e30096e2d0a1ca961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Equipment" display_value="IT Equipment" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">41ba38f837643a006f3c8d2754990ee9</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-08-21 10:00:49</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-08-21 10:00:49</sys_created_on>
+            <sys_id>e9930939db04e30096e2d0a1ca961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Equipment" display_value="IT Equipment" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">41ba38f837643a006f3c8d2754990ee9</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-08-21 10:00:49</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>computer_type</element>
+            <position>3</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-08-21 10:00:49</sys_created_on>
+            <sys_id>6d930939db04e30096e2d0a1ca961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Equipment" display_value="IT Equipment" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">41ba38f837643a006f3c8d2754990ee9</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-08-21 10:00:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>existing_computer_details</element>
+            <position>4</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-08-21 10:00:49</sys_created_on>
+            <sys_id>ed930939db04e30096e2d0a1ca961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Equipment" display_value="IT Equipment" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">41ba38f837643a006f3c8d2754990ee9</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-08-21 10:00:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>docking_station</element>
+            <position>5</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-08-21 10:00:49</sys_created_on>
+            <sys_id>61930939db04e30096e2d0a1ca961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Equipment" display_value="IT Equipment" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">41ba38f837643a006f3c8d2754990ee9</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-08-21 10:00:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>keyboard</element>
+            <position>6</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-08-21 10:00:49</sys_created_on>
+            <sys_id>e1930939db04e30096e2d0a1ca961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Equipment" display_value="IT Equipment" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">41ba38f837643a006f3c8d2754990ee9</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-08-21 10:00:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mouse</element>
+            <position>7</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-08-21 10:00:49</sys_created_on>
+            <sys_id>65930939db04e30096e2d0a1ca961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Equipment" display_value="IT Equipment" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">41ba38f837643a006f3c8d2754990ee9</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-08-21 10:00:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>monitor</element>
+            <position>8</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-08-21 10:00:49</sys_created_on>
+            <sys_id>e5930939db04e30096e2d0a1ca961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Equipment" display_value="IT Equipment" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">41ba38f837643a006f3c8d2754990ee9</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-08-21 10:00:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>monitor_qty</element>
+            <position>9</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-08-21 10:00:49</sys_created_on>
+            <sys_id>69930939db04e30096e2d0a1ca961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Equipment" display_value="IT Equipment" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">41ba38f837643a006f3c8d2754990ee9</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-08-21 10:00:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-08-21 10:00:49</sys_created_on>
+            <sys_id>e9930939db04e30096e2d0a1ca961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Equipment" display_value="IT Equipment" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">41ba38f837643a006f3c8d2754990ee9</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-08-21 10:00:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone_type</element>
+            <position>11</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-08-21 10:00:49</sys_created_on>
+            <sys_id>6d930939db04e30096e2d0a1ca961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Equipment" display_value="IT Equipment" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">41ba38f837643a006f3c8d2754990ee9</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-08-21 10:00:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>existing_phone_details</element>
+            <position>12</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-08-21 10:00:49</sys_created_on>
+            <sys_id>ed930939db04e30096e2d0a1ca961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Equipment" display_value="IT Equipment" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">41ba38f837643a006f3c8d2754990ee9</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-08-21 10:00:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sim_type</element>
+            <position>13</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-08-21 10:00:49</sys_created_on>
+            <sys_id>61930939db04e30096e2d0a1ca96196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Equipment" display_value="IT Equipment" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">41ba38f837643a006f3c8d2754990ee9</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-08-21 10:00:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mobile_data_roaming</element>
+            <position>14</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-08-21 10:00:49</sys_created_on>
+            <sys_id>e1930939db04e30096e2d0a1ca96196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Equipment" display_value="IT Equipment" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">41ba38f837643a006f3c8d2754990ee9</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-08-21 10:00:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mobile_international_calls</element>
+            <position>15</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-08-21 10:00:49</sys_created_on>
+            <sys_id>65930939db04e30096e2d0a1ca96196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="IT Equipment" display_value="IT Equipment" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">41ba38f837643a006f3c8d2754990ee9</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-08-21 10:00:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>IT Equipment</caption>
+            <header>false</header>
+            <name>x_sigr_sisk_hr_co_authority_to_offer</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-08-21 09:52:55</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>41ba38f837643a006f3c8d2754990ee9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>IT Equipment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+            <sys_update_name>sys_ui_section_41ba38f837643a006f3c8d2754990ee9</sys_update_name>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-08-21 09:52:55</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
