@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name/>
+        <action_name>create_it_request</action_name>
         <active>true</active>
-        <client>false</client>
+        <client>true</client>
         <comments>Available when email is selected, start date confirmed and hrPro details filled in and request not already submitted</comments>
-        <condition>current.email == true &amp;&amp; current.uam_form == ''&amp;&amp; current.hrpro_number != ''&amp;&amp; current.hrpro_level != ''&amp;&amp; current.start_date_confirmed!=''&amp;&amp; (gs.hasRole('admin') || gs.hasRole('x_sigr_sisk_hr_co.user'))</condition>
+        <condition>current.state == -20 &amp;&amp; current.uam_form == '' &amp;&amp; (gs.hasRole('admin') || gs.hasRole('x_sigr_sisk_hr_co.user'))</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
@@ -20,50 +20,93 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <name>Create IT Request</name>
-        <onclick/>
+        <onclick>submitToIT()</onclick>
         <order>100</order>
-        <script><![CDATA[var uam = new GlideRecord('u_user_access');
-uam.initialize();
-uam.u_ato = current.sys_id; //reference the ato in the uam form. This will mean that the UAM request is auto approved
-uam.u_first_name = current.first_name;
-uam.u_surname = current.surname;
-uam.company = current.company;
-uam.u_business_unit = current.region_division;
-uam.u_job_description = current.job_title_text;
-uam.u_start_date = current.start_date_confirmed;
-uam.u_employment_type = 'employee';
-uam.u_reporting_manager = current.reporting_manager;
-uam.u_hrpro_number = current.hrpro_number;
-uam.u_hrpro_level = current.hrpro_level;
-uam.u_job_number = current.project.job_number;
+        <script><![CDATA[//Client-side 'onclick' function
+function submitToIT(){
+	var email = g_form.getValue('email');
+	var employeeNumber =  g_form.getValue('hrpro_number');
+	var employeeLevel =  g_form.getValue('hrpro_level');
+	var startDate =  g_form.getValue('start_date_confirmed');
+	
+	g_form.hideFieldMsg('email');
+	g_form.hideFieldMsg('hrpro_number');
+	g_form.hideFieldMsg('hrpro_level');
+	g_form.hideFieldMsg('start_date_confirmed');
+	
+	if(!email || employeeNumber == '' || employeeLevel == '' || startDate == ''){
+		if(!email){	
+			g_form.setMandatory('email', true);
+			g_form.showFieldMsg('email','Email needs to be selected if user requires IT Access','error');
+		}
+		if(employeeNumber == ''){	
+			g_form.setMandatory('hrpro_number', true);
+			g_form.showFieldMsg('hrpro_number','Employee Number is required.','error');
+		}
+		if(employeeLevel == ''){	
+			g_form.setMandatory('hrpro_level', true);
+			g_form.showFieldMsg('hrpro_level','Employee Level is required.','error');
+		}
+		if(startDate == ''){	
+			g_form.setMandatory('start_date_confirmed', true);
+			g_form.showFieldMsg('start_date_confirmed','Confirmed Start Date is required for IT.','error');
+		}
+		return false;  //Abort submission
+	}
+	//Call the UI Action and skip the 'onclick' function
+	gsftSubmit(null, g_form.getFormElement(), 'create_it_request'); //MUST call the 'Action name' set in this UI Action
+}
 
-uam.u_email = current.email;
-uam.u_personal_data_share = current.personal_data_share;
-uam.u_vpn_access = current.remote_access;
-uam.u_shared_drive_access = current.shared_drive_access;
-uam.u_printer_access = current.printer_access;
-uam.u_shared_drives = current.list_shared_drives;
-uam.u_printers_required = current.list_printers;
+//Code that runs without 'onclick'
+//Ensure call to server-side function with no browser errors
+if(typeof window == 'undefined'){
+	createITRequest();
+}
 
-uam.u_computer = current.computer_type;
-uam.u_using_existing_computer = current.existing_computer_details;
-uam.u_docking_station = current.docking_station;
-uam.u_keyboard = current.keyboard;
-uam.u_mouse = current.mouse;
-uam.u_monitor = current.monitor;
-uam.u_monitor_qty = current.monitor_qty;
-
-uam.u_phone = current.phone_type;
-uam.u_use_existing_phone = current.existing_phone_details;
-uam.u_sim_type = current.sim_type;
-uam.u_roaming = current.mobile_data_roaming;
-uam.u_international_calls = current.mobile_international_calls;
-
-current.uam_form = uam.insert();
-current.update();
-gs.info('UAM ' + current.uam_form.number + 'Created');
-action.setRedirectURL(current);
-
+function createITRequest(){
+	var uam = new GlideRecord('u_user_access');
+	uam.initialize();
+	uam.u_ato = current.sys_id; //reference the ato in the uam form. This will mean that the UAM request is auto approved
+	uam.u_first_name = current.first_name;
+	uam.u_surname = current.surname;
+	uam.company = current.company;
+	uam.u_business_unit = current.region_division;
+	uam.u_job_description = current.job_title_text;
+	uam.u_start_date = current.start_date_confirmed;
+	uam.u_end_date = current.contract_end_date;
+	uam.u_employment_type = 'employee';
+	uam.u_reporting_manager = current.reporting_manager;
+	uam.u_hrpro_number = current.hrpro_number;
+	uam.u_hrpro_level = current.hrpro_level;
+	uam.u_job_number = current.project.job_number;
+	
+	uam.u_email = current.email;
+	uam.u_personal_data_share = current.personal_data_share;
+	uam.u_vpn_access = current.remote_access;
+	uam.u_shared_drive_access = current.shared_drive_access;
+	uam.u_printer_access = current.printer_access;
+	uam.u_shared_drives = current.list_shared_drives;
+	uam.u_printers_required = current.list_printers;
+	
+	uam.u_computer = current.computer_type;
+	uam.u_using_existing_computer = current.existing_computer_details;
+	uam.u_docking_station = current.docking_station;
+	uam.u_keyboard = current.keyboard;
+	uam.u_mouse = current.mouse;
+	uam.u_monitor = current.monitor;
+	uam.u_monitor_qty = current.monitor_qty;
+	
+	uam.u_phone = current.phone_type;
+	uam.u_use_existing_phone = current.existing_phone_details;
+	uam.u_sim_type = current.sim_type;
+	uam.u_roaming = current.mobile_data_roaming;
+	uam.u_international_calls = current.mobile_international_calls;
+	
+	current.uam_form = uam.insert();
+	current.update();
+	gs.info('UAM ' + current.uam_form.number + 'Created');
+	action.setRedirectURL(current);
+}
 
 ]]></script>
         <show_insert>false</show_insert>
@@ -76,7 +119,7 @@ action.setRedirectURL(current);
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>b38a452ddbc8a30096e2d0a1ca9619da</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Create IT Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
@@ -85,7 +128,7 @@ action.setRedirectURL(current);
         <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
         <sys_update_name>sys_ui_action_b38a452ddbc8a30096e2d0a1ca9619da</sys_update_name>
         <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-        <sys_updated_on>2018-09-12 08:53:24</sys_updated_on>
+        <sys_updated_on>2018-09-18 11:10:04</sys_updated_on>
         <table>x_sigr_sisk_hr_co_authority_to_offer</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>

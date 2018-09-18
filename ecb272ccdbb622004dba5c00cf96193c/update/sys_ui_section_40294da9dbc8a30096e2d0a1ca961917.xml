@@ -3,50 +3,50 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-08-21 10:00:48</sys_created_on>
-            <sys_id>e5930939db04e30096e2d0a1ca961954</sys_id>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>cc658a7cdbe86b0096e2d0a1ca961938</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-08-21 10:00:48</sys_updated_on>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
             <text>This section replaces the requirement to submit a separate UAM form to IT. If the new hire doesn't require any IT Access, leave all check boxes blank</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-08-21 10:00:48</sys_created_on>
-            <sys_id>95930939db04e30096e2d0a1ca96194a</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>08658a7cdbe86b0096e2d0a1ca961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-08-21 10:00:48</sys_updated_on>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
             <text>Note: To order IT equipment for a new user, you must tick the Email checkbox below</text>
             <type display_value="Info Box Red">823f88a80f930000b12e6903cfe01209</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>e5930939db04e30096e2d0a1ca961954</element>
+            <element>cc658a7cdbe86b0096e2d0a1ca961938</element>
             <position>0</position>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-08-21 10:00:48</sys_created_on>
-            <sys_id>e1930939db04e30096e2d0a1ca961955</sys_id>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>c8658a7cdbe86b0096e2d0a1ca961939</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section display_value="">40294da9dbc8a30096e2d0a1ca961917</sys_ui_section>
+            <sys_ui_section caption="IT Access" display_value="IT Access" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">40294da9dbc8a30096e2d0a1ca961917</sys_ui_section>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-08-21 10:00:48</sys_updated_on>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>95930939db04e30096e2d0a1ca96194a</element>
+            <element>08658a7cdbe86b0096e2d0a1ca961939</element>
             <position>1</position>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-08-21 10:00:48</sys_created_on>
-            <sys_id>69930939db04e30096e2d0a1ca961955</sys_id>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>4c658a7cdbe86b0096e2d0a1ca961939</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section display_value="">40294da9dbc8a30096e2d0a1ca961917</sys_ui_section>
+            <sys_ui_section caption="IT Access" display_value="IT Access" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">40294da9dbc8a30096e2d0a1ca961917</sys_ui_section>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-08-21 10:00:48</sys_updated_on>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -54,13 +54,13 @@
             <element>.begin_split</element>
             <position>2</position>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-08-21 10:00:48</sys_created_on>
-            <sys_id>e9930939db04e30096e2d0a1ca961955</sys_id>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>cc658a7cdbe86b0096e2d0a1ca961939</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section display_value="">40294da9dbc8a30096e2d0a1ca961917</sys_ui_section>
+            <sys_ui_section caption="IT Access" display_value="IT Access" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">40294da9dbc8a30096e2d0a1ca961917</sys_ui_section>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-08-21 10:00:48</sys_updated_on>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -68,13 +68,13 @@
             <element>email</element>
             <position>3</position>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-08-21 10:00:48</sys_created_on>
-            <sys_id>6d930939db04e30096e2d0a1ca961955</sys_id>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>40658a7cdbe86b0096e2d0a1ca96193a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section display_value="">40294da9dbc8a30096e2d0a1ca961917</sys_ui_section>
+            <sys_ui_section caption="IT Access" display_value="IT Access" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">40294da9dbc8a30096e2d0a1ca961917</sys_ui_section>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-08-21 10:00:48</sys_updated_on>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -82,13 +82,13 @@
             <element>personal_data_share</element>
             <position>4</position>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-08-21 10:00:48</sys_created_on>
-            <sys_id>ed930939db04e30096e2d0a1ca961955</sys_id>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>c0658a7cdbe86b0096e2d0a1ca96193a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section display_value="">40294da9dbc8a30096e2d0a1ca961917</sys_ui_section>
+            <sys_ui_section caption="IT Access" display_value="IT Access" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">40294da9dbc8a30096e2d0a1ca961917</sys_ui_section>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-08-21 10:00:48</sys_updated_on>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -96,13 +96,13 @@
             <element>remote_access</element>
             <position>5</position>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-08-21 10:00:48</sys_created_on>
-            <sys_id>61930939db04e30096e2d0a1ca961956</sys_id>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>44658a7cdbe86b0096e2d0a1ca96193a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section display_value="">40294da9dbc8a30096e2d0a1ca961917</sys_ui_section>
+            <sys_ui_section caption="IT Access" display_value="IT Access" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">40294da9dbc8a30096e2d0a1ca961917</sys_ui_section>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-08-21 10:00:48</sys_updated_on>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -110,13 +110,13 @@
             <element>shared_drive_access</element>
             <position>6</position>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-08-21 10:00:48</sys_created_on>
-            <sys_id>e1930939db04e30096e2d0a1ca961956</sys_id>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>c4658a7cdbe86b0096e2d0a1ca96193a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section display_value="">40294da9dbc8a30096e2d0a1ca961917</sys_ui_section>
+            <sys_ui_section caption="IT Access" display_value="IT Access" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">40294da9dbc8a30096e2d0a1ca961917</sys_ui_section>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-08-21 10:00:48</sys_updated_on>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -124,13 +124,13 @@
             <element>printer_access</element>
             <position>7</position>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-08-21 10:00:48</sys_created_on>
-            <sys_id>65930939db04e30096e2d0a1ca961956</sys_id>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>48658a7cdbe86b0096e2d0a1ca96193a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section display_value="">40294da9dbc8a30096e2d0a1ca961917</sys_ui_section>
+            <sys_ui_section caption="IT Access" display_value="IT Access" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">40294da9dbc8a30096e2d0a1ca961917</sys_ui_section>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-08-21 10:00:48</sys_updated_on>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -138,13 +138,13 @@
             <element>.split</element>
             <position>8</position>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-08-21 10:00:48</sys_created_on>
-            <sys_id>e5930939db04e30096e2d0a1ca961956</sys_id>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>c8658a7cdbe86b0096e2d0a1ca96193a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section display_value="">40294da9dbc8a30096e2d0a1ca961917</sys_ui_section>
+            <sys_ui_section caption="IT Access" display_value="IT Access" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">40294da9dbc8a30096e2d0a1ca961917</sys_ui_section>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-08-21 10:00:48</sys_updated_on>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -152,13 +152,13 @@
             <element>list_shared_drives</element>
             <position>9</position>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-08-21 10:00:48</sys_created_on>
-            <sys_id>69930939db04e30096e2d0a1ca961956</sys_id>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>4c658a7cdbe86b0096e2d0a1ca96193a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section display_value="">40294da9dbc8a30096e2d0a1ca961917</sys_ui_section>
+            <sys_ui_section caption="IT Access" display_value="IT Access" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">40294da9dbc8a30096e2d0a1ca961917</sys_ui_section>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-08-21 10:00:48</sys_updated_on>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -166,13 +166,13 @@
             <element>list_printers</element>
             <position>10</position>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-08-21 10:00:48</sys_created_on>
-            <sys_id>e9930939db04e30096e2d0a1ca961956</sys_id>
+            <sys_created_on>2018-09-12 08:45:43</sys_created_on>
+            <sys_id>cc658a7cdbe86b0096e2d0a1ca96193a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section display_value="">40294da9dbc8a30096e2d0a1ca961917</sys_ui_section>
+            <sys_ui_section caption="IT Access" display_value="IT Access" name="x_sigr_sisk_hr_co_authority_to_offer" sys_domain="global" view="Default view">40294da9dbc8a30096e2d0a1ca961917</sys_ui_section>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-08-21 10:00:48</sys_updated_on>
+            <sys_updated_on>2018-09-12 08:45:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
