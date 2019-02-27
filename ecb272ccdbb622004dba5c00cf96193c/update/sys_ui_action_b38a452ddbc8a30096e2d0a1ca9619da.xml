@@ -4,7 +4,7 @@
         <active>true</active>
         <client>true</client>
         <comments>Available when email is selected, start date confirmed and hrPro details filled in and request not already submitted</comments>
-        <condition>current.state == -20 &amp;&amp; current.uam_form == '' &amp;&amp; (gs.hasRole('admin') || gs.hasRole('x_sigr_sisk_hr_co.user'))</condition>
+        <condition>current.uam_form == '' &amp;&amp; (gs.hasRole('admin') || gs.hasRole('x_sigr_sisk_hr_co.user'))</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
@@ -89,7 +89,6 @@ function createITRequest(){
 	uam.u_printers_required = current.list_printers;
 	
 	uam.u_computer = current.computer_type;
-	uam.u_using_existing_computer = current.existing_computer_details;
 	uam.u_docking_station = current.docking_station;
 	uam.u_keyboard = current.keyboard;
 	uam.u_mouse = current.mouse;
@@ -97,10 +96,14 @@ function createITRequest(){
 	uam.u_monitor_qty = current.monitor_qty;
 	
 	uam.u_phone = current.phone_type;
-	uam.u_use_existing_phone = current.existing_phone_details;
 	uam.u_sim_type = current.sim_type;
 	uam.u_roaming = current.mobile_data_roaming;
 	uam.u_international_calls = current.mobile_international_calls;
+	
+	uam.location = current.delivery_location;
+	uam.u_delivery_contact_number = current.delivery_contact_number;
+	uam.u_delivery_address = current.delivery_address;
+	uam.u_additional_details = current.existing_computer_details;
 	
 	current.uam_form = uam.insert();
 	current.update();
@@ -119,7 +122,7 @@ function createITRequest(){
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>b38a452ddbc8a30096e2d0a1ca9619da</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Create IT Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
@@ -128,7 +131,7 @@ function createITRequest(){
         <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
         <sys_update_name>sys_ui_action_b38a452ddbc8a30096e2d0a1ca9619da</sys_update_name>
         <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-        <sys_updated_on>2018-09-18 11:10:04</sys_updated_on>
+        <sys_updated_on>2019-02-25 12:17:59</sys_updated_on>
         <table>x_sigr_sisk_hr_co_authority_to_offer</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>
