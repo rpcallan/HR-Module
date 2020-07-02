@@ -4,11 +4,11 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>computer_type</field>
+        <field>role_package</field>
         <global>true</global>
-        <isolate_script>false</isolate_script>
+        <isolate_script>true</isolate_script>
         <messages/>
-        <name>Computer onChange</name>
+        <name>Package onChange</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 	if (isLoading || newValue === '') {
@@ -19,27 +19,42 @@
 }
 
 function setDisplay(value){
-	g_form.setDisplay('docking_station', false);
-	if(value == 'laptop'){
-		g_form.setDisplay('docking_station', true);
+	g_form.setValue('ipad_required', false);
+	g_form.setDisplay('ipad_required', false);
+	g_form.setDisplay('ipad_model', false);
+	
+	var ga = new GlideAjax('SISK_HR_Contract');
+	ga.addParam('sysparm_name', 'getTabletCount');
+	ga.addParam('sysparm_value', value);
+	ga.getXML(TabletCount);
+}
+
+function TabletCount(response){
+	var count = response.responseXML.documentElement.getAttribute("answer");
+	
+	if (count > 0){
+		g_form.setDisplay('ipad_required', true);
+		if(count > 1){
+			g_form.setDisplay('ipad_model', true);
+		}
 	}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-        <sys_created_on>2018-08-20 16:06:47</sys_created_on>
+        <sys_created_on>2019-11-15 13:17:18</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>e4cd01e9dbc8a30096e2d0a1ca9619d8</sys_id>
-        <sys_mod_count>16</sys_mod_count>
-        <sys_name>Computer onChange</sys_name>
+        <sys_id>0d95980fdbcd0410018cfd651d96198b</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Package onChange</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
-        <sys_update_name>sys_script_client_e4cd01e9dbc8a30096e2d0a1ca9619d8</sys_update_name>
+        <sys_update_name>sys_script_client_0d95980fdbcd0410018cfd651d96198b</sys_update_name>
         <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-        <sys_updated_on>2020-06-04 07:30:35</sys_updated_on>
+        <sys_updated_on>2020-06-11 12:12:08</sys_updated_on>
         <table>x_sigr_sisk_hr_co_authority_to_offer</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

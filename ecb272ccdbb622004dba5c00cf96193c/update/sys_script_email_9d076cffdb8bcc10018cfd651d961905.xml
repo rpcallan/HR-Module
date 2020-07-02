@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>ato_items_script</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[var modelTypes = '';
+var qty = 1;
+var total= 0;
+var body = '';
+var result = '';
+var currencyCode = '';
+var txt = '<tr><td class="form-control">{0}</td></td><td class="form-control">{1}</td><td class="form-control right" >{2}</td><td class="form-control right">{3}{4}</td></tr>';
+var body = '';
+var ss = new SISK_HR_Contract_No_Ajax();
+	
+var ato = new GlideRecord('x_sigr_sisk_hr_co_authority_to_offer');
+ato.get(current.sysapproval.sys_id);
+
+var rolePackage = ato.role_package;
+if(!rolePackage){
+	rolePackage = 'standard';
+}
+
+rolePackage = ss.getChoiceID('u_job_role_package','u_user_access',rolePackage);
+
+if(ato.computer_type.indexOf('laptop') > -1){
+	modelTypes += 'laptop';
+}
+if(ato.computer_type.indexOf('desktop') > -1){
+	modelTypes += 'desktop';
+}
+modelTypes += ',software';
+
+if(ato.phone_type == 'standard' || ato.phone_type == 'phone'){
+	if(modelTypes){
+		modelTypes += ',';
+	}
+	modelTypes += 'phone';
+}
+
+var dm = new GlideRecord('u_default_models');
+dm.addEncodedQuery('u_model_typeIN' + modelTypes + '^u_default_rolesLIKE' + rolePackage);
+dm.query();
+
+while(dm.next()){
+	var item = dm.u_ireland_default;
+	if(ato.country == 'United Kingdom'){
+		item = dm.u_uk_default;
+	}
+	var catItem = new GlideRecord('sc_cat_item');
+	catItem.get(item);
+	var price = catItem.price.getCurrencyValue();
+	currencyCode = catItem.price.getCurrencyCode();
+	currencyCode = ss.getCurrencySymbol(currencyCode);
+	body += gs.getMessage(txt, [catItem.name, qty, catItem.price.getCurrencyDisplayValue(), currencyCode, qty * price]);
+	total += qty * price;
+}
+
+modelTypes = '';
+if(ato.docking_station){
+	modelTypes = 'docking_station';
+}
+if(ato.keyboard){
+	if(modelTypes){
+		modelTypes += ',';
+	}
+	modelTypes += 'keyboard';
+}
+if(ato.mouse){
+	if(modelTypes){
+		modelTypes += ',';
+	}
+	modelTypes += 'mouse';
+}
+if(ato.headset){
+	if(modelTypes){
+		modelTypes += ',';
+	}
+	modelTypes += 'headset';
+}
+
+if(modelTypes){
+	dm = new GlideRecord('u_default_models');
+	dm.addEncodedQuery('u_model_typeIN' + modelTypes);
+	dm.query();
+
+	while(dm.next()){
+		var item = dm.u_ireland_default;
+		if(ato.country == 'United Kingdom'){
+			item = dm.u_uk_default;
+		}
+		var catItem = new GlideRecord('sc_cat_item');
+		catItem.get(item);
+		var price = catItem.price.getCurrencyValue();
+		body += gs.getMessage(txt, [catItem.name, qty, catItem.price.getCurrencyDisplayValue(), currencyCode, qty * price]);
+		total += qty * price;
+	}
+}
+if(ato.monitor){
+	modelTypes = 'monitor';
+	qty = parseInt(ato.monitor_qty);
+	qry = 'u_model_typeIN' + modelTypes;
+	dm = new GlideRecord('u_default_models');
+	dm.addEncodedQuery(qry);
+	dm.query();
+	gs.addInfoMessage(qry);
+
+	while(dm.next()){
+		var item = dm.u_ireland_default;
+		if(ato.country == 'United Kingdom'){
+			item = dm.u_uk_default;
+		}
+		var catItem = new GlideRecord('sc_cat_item');
+		catItem.get(item);
+		var price = catItem.price.getCurrencyValue();
+		body += gs.getMessage(txt, [catItem.name, qty, catItem.price.getCurrencyDisplayValue(), currencyCode, qty * price]);
+		total += qty * price;
+	}
+}
+template.print('<table>');
+template.print('<tr><td class="field-label">Item Description</td><td class="field-label">Quantity</td><td class="field-label">Price (ea)</td><td class="field-label">Total</td></tr>');
+template.print(body);
+template.print('<tr><td colspan="3" class="field-label"></td><td class="field-label right">' + currencyCode + total + '</td></tr>');
+template.print('</table>');]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2020-02-25 08:34:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9d076cffdb8bcc10018cfd651d961905</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>ato_items_script</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sys_script_email_9d076cffdb8bcc10018cfd651d961905</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2020-02-25 10:09:57</sys_updated_on>
+    </sys_script_email>
+</record_update>

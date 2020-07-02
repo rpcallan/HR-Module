@@ -38,7 +38,16 @@
 	//set watchlists
 	var country = current.company.country;
 	
+	//set name
+	if(!current.name){
+		current.name = current.leaver.name;
+	}
+	
 	var staff = new GlideRecord('x_sigr_sisk_hr_co_staff_list');
+	
+	if(country == 'Sweden'){
+		country = 'Ireland';
+	}
 	staff.addQuery('country', country);
 	staff.query();
 	
@@ -69,38 +78,38 @@
 		}
 	}
 	
-	//set subject
-	current.short_description = current.leaver.name + ' - ' + current.company.name + ' - ' + current.leaving_date.getDisplayValue();
-	current.regional_staff = current.region_division.other_contacts;
-	
-	//create leaver request
-	var group = '6138dc0a0f4d5a00d459936792050e29'; //IT Security
-	var cart = new global.Cart();
-	
-	var item = cart.addItem('6f3809bc0ffe1640d459936792050eff');
-	cart.setVariable(item, 'leaver_name', current.leaver);
-	cart.setVariable(item, 'leaver_email_redirect', current.redirect_email_to);
-	cart.setVariable(item, 'leaving_date', current.leaving_date);
-	cart.setVariable(item, 'leaver_mobile', current.mobile_number);
-	cart.setVariable(item, 'leaver_keep_mobile', current.keep_mobile);
-	cart.setVariable(item, 'leaver_keep_number', current.keep_mobile_number);
-	cart.setVariable(item, 'leavel_cancer_number', current.cancel_mobile_number);
-	cart.setVariable(item, 'leaver_number', current.mobile_number);
-	cart.setVariable(item, 'leaver_other_equip', current.other_devices);
-	cart.setVariable(item, 'sr_resolver_group', group);
-	
-	var newSerReq = cart.placeOrder();
-	newSerReq.opened_by = '6816f79cc0a8016401c5a33be04be441'; // admin
-	newSerReq.due_date = current.leaving_date;
-	newSerReq.assignment_group = group;
-	newSerReq.u_disable_notification = true;
-	newSerReq.update();
-	
-	var activityLogMsg = 'Service Request ' + newSerReq.number + ' is created';
-	
-	current.work_notes = activityLogMsg;
-	current.request_item = getRITM(newSerReq.sys_id);
-	current.update();
+	if(current.leaver){
+		//set subject
+		current.short_description = current.leaver.name + ' - ' + current.company.name + ' - ' + current.leaving_date.getDisplayValue();
+		current.regional_staff = current.region_division.other_contacts;
+		
+		//create leaver request
+		var cart = new global.Cart();
+		
+		var item = cart.addItem('6f3809bc0ffe1640d459936792050eff');
+		cart.setVariable(item, 'leaver_name', current.leaver);
+		cart.setVariable(item, 'leaver_email_redirect', current.redirect_email_to);
+		cart.setVariable(item, 'leaving_date', current.leaving_date);
+		cart.setVariable(item, 'leaver_mobile', swap(current.keep_mobile));
+		cart.setVariable(item, 'leaver_keep_mobile', current.keep_mobile);
+		cart.setVariable(item, 'leaver_keep_number', current.keep_mobile_number);
+		cart.setVariable(item, 'leavel_cancer_number', swap(current.keep_mobile_number));
+		cart.setVariable(item, 'leaver_number', current.mobile_number);
+		cart.setVariable(item, 'leaver_other_equip', current.other_devices);
+		
+		var newSerReq = cart.placeOrder();
+		newSerReq.opened_by = '6816f79cc0a8016401c5a33be04be441'; // admin
+		newSerReq.requested_for = current.opened_by;
+		newSerReq.due_date = current.leaving_date;
+		newSerReq.u_disable_notification = true;
+		newSerReq.update();
+		
+		var activityLogMsg = 'Service Request ' + newSerReq.number + ' is created';
+		
+		current.work_notes = activityLogMsg;
+		current.request_item = getRITM(newSerReq.sys_id);
+		current.update();
+	}
 	
 	function getRITM(serReq) {
 		var grRITM = new GlideRecord('sc_req_item');
@@ -108,9 +117,6 @@
 		grRITM.query();
 		
 		if(grRITM.next()) {
-			grRITM.due_date = current.due_date;
-			grRITM.assignment_group = group;
-			grRITM.update();
 			return grRITM.sys_id;
 		}
 		return '';
@@ -118,7 +124,14 @@
 	
 })(current, previous);
 
-
+function swap(value){
+	if(value){
+		return false;
+	}
+	if(!value){
+		return true;
+	}
+}
 ]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
@@ -126,7 +139,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>d48e3ca40f3d130004a6716ce1050e3e</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Leaver - On Insert</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
@@ -135,7 +148,7 @@
         <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
         <sys_update_name>sys_script_d48e3ca40f3d130004a6716ce1050e3e</sys_update_name>
         <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-        <sys_updated_on>2018-06-22 11:07:01</sys_updated_on>
+        <sys_updated_on>2019-10-30 14:29:13</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

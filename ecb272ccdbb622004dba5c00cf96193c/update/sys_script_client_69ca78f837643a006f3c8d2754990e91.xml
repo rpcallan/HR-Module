@@ -6,6 +6,7 @@
         <description/>
         <field>phone_type</field>
         <global>true</global>
+        <isolate_script>false</isolate_script>
         <messages/>
         <name>Mobile Phone Required onChange</name>
         <order/>
@@ -20,12 +21,14 @@
 }
 
 function setDisplay(newValue){
+	g_form.setDisplay('reuse_phone', false);
 	g_form.setDisplay('sim_type', false);
 	g_form.setDisplay('mobile_international_calls', false);
 	g_form.setDisplay('mobile_data_roaming', false);
 	g_form.setDisplay('existing_phone_details', false);
 	
 	if (newValue == 'standard'){
+		g_form.setDisplay('reuse_phone', true);
 		g_form.setDisplay('sim_type', true);
 		g_form.setDisplay('mobile_international_calls',true);
 		g_form.setDisplay('mobile_data_roaming',true);
@@ -40,7 +43,7 @@ function setDisplay(newValue){
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>69ca78f837643a006f3c8d2754990e91</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Mobile Phone Required onChange</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
@@ -49,7 +52,7 @@ function setDisplay(newValue){
         <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
         <sys_update_name>sys_script_client_69ca78f837643a006f3c8d2754990e91</sys_update_name>
         <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-        <sys_updated_on>2018-08-21 09:11:23</sys_updated_on>
+        <sys_updated_on>2020-02-25 12:10:36</sys_updated_on>
         <table>x_sigr_sisk_hr_co_authority_to_offer</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

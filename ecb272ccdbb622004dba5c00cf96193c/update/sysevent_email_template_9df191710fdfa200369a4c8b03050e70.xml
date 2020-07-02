@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>sysapproval_approver</collection>
+        <email_layout display_value="Sisk Email">8df8be160fb98b0004a6716ce1050e3f</email_layout>
+        <message/>
+        <message_html><![CDATA[<p>Hi ${approver.first_name},</p>
+<p>You are receiving this e-mail as your approval is required to appoint a new employee.</p>
+<p>Here are the headline details for the new appointee for your information.</p>
+<p><strong>Summary of Contract Offer:</strong></p>
+<p align="left">${mail_script:ato_sysapproval_approver_script}</p>
+<p><strong>Estimated IT Costs:</strong></p>
+<p><strong>Note:</strong> This is the maximum cost if all new hardware or software is purchased. If reuse hardware is requested and available and/or there are software licences available, they will be used and the cost deducted from the overall cost</p>
+<p>${mail_script:ato_items_script}</p>
+<p>Please <strong>Approve</strong> or <strong>Return</strong> this Authority to Offer (ATO) by clicking on the relevant link below. This should open a new blank email with the Email To and Subject line pre-populated.</p>
+<p>If you experience any technical difficulties please forward this mail to <a href="mailto:siskgroup@service-now.com">siskgroup@service-now.com</a></p>
+<p>Kind Regards,</p>
+<p>Human Resources</p>
+<hr />
+<p align="left">${mailto:mailto.approval}</p>
+<p align="left">${mailto:mailto.redraft} - please include the changes that need to be made in the email body as these details will be forwared to the originator. Once the originator makes the relevant changes the form will be re-submitted for your approval</p>
+<p align="left">Click here to view my Active Authority To Offer Requests: <a href="https://siskgroup.service-now.com/sp/?id=sisk_ato">LINK</a><br />Click here to view My Approval Requests: <a href="https://siskgroup.service-now.com/sp/?id=approvals">LINK</a></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>ato.request.approval</name>
+        <sms_alternate/>
+        <subject>${sysapproval.sys_class_name} ${sysapproval} Approval Request</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2016-11-25 15:57:14</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>9df191710fdfa200369a4c8b03050e70</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>ato.request.approval</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sysevent_email_template_9df191710fdfa200369a4c8b03050e70</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2020-02-25 10:12:08</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>
