@@ -224,6 +224,34 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reprocess_leaver_request</element>
+            <position>16</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2021-05-05 14:20:42</sys_created_on>
+            <sys_id>edd1c6ff1bf7e010bf29400de54bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2021-05-05 14:20:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>exit_interview_questionnaire</element>
+            <position>17</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2021-08-31 08:35:53</sys_created_on>
+            <sys_id>458e1c75871eb4d06cb6fd99cebb35f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2021-08-31 08:35:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
