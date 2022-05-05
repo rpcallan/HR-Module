@@ -77,6 +77,10 @@ current.redirect_email = convertToBoolean(producer.redirect_email);
 current.notice_period_worked = convertToBoolean(producer.notice_period);
 current.paid_in_lieu = convertToBoolean(producer.paid_in_lieu);
 current.calculate_al_balance = convertToBoolean(producer.al_balance);
+current.would_you_rehire = convertToBoolean(would_you_re_hire_this_employee);
+current.change_of_manager = convertToBoolean(producer.manager_change);
+current.change_of_director = convertToBoolean(producer.director_change);
+current.further_education_last_2_years = convertToBoolean(further_education);
 
 function convertToBoolean(value){
 	if (value == 'Yes'){
@@ -93,7 +97,7 @@ function convertToBoolean(value){
         <sys_created_on>2018-04-26 09:52:47</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0c0e1ec837f193406f3c8d2754990ebb</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Leaver Request</sys_name>
         <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
         <sys_policy/>
@@ -101,8 +105,9 @@ function convertToBoolean(value){
         <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
         <sys_update_name>sc_cat_item_producer_0c0e1ec837f193406f3c8d2754990ebb</sys_update_name>
         <sys_updated_by>callanra</sys_updated_by>
-        <sys_updated_on>2021-08-31 11:11:07</sys_updated_on>
+        <sys_updated_on>2022-04-29 08:22:55</sys_updated_on>
         <table_name>x_sigr_sisk_hr_co_leavers</table_name>
+        <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>

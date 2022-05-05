@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="reason_for_leaving" table="x_sigr_sisk_hr_co_leavers" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>reason_for_leaving</element>
+            <name>x_sigr_sisk_hr_co_leavers</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-04-26 09:05:26</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8794474adb0b5f806be9cc2c0b961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>reason_for_leaving</sys_name>
+            <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+            <sys_update_name>sys_choice_x_sigr_sisk_hr_co_leavers_reason_for_leaving</sys_update_name>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-04-26 09:05:26</sys_updated_on>
+        </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>reason_for_leaving</element>
@@ -9,6 +27,7 @@
             <language>en</language>
             <name>x_sigr_sisk_hr_co_leavers</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
             <sys_created_on>2018-04-26 09:05:26</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -27,6 +46,7 @@
             <language>en</language>
             <name>x_sigr_sisk_hr_co_leavers</name>
             <sequence>1</sequence>
+            <synonyms/>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
             <sys_created_on>2018-04-26 09:05:26</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -45,6 +65,7 @@
             <language>en</language>
             <name>x_sigr_sisk_hr_co_leavers</name>
             <sequence>2</sequence>
+            <synonyms/>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
             <sys_created_on>2018-04-26 09:05:26</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -63,6 +84,7 @@
             <language>en</language>
             <name>x_sigr_sisk_hr_co_leavers</name>
             <sequence>3</sequence>
+            <synonyms/>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
             <sys_created_on>2018-04-26 09:05:26</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -81,6 +103,7 @@
             <language>en</language>
             <name>x_sigr_sisk_hr_co_leavers</name>
             <sequence>4</sequence>
+            <synonyms/>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
             <sys_created_on>2018-04-26 09:05:26</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -99,6 +122,7 @@
             <language>en</language>
             <name>x_sigr_sisk_hr_co_leavers</name>
             <sequence>5</sequence>
+            <synonyms/>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
             <sys_created_on>2018-04-26 09:05:26</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -117,6 +141,7 @@
             <language>en</language>
             <name>x_sigr_sisk_hr_co_leavers</name>
             <sequence>6</sequence>
+            <synonyms/>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
             <sys_created_on>2018-06-20 16:00:46</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -130,37 +155,77 @@
             <dependent_value/>
             <element>reason_for_leaving</element>
             <hint/>
+            <inactive>true</inactive>
+            <label>Transfer to UK</label>
+            <language>en</language>
+            <name>x_sigr_sisk_hr_co_leavers</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-09-18 13:54:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ff85867adb682f00bd9b320a6896195b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-04-20 14:17:53</sys_updated_on>
+            <value>uk_transfer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_leaving</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Transfer to IRE</label>
+            <language>en</language>
+            <name>x_sigr_sisk_hr_co_leavers</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-09-18 14:02:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5057c2f2dba82f00bd9b320a68961957</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-04-20 14:17:57</sys_updated_on>
+            <value>ie_transfer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_leaving</element>
+            <hint/>
             <inactive>false</inactive>
+            <label>Unsatisfactory Performance</label>
+            <language>en</language>
+            <name>x_sigr_sisk_hr_co_leavers</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-04-20 14:33:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>20216c6887c389106cb6fd99cebb3551</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-04-20 14:34:03</sys_updated_on>
+            <value>unsatisfactory_performance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reason_for_leaving</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>Other</label>
             <language>en</language>
             <name>x_sigr_sisk_hr_co_leavers</name>
             <sequence>10</sequence>
+            <synonyms/>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
             <sys_created_on>2018-04-26 09:05:26</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>ede49ec037f193406f3c8d2754990edb</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-06-20 15:58:31</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-04-20 14:18:01</sys_updated_on>
             <value>other</value>
         </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>reason_for_leaving</element>
-            <name>x_sigr_sisk_hr_co_leavers</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-04-26 09:05:26</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
-            <sys_id>9877c4850f261b0004a6716ce1050e36</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>reason_for_leaving</sys_name>
-            <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
-            <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-            <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
-            <sys_update_name>sys_choice_x_sigr_sisk_hr_co_leavers_reason_for_leaving</sys_update_name>
-            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-04-26 09:05:26</sys_updated_on>
-        </sys_choice_set>
     </sys_choice>
 </record_update>

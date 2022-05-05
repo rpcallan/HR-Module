@@ -252,6 +252,104 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reason_for_resignation</element>
+            <position>18</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-04-20 14:19:03</sys_created_on>
+            <sys_id>fdedd0a487c389106cb6fd99cebb3522</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-04-20 14:19:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>would_you_rehire</element>
+            <position>19</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-04-20 14:37:15</sys_created_on>
+            <sys_id>a01268a887c389106cb6fd99cebb35b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-04-20 14:37:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>new_manager</element>
+            <position>20</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-04-20 14:40:17</sys_created_on>
+            <sys_id>c5c2a8e887c389106cb6fd99cebb3545</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-04-20 14:40:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>new_director</element>
+            <position>21</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-04-20 14:46:29</sys_created_on>
+            <sys_id>f724246c87c389106cb6fd99cebb3504</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-04-20 14:46:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>further_education_last_2_years</element>
+            <position>22</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-04-29 07:51:43</sys_created_on>
+            <sys_id>7b8b559387878910b41dcbf90cbb352a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-04-29 07:51:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>change_of_manager</element>
+            <position>23</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-04-29 08:19:27</sys_created_on>
+            <sys_id>46e1611f87c785506cb6fd99cebb35f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-04-29 08:19:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>change_of_director</element>
+            <position>24</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-04-29 08:20:05</sys_created_on>
+            <sys_id>0702251f87c785506cb6fd99cebb359f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-04-29 08:20:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
