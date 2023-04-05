@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0e21f6b01b9ae4104bb1a6c6b04bcb9d" label="COINS Companies" max_length="40" name="x_sigr_sisk_hr_co_coins_companies" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Company No" max_length="40" name="company_no" type="integer"/>
+        <element label="Name" max_length="150" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Server" max_length="40" name="server" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="IE" value="ie"/>
+                <element inactive_on_update="false" label="UK" value="uk"/>
+            </choice>
+        </element>
+    </element>
+</database>

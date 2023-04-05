@@ -3,350 +3,350 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>leaver</element>
             <position>0</position>
-            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-06-21 10:51:50</sys_created_on>
-            <sys_id>9e4683c2dbb61b00681c459d3b96196f</sys_id>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>e83baadc1b86d9144a05eb97624bcbfb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
-            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-06-21 10:51:50</sys_updated_on>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>name</element>
             <position>1</position>
-            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-06-21 10:51:50</sys_created_on>
-            <sys_id>124683c2dbb61b00681c459d3b961970</sys_id>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>643baadc1b86d9144a05eb97624bcbfc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
-            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-06-21 10:51:50</sys_updated_on>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>leaver_type</element>
             <position>2</position>
-            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-06-21 10:51:50</sys_created_on>
-            <sys_id>924683c2dbb61b00681c459d3b961970</sys_id>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>e83baadc1b86d9144a05eb97624bcbfc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
-            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-06-21 10:51:50</sys_updated_on>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>email</element>
             <position>3</position>
-            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-06-21 10:51:50</sys_created_on>
-            <sys_id>164683c2dbb61b00681c459d3b961970</sys_id>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>603baadc1b86d9144a05eb97624bcbfd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
-            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-06-21 10:51:50</sys_updated_on>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>last_date_of_employment</element>
             <position>4</position>
-            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-06-21 10:51:50</sys_created_on>
-            <sys_id>964683c2dbb61b00681c459d3b961970</sys_id>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>e43baadc1b86d9144a05eb97624bcbfd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
-            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-06-21 10:51:50</sys_updated_on>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>last_date_of_work</element>
             <position>5</position>
-            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-06-21 10:51:50</sys_created_on>
-            <sys_id>1a4683c2dbb61b00681c459d3b961970</sys_id>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>6c3baadc1b86d9144a05eb97624bcbfd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
-            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-06-21 10:51:50</sys_updated_on>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>leaving_date</element>
             <position>6</position>
-            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-06-21 10:51:50</sys_created_on>
-            <sys_id>9a4683c2dbb61b00681c459d3b961970</sys_id>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>e03baadc1b86d9144a05eb97624bcbfe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
-            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-06-21 10:51:50</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>7</position>
-            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-06-21 10:51:50</sys_created_on>
-            <sys_id>1e4683c2dbb61b00681c459d3b961970</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
-            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-06-21 10:51:50</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
-            <position>8</position>
-            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-06-21 10:51:50</sys_created_on>
-            <sys_id>9e4683c2dbb61b00681c459d3b961970</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
-            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-06-21 10:51:50</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>state</element>
-            <position>9</position>
-            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-06-21 10:51:50</sys_created_on>
-            <sys_id>124683c2dbb61b00681c459d3b961971</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
-            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-06-21 10:51:50</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>request_item</element>
-            <position>10</position>
-            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-06-21 10:51:50</sys_created_on>
-            <sys_id>924683c2dbb61b00681c459d3b961971</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
-            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-06-21 10:51:50</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>company</element>
-            <position>11</position>
-            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-06-21 10:51:50</sys_created_on>
-            <sys_id>164683c2dbb61b00681c459d3b961971</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
-            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-06-21 10:51:50</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>region_division</element>
-            <position>12</position>
-            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-06-21 10:51:50</sys_created_on>
-            <sys_id>964683c2dbb61b00681c459d3b961971</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
-            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-06-21 10:51:50</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>reason_for_leaving</element>
-            <position>13</position>
-            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-06-21 10:51:50</sys_created_on>
-            <sys_id>1a4683c2dbb61b00681c459d3b961971</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
-            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-06-21 10:51:50</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>other_reason</element>
-            <position>14</position>
-            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-06-21 10:51:50</sys_created_on>
-            <sys_id>9a4683c2dbb61b00681c459d3b961971</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
-            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-06-21 10:51:50</sys_updated_on>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>job_title</element>
-            <position>15</position>
-            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-09-18 14:07:09</sys_created_on>
-            <sys_id>83788636dbeca30096e2d0a1ca961942</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
-            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-09-18 14:07:09</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_reprocess_leaver_request</element>
-            <position>16</position>
+            <position>7</position>
             <sys_created_by>callanra</sys_created_by>
-            <sys_created_on>2021-05-05 14:20:42</sys_created_on>
-            <sys_id>edd1c6ff1bf7e010bf29400de54bcb86</sys_id>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>683baadc1b86d9144a05eb97624bcbfe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
             <sys_updated_by>callanra</sys_updated_by>
-            <sys_updated_on>2021-05-05 14:20:42</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>exit_interview_questionnaire</element>
-            <position>17</position>
-            <sys_created_by>callanra</sys_created_by>
-            <sys_created_on>2021-08-31 08:35:53</sys_created_on>
-            <sys_id>458e1c75871eb4d06cb6fd99cebb35f5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
-            <sys_updated_by>callanra</sys_updated_by>
-            <sys_updated_on>2021-08-31 08:35:53</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>reason_for_resignation</element>
-            <position>18</position>
-            <sys_created_by>callanra</sys_created_by>
-            <sys_created_on>2022-04-20 14:19:03</sys_created_on>
-            <sys_id>fdedd0a487c389106cb6fd99cebb3522</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
-            <sys_updated_by>callanra</sys_updated_by>
-            <sys_updated_on>2022-04-20 14:19:03</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>would_you_rehire</element>
-            <position>19</position>
-            <sys_created_by>callanra</sys_created_by>
-            <sys_created_on>2022-04-20 14:37:15</sys_created_on>
-            <sys_id>a01268a887c389106cb6fd99cebb35b3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
-            <sys_updated_by>callanra</sys_updated_by>
-            <sys_updated_on>2022-04-20 14:37:15</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>new_manager</element>
-            <position>20</position>
-            <sys_created_by>callanra</sys_created_by>
-            <sys_created_on>2022-04-20 14:40:17</sys_created_on>
-            <sys_id>c5c2a8e887c389106cb6fd99cebb3545</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
-            <sys_updated_by>callanra</sys_updated_by>
-            <sys_updated_on>2022-04-20 14:40:17</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>new_director</element>
-            <position>21</position>
-            <sys_created_by>callanra</sys_created_by>
-            <sys_created_on>2022-04-20 14:46:29</sys_created_on>
-            <sys_id>f724246c87c389106cb6fd99cebb3504</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
-            <sys_updated_by>callanra</sys_updated_by>
-            <sys_updated_on>2022-04-20 14:46:29</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>further_education_last_2_years</element>
-            <position>22</position>
-            <sys_created_by>callanra</sys_created_by>
-            <sys_created_on>2022-04-29 07:51:43</sys_created_on>
-            <sys_id>7b8b559387878910b41dcbf90cbb352a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
-            <sys_updated_by>callanra</sys_updated_by>
-            <sys_updated_on>2022-04-29 07:51:43</sys_updated_on>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>change_of_manager</element>
-            <position>23</position>
+            <position>8</position>
             <sys_created_by>callanra</sys_created_by>
-            <sys_created_on>2022-04-29 08:19:27</sys_created_on>
-            <sys_id>46e1611f87c785506cb6fd99cebb35f2</sys_id>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>ec3baadc1b86d9144a05eb97624bcbfe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
             <sys_updated_by>callanra</sys_updated_by>
-            <sys_updated_on>2022-04-29 08:19:27</sys_updated_on>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>change_of_director</element>
-            <position>24</position>
+            <position>9</position>
             <sys_created_by>callanra</sys_created_by>
-            <sys_created_on>2022-04-29 08:20:05</sys_created_on>
-            <sys_id>0702251f87c785506cb6fd99cebb359f</sys_id>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>643baadc1b86d9144a05eb97624bcbff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
             <sys_updated_by>callanra</sys_updated_by>
-            <sys_updated_on>2022-04-29 08:20:05</sys_updated_on>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reason_for_resignation</element>
+            <position>10</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>e83baadc1b86d9144a05eb97624bcbff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>further_education_last_2_years</element>
+            <position>11</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>603beadc1b86d9144a05eb97624bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>12</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>e43beadc1b86d9144a05eb97624bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>13</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>6c3beadc1b86d9144a05eb97624bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>14</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>e03beadc1b86d9144a05eb97624bcb01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_item</element>
+            <position>15</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>683beadc1b86d9144a05eb97624bcb01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>16</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>ec3beadc1b86d9144a05eb97624bcb01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>region_division</element>
+            <position>17</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>643beadc1b86d9144a05eb97624bcb02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reason_for_leaving</element>
+            <position>18</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>e83beadc1b86d9144a05eb97624bcb02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_reason</element>
+            <position>19</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>603beadc1b86d9144a05eb97624bcb03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>exit_interview_questionnaire</element>
+            <position>20</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>e43beadc1b86d9144a05eb97624bcb03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>new_manager</element>
+            <position>21</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>6c3beadc1b86d9144a05eb97624bcb03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>new_director</element>
+            <position>22</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>e03beadc1b86d9144a05eb97624bcb04</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>would_you_rehire</element>
+            <position>23</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>683beadc1b86d9144a05eb97624bcb04</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reprocess_leaver_request</element>
+            <position>24</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-09-16 09:06:14</sys_created_on>
+            <sys_id>ec3beadc1b86d9144a05eb97624bcb04</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">edb0564037f193406f3c8d2754990e4a</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-09-16 09:06:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

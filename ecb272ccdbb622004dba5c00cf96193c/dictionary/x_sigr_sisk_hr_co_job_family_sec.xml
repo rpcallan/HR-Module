@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8892589c1b60f410a91733a5464bcbca" extends="sys_import_set_row" label="Job Family Sec" max_length="40" name="x_sigr_sisk_hr_co_job_family_sec" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="40" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Parent" label="Parent" max_length="40" name="u_parent" type="string"/>
+    </element>
+</database>

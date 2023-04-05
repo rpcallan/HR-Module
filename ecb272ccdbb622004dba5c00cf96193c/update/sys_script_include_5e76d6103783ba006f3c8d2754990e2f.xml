@@ -3,6 +3,7 @@
         <access>public</access>
         <active>true</active>
         <api_name>x_sigr_sisk_hr_co.SISK_HR_Contract_No_Ajax</api_name>
+        <caller_access/>
         <client_callable>true</client_callable>
         <description>Custom script used to return information</description>
         <name>SISK_HR_Contract_No_Ajax</name>
@@ -10,91 +11,112 @@
 
 var SISK_HR_Contract_No_Ajax = Class.create();
 SISK_HR_Contract_No_Ajax.prototype = {
-	initialize: function() {
-	},
-	
-	///Get the sys_id of a item in the choice table
-	getCurrencySymbol: function(code){
-		var strQuery = gs.getMessage('code={0}', [code]);
-		var gr = new GlideRecord('fx_currency');
-		gr.addEncodedQuery(strQuery);
-		gr.query();
+    initialize: function() {},
 
-		if(gr.next()){
-			return gr.symbol;
-		}
-		return '';
-	},
-	
-	///Get the sys_id of a item in the choice table
-	getChoiceID: function(element, name, value){
-		var strQuery = gs.getMessage('element={0}^name={1}^value={2}', [element, name, value ]);
-		var gr = new GlideRecord('sys_choice');
-		gr.addEncodedQuery(strQuery);
-		gr.query();
+    ///Get the sys_id of a item in the choice table
+    getCurrencySymbol: function(code) {
+        var strQuery = gs.getMessage('code={0}', [code]);
+        var grCurrency = new GlideRecord('fx_currency');
+        grCurrency.addEncodedQuery(strQuery);
+        grCurrency.query();
 
-		if(gr.next()){
-			return gr.sys_id;
-		}
-		return '';
-	},
+        if (grCurrency.next()) {
+            return grCurrency.symbol;
+        }
+        return '';
+    },
 
-	//return true if user has permissions to view the full contract
-	getPermissionList: function(sys_id){
-		var permissionList = '';
-		var director = '';
-		var asmtGrp = '';
+    ///Get the sys_id of a item in the choice table
+    getChoiceID: function(element, name, value) {
+        var strQuery = gs.getMessage('element={0}^name={1}^value={2}', [element, name, value]);
+        var grChoice = new GlideRecord('sys_choice');
+        grChoice.addEncodedQuery(strQuery);
+        grChoice.query();
 
-		//get the ato revotd
-		var gr = new GlideRecord('x_sigr_sisk_hr_co_authority_to_offer');
-		gr.addQuery('sys_id',sys_id);
-		gr.query();
+        if (grChoice.next()) {
+            return grChoice.sys_id;
+        }
+        return '';
+    },
 
-		while(gr.next()) {
-			permissionList += gr.opened_by +','; //opened by
-			permissionList += gr.local_director +','; //regional director
-			permissionList += gr.finance_director +','; // financial directoe
-			permissionList += gr.watch_list.toString() +','; //record watchlist
+    //list of users that have access to the Interview Record
+	//new SISK_HR_Contract_No_Ajax().getPermissionListInterview(current.sys_id);
+    getPermissionListInterview: function(sys_id) {
+        var permissionList = '';
+        var asmtGrp = 'd1b0b5c13784f2803955261953990e54'; //SISK HR
 
-			director = gr.director; //reference to sisk director
-			asmtGrp = gr.assignment_group;	//reference to assignment group
-		}
+        //get the interview form
+        var grInt = new GlideRecord('x_sigr_sisk_hr_co_interview');
+        grInt.get(sys_id);
 
-		gr = new GlideRecord('x_sigr_sisk_hr_co_sisk_directors');
-		gr.addQuery('sys_id',director);
-		gr.query();
+        permissionList += grInt.opened_by + ','; //opened by
+        permissionList += grInt.manager_to_review + ','; //manager to review
+        permissionList += grInt.watch_list.toString() + ','; //record watchlist
 
-		while(gr.next()) {
-			permissionList += gr.name +','; //MD Director
-			permissionList += gr.watchlist.toString() +','; // Director Watchlist
-		}
+        permissionList += this._getHrStaff();
 
-		gr = new GlideRecord('sys_user_grmember');
-		gr.addQuery('group', asmtGrp);
-		gr.query();
+        return permissionList;
+    },
 
-		while(gr.next()) {
-			permissionList += gr.user +','; //user in assigment group
-		}
+    //list of users that have access to the ATO Record
+    getPermissionList: function(sys_id) {
+        var permissionList, director;
+        var asmtGrp = 'd1b0b5c13784f2803955261953990e54'; //SISK HR
 
-		return permissionList;
-	},
+        //get the ato revotd
+        var grATO = new GlideRecord('x_sigr_sisk_hr_co_authority_to_offer');
+        grATO.get(sys_id);
 
-	type: 'SISK_HR_Contract_No_Ajax'
+        permissionList += grATO.opened_by + ','; //opened by
+        permissionList += grATO.local_director + ','; //regional director
+        permissionList += grATO.finance_director + ','; // financial directoe
+        permissionList += grATO.watch_list.toString() + ','; //record watchlist
+
+        director = grATO.director; //reference to sisk director
+
+        grDir = new GlideRecord('x_sigr_sisk_hr_co_sisk_directors');
+        grDir.get(director);
+
+        permissionList += grDir.name + ','; //MD Director
+        permissionList += grDir.watchlist.toString() + ','; // Director Watchlist
+
+        //users in HR STaff group
+        permissionList += this._getHrStaff();
+
+        return permissionList;
+    },
+
+    //return list if HR Staff
+    _getHrStaff: function() {
+        var permissionList = '';
+        var asmtGrp = 'd1b0b5c13784f2803955261953990e54'; //SISK HR
+
+        grGrpMember = new GlideRecord('sys_user_grmember');
+        grGrpMember.addQuery('group', asmtGrp);
+        grGrpMember.query();
+
+        while (grGrpMember.next()) {
+            permissionList += grGrpMember.user + ','; //user in assigment group
+        }
+
+        return permissionList;
+    },
+
+    type: 'SISK_HR_Contract_No_Ajax'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
         <sys_created_on>2017-05-26 14:46:58</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>5e76d6103783ba006f3c8d2754990e2f</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>SISK_HR_Contract_No_Ajax</sys_name>
         <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
         <sys_update_name>sys_script_include_5e76d6103783ba006f3c8d2754990e2f</sys_update_name>
-        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-        <sys_updated_on>2020-02-25 09:58:20</sys_updated_on>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2023-03-09 12:07:55</sys_updated_on>
     </sys_script_include>
 </record_update>

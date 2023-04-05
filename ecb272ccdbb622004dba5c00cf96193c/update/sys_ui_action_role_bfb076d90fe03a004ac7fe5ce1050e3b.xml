@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-01-25 12:38:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bfb076d90fe03a004ac7fe5ce1050e3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show Workflow.admin</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_ui_action display_value="Show Workflow">830114fe0f9fe200369a4c8b03050e00</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_bfb076d90fe03a004ac7fe5ce1050e3b</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-01-25 12:38:59</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+    </sys_ui_action_role>
+</record_update>

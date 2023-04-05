@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="c4f1574c87c75950b41dcbf90cbb35aa" sys_domain="global" table="x_sigr_sisk_hr_co_interview" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2023-03-09 12:04:39</sys_created_on>
+            <sys_id>1aa8135887e52910b41dcbf90cbb35f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_interview" sys_domain="global" view="Default view">c4f1574c87c75950b41dcbf90cbb35aa</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2023-03-09 12:04:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>candidate_name</element>
+            <position>1</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2023-03-09 12:04:39</sys_created_on>
+            <sys_id>9aa8135887e52910b41dcbf90cbb35f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_interview" sys_domain="global" view="Default view">c4f1574c87c75950b41dcbf90cbb35aa</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2023-03-09 12:04:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager_to_review</element>
+            <position>2</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2023-03-09 12:04:39</sys_created_on>
+            <sys_id>1ea8135887e52910b41dcbf90cbb35f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_interview" sys_domain="global" view="Default view">c4f1574c87c75950b41dcbf90cbb35aa</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2023-03-09 12:04:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>watch_list</element>
+            <position>3</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2023-03-09 12:04:39</sys_created_on>
+            <sys_id>9ea8135887e52910b41dcbf90cbb35f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_interview" sys_domain="global" view="Default view">c4f1574c87c75950b41dcbf90cbb35aa</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2023-03-09 12:04:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2023-03-09 12:04:39</sys_created_on>
+            <sys_id>12a8135887e52910b41dcbf90cbb35f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_interview" sys_domain="global" view="Default view">c4f1574c87c75950b41dcbf90cbb35aa</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2023-03-09 12:04:39</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_score</element>
+            <position>5</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2023-03-09 12:04:39</sys_created_on>
+            <sys_id>92a8135887e52910b41dcbf90cbb35f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_interview" sys_domain="global" view="Default view">c4f1574c87c75950b41dcbf90cbb35aa</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2023-03-09 12:04:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>position</element>
+            <position>6</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2023-03-09 12:04:39</sys_created_on>
+            <sys_id>16a8135887e52910b41dcbf90cbb35f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_interview" sys_domain="global" view="Default view">c4f1574c87c75950b41dcbf90cbb35aa</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2023-03-09 12:04:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>7</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2023-03-09 12:04:39</sys_created_on>
+            <sys_id>96a8135887e52910b41dcbf90cbb35f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_interview" sys_domain="global" view="Default view">c4f1574c87c75950b41dcbf90cbb35aa</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2023-03-09 12:04:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_sigr_sisk_hr_co_interview</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-11-04 10:19:50</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>c4f1574c87c75950b41dcbf90cbb35aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sigr_sisk_hr_co_interview</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+            <sys_update_name>sys_ui_section_c4f1574c87c75950b41dcbf90cbb35aa</sys_update_name>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-11-04 10:19:50</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

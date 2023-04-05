@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_sigr_sisk_hr_co_authority_to_offer">phone_type=standard^ORcomputer_typeINlaptop,desktop^EQ<item endquery="false" field="phone_type" goto="false" newquery="false" operator="=" or="false" value="standard"/>
-            <item endquery="false" field="computer_type" goto="false" newquery="false" operator="IN" or="true" value="laptop,desktop"/>
+        <conditions table="x_sigr_sisk_hr_co_authority_to_offer">phone_type=standard^ORcomputer_typeINlaptop,desktop^EQ<item display_value="Standard Phone" endquery="false" field="phone_type" goto="false" newquery="false" operator="=" or="false" value="standard"/>
+            <item display_value="laptop,desktop" endquery="false" field="computer_type" goto="false" newquery="false" operator="IN" or="true" value="laptop,desktop"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
         <global>true</global>
         <inherit>false</inherit>
+        <isolate_script>false</isolate_script>
         <model_id/>
         <model_table/>
         <on_load>true</on_load>

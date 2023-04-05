@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="DELETE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>Job Family Primary</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_sigr_sisk_hr_co_job_fmaily_primary</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>callanra</sys_created_by>
+        <sys_created_on>2021-05-31 15:52:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>beff80901b60f410a91733a5464bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Job Family Primary</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sys_transform_map_beff80901b60f410a91733a5464bcbbb</sys_update_name>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2021-05-31 15:52:12</sys_updated_on>
+        <target_table>x_sigr_sisk_hr_co_job_family_primary</target_table>
+    </sys_transform_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</application>
+        <file_path/>
+        <instance_id>604366656f4d754023b2a9cc5d3ee405</instance_id>
+        <instance_name>siskgroup</instance_name>
+        <name>sys_transform_map_beff80901b60f410a91733a5464bcbbb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;Job Family Primary&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;x_sigr_sisk_hr_co_job_fmaily_primary&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;callanra&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-05-31 15:52:12&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;beff80901b60f410a91733a5464bcbbb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Job Family Primary&lt;/sys_name&gt;&lt;sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co"&gt;ecb272ccdbb622004dba5c00cf96193c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Sisk Hr Contracts"&gt;ecb272ccdbb622004dba5c00cf96193c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_beff80901b60f410a91733a5464bcbbb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;callanra&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-05-31 15:52:12&lt;/sys_updated_on&gt;&lt;target_table&gt;x_sigr_sisk_hr_co_job_family_primary&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>791894485</payload_hash>
+        <record_name>Job Family Primary</record_name>
+        <reverted_from/>
+        <source>fdbae3eb37a4b604d68998a543990e96</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>callanra</sys_created_by>
+        <sys_created_on>2021-05-31 15:52:12</sys_created_on>
+        <sys_id>6b1018901b60f410a91733a5464bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179c3201ea60000001</sys_recorded_at>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2021-05-31 15:52:12</sys_updated_on>
+        <type>Table Transform Map</type>
+        <update_guid>63101890bd60f410760059cc089eaa28</update_guid>
+        <update_guid_history>63101890bd60f410760059cc089eaa28:791894485</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>callanra</sys_created_by>
+        <sys_created_on>2021-05-31 15:56:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_transform_map">sys_transform_map</sys_db_object>
+        <sys_id>a7ec300fa68c41dc945575f906bbd5e4</sys_id>
+        <sys_metadata>beff80901b60f410a91733a5464bcbbb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Job Family Primary</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_scope_delete display_value="">3f57090c102344369a525bed60375e31</sys_scope_delete>
+        <sys_update_name>sys_transform_map_beff80901b60f410a91733a5464bcbbb</sys_update_name>
+        <sys_update_version display_value="sys_transform_map_beff80901b60f410a91733a5464bcbbb">6b1018901b60f410a91733a5464bcb28</sys_update_version>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2021-05-31 15:56:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

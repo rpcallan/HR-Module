@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true" audit="true" db_object_id="1998a26537013100d68998a543990ea8" label="Location" max_length="40" name="cmn_location" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Location Type" max_length="32" name="x_sigr_sisk_hr_co_location_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Office" sequence="0" value="office"/>
+                <element inactive_on_update="false" label="Site" sequence="1" value="site"/>
+            </choice>
+        </element>
+    </element>
+</database>

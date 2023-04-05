@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>sysapproval_approver</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<div>Hello,</div>
+<div>
+<p>&nbsp;</p>
+<p>You are receiving this e-mail&nbsp;to inform you that&nbsp;${sysapproval} has been approved</p>
+<p>We will now process&nbsp;and issue the contract</p>
+<p>&nbsp;</p>
+<p>Regards</p>
+<p>Human Resources</p>
+</div>
+<div>
+<div><hr /></div>
+</div>
+<div>&nbsp;</div>
+<div>Click here to view Approval Request:&nbsp;<span style="text-align: -webkit-left;">${CMS_URI+self_service/approval_detail}</span></div>
+<div>&nbsp;</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>ato.request.approved</name>
+        <sms_alternate/>
+        <subject>${sysapproval.sys_class_name} ${sysapproval} has been Approved</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-01-10 11:04:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bf4b8d240f1cb2004ac7fe5ce1050eb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ato.request.approved</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sysevent_email_template_bf4b8d240f1cb2004ac7fe5ce1050eb7</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-01-10 11:04:23</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

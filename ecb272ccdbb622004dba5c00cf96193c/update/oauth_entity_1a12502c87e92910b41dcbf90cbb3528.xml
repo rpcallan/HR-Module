@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>60</auth_code_lifespan>
+        <auth_url/>
+        <certificate_url/>
+        <client_id>d612502c03e92910c2c281df3b240628</client_id>
+        <client_secret>﷞﷟﷒87cb5e131befa0101ffd1069b04bcb2b﷬﷔1﷬﷭aipcYPSMo4P9RgahWWe64w==mhD-3mJhaFe3c8scnKgGqw7ldCpwvIDbf9s=﷮﷯</client_secret>
+        <client_uuid>9612502c87e92910b41dcbf90cbb3528</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>password</default_grant_type>
+        <id_token_lifespan>86400</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>60</message_signature_lifespan>
+        <name>Oracle P6 Cloud</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url/>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt/>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>callanra</sys_created_by>
+        <sys_created_on>2023-03-09 16:16:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1a12502c87e92910b41dcbf90cbb3528</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Oracle P6 Cloud</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>oauth_entity_1a12502c87e92910b41dcbf90cbb3528</sys_update_name>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2023-03-09 16:16:14</sys_updated_on>
+        <token_url/>
+        <type>client</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+</record_update>

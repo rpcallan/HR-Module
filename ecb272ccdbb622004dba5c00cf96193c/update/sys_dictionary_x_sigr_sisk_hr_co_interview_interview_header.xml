@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="interview_header" table="x_sigr_sisk_hr_co_interview">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Interview Header</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value>&lt;table&gt;&#13;
+&lt;tbody&gt;&#13;
+&lt;tr&gt;&lt;td style="border: solid #B00730 1.0pt; background: #B00730; padding: 0 5 0 5;"&gt;&lt;span style="color: white;"&gt;Reminder for interview panel to:&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&#13;
+&lt;tr&gt;&lt;td style="border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5 0 5;"&gt;Give an overview of the Company, Department, Team, Role&lt;/td&gt;&lt;/tr&gt;&#13;
+&lt;tr&gt;&lt;td style="border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5 0 5;"&gt;Give an overview on the project(s) or functional they could be involved in&lt;/td&gt;&lt;/tr&gt;&#13;
+&lt;tr&gt;&lt;td style="border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5 0 5;"&gt;Explain location / business need for flexibility&lt;/td&gt;&lt;/tr&gt;&#13;
+&lt;tr&gt;&lt;td style="border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5 0 5;"&gt;Explain hours of work&lt;/td&gt;&lt;/tr&gt;&#13;
+&lt;tr&gt;&lt;td style="border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5 0 5;"&gt;Provide overview of benefits package (&lt;a href="https://siskgroup.sharepoint.com/sites/iSiteKnowledge/Documents/15.%20HR-Our%20People%20Ref%20Docs/Rewards/Total%20Rewards%20-%20Ireland.pdf?CT=1678463782278&amp;OR=Outlook-Body&amp;CID=FF6D22FA-4D00-47EC-A45E-E9D2C0B828C4" target="_blank"&gt;Total Rewards - Ireland&lt;/a&gt; and &lt;a href="https://siskgroup.sharepoint.com/sites/iSiteKnowledge/Documents/15.%20HR-Our%20People%20Ref%20Docs/Rewards/Total%20Rewards%20-%20UK.pdf?CT=1678464021280&amp;OR=Outlook-Body&amp;CID=58F0772A-C8AF-4757-9829-031DB2BEE5B6" target="_blank"&gt;Total Rewards - UK)&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&#13;
+&lt;tr&gt;&lt;td style="border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5 0 5;"&gt;Provide an opportunity for the candidate to ask questions at the end of the interview&lt;/td&gt;&lt;/tr&gt;&#13;
+&lt;tr&gt;&lt;td style="border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5 0 5;"&gt;Ask if they have any holidays booked / planned?&lt;/td&gt;&lt;/tr&gt;&#13;
+&lt;tr&gt;&lt;td style="border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5 0 5;"&gt;Advise on the next stage of the process and when next contact will be made&lt;/td&gt;&lt;/tr&gt;&#13;
+&lt;tr&gt;&lt;td style="border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5 0 5; color: red"&gt;Once processed, all physcical copies of this form needs to be shredded and disposed of as confidential waste&lt;/td&gt;&lt;/tr&gt;&#13;
+&lt;tr&gt;&lt;td style="border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5 0 5; color: red"&gt;Be aware that this form can be disclosed to the interviewee under a Subject Access Request as a Right of access &lt;/td&gt;&lt;/tr&gt;&#13;
+&lt;/tbody&gt;&#13;
+&lt;/table&gt;</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>interview_header</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="HTML">html</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>1000</max_length>
+        <name>x_sigr_sisk_hr_co_interview</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>callanra</sys_created_by>
+        <sys_created_on>2022-11-07 11:54:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_name>Interview Header</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sys_dictionary_x_sigr_sisk_hr_co_interview_interview_header</sys_update_name>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2023-04-03 14:01:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+</record_update>

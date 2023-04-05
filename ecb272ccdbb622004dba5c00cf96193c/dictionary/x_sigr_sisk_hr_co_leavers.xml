@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="1d6fc68c37b193406f3c8d2754990e56" extends="task" label="Leavers" max_length="40" name="x_sigr_sisk_hr_co_leavers" text_index="true" type="collection">
+        <element label="Access Staff" max_length="4000" name="access_staff" reference="sys_user" type="glide_list"/>
+        <element label="Application Staff" max_length="4000" name="application_staff" reference="sys_user" type="glide_list"/>
+        <element label="Bike to Work" max_length="40" name="bike_to_work" read_only="true" type="boolean"/>
+        <element label="Calculate AL Balance" max_length="40" name="calculate_al_balance" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Change of Director" max_length="40" name="change_of_director" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Change of Manager" max_length="40" name="change_of_manager" read_only="true" type="boolean"/>
+        <element label="College Fees" max_length="40" name="college_fees" read_only="true" type="boolean"/>
+        <element label="Company Car" max_length="40" name="company_car" read_only="true" type="boolean"/>
+        <element label="Dongle" max_length="40" name="dongle" read_only="true" type="boolean"/>
+        <element label="Email" max_length="40" name="email" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Exit Interview Questionnaire " max_length="40" name="exit_interview_questionnaire" read_only="true" type="boolean"/>
+        <element label="Finance Staff" max_length="4000" name="finance_staff" reference="sys_user" type="glide_list"/>
+        <element label="Fleet Staff" max_length="4000" name="fleet_staff" reference="sys_user" type="glide_list"/>
+        <element label="Fuel Card" max_length="40" name="fuel_card" read_only="true" type="boolean"/>
+        <element label="Fuel Card Staff" max_length="4000" name="fuel_card_staff" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Further Education Last 2 Years" max_length="40" name="further_education_last_2_years" read_only="true" type="boolean"/>
+        <element label="Holiday Balance" max_length="40" name="holiday_balance" read_only="true" type="integer"/>
+        <element label="Holiday Balance (Days)" max_length="10" name="holiday_balance_days" read_only="true" type="string"/>
+        <element label="Holiday Balance (Hours)" max_length="10" name="holiday_balance_hours" read_only="true" type="string"/>
+        <element choice="1" label="Holiday Balance Type" max_length="40" name="holiday_balance_type" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Days" sequence="100" value="days"/>
+                <element inactive_on_update="false" label="Hours" sequence="200" value="hours"/>
+            </choice>
+        </element>
+        <element label="HR Staff" max_length="4000" name="hr_staff" reference="sys_user" type="glide_list"/>
+        <element label="HSEQ Staff" max_length="4000" name="hseq_staff" reference="sys_user" type="glide_list"/>
+        <element label="Income Tax Rebate" max_length="40" name="income_tax_rebate" read_only="true" type="boolean"/>
+        <element label="Insurance Claims" max_length="40" name="insurance_claims" read_only="true" type="boolean"/>
+        <element label="Job Title" max_length="100" name="job_title" read_only="true" type="string"/>
+        <element label="Keep Mobile" max_length="40" name="keep_mobile" read_only="true" type="boolean"/>
+        <element label="Keep Mobile Number" max_length="40" name="keep_mobile_number" read_only="true" type="boolean"/>
+        <element label="Laptop" max_length="40" name="laptop" read_only="true" type="boolean"/>
+        <element label="Last Date of Employment" max_length="40" name="last_date_of_employment" read_only="true" type="glide_date"/>
+        <element label="Last Date of Work" max_length="40" name="last_date_of_work" read_only="true" type="glide_date"/>
+        <element label="Leaver" max_length="32" name="leaver" read_only="true" reference="sys_user" type="reference"/>
+        <element choice="1" label="Leaver Type" max_length="40" name="leaver_type" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Employee" sequence="100" value="employee"/>
+                <element inactive_on_update="false" label="Contractor" sequence="200" value="contractor"/>
+            </choice>
+        </element>
+        <element label="Leaving Date" max_length="40" name="leaving_date" read_only="true" type="glide_date"/>
+        <element label="List of Other Devices" max_length="400" name="list_of_other_devices" read_only="true" type="string"/>
+        <element label="Mobile Number" max_length="80" name="mobile_number" read_only="true" type="string"/>
+        <element label="Mobile Phone" max_length="40" name="mobile_phone" read_only="true" type="boolean"/>
+        <element label="Name" max_length="80" name="name" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="New Director" max_length="32" name="new_director" read_only="true" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="New Manager" max_length="32" name="new_manager" read_only="true" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Notice Period Worked" max_length="40" name="notice_period_worked" read_only="true" type="boolean"/>
+        <element label="Not Listed" max_length="40" name="not_listed" read_only="true" type="boolean"/>
+        <element label="Other Devices" max_length="40" name="other_devices" read_only="true" type="boolean"/>
+        <element label="Other Finance" max_length="40" name="other_finance" read_only="true" type="boolean"/>
+        <element label="Other Financial Details" max_length="400" name="other_financial_details" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Reason" max_length="160" name="other_reason" read_only="true" type="string"/>
+        <element label="Paid In Lieu" max_length="40" name="paid_in_lieu" read_only="true" type="boolean"/>
+        <element label="Paid In Lieu Details" max_length="1000" name="paid_in_lieu_details" read_only="true" type="string"/>
+        <element label="Parking Fines" max_length="40" name="parking_fines" read_only="true" type="boolean"/>
+        <element label="Payroll Staff" max_length="4000" name="payroll_staff" reference="sys_user" type="glide_list"/>
+        <element label="Petty Cash" max_length="40" name="petty_cash" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Reason For Leaving" max_length="40" name="reason_for_leaving" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Resignation" sequence="0" value="resignation"/>
+                <element inactive_on_update="false" label="Redundancy" sequence="1" value="redundancy"/>
+                <element inactive_on_update="false" label="Retirement" sequence="2" value="retirement"/>
+                <element inactive_on_update="false" label="End of Contract" sequence="3" value="end_of_contract"/>
+                <element inactive_on_update="false" label="End of placement" sequence="4" value="end_of_placement"/>
+                <element inactive_on_update="false" label="Dismissal" sequence="5" value="dismissal"/>
+                <element inactive_on_update="false" label="Unsatisfactory Probation" sequence="6" value="unsatisfactory_probation"/>
+                <element inactive="true" inactive_on_update="true" label="Transfer to UK" sequence="7" value="uk_transfer"/>
+                <element inactive="true" inactive_on_update="true" label="Transfer to IRE" sequence="8" value="ie_transfer"/>
+                <element inactive_on_update="false" label="Unsatisfactory Performance" sequence="9" value="unsatisfactory_performance"/>
+                <element inactive="true" inactive_on_update="true" label="Other" sequence="10" value="other"/>
+            </choice>
+        </element>
+        <element choice="1" label="Reason for resignation" max_length="80" name="reason_for_resignation" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Career Break" sequence="1" value="resignation_career_break"/>
+                <element inactive_on_update="false" label="Change of Career or Industry" sequence="2" value="resignation_change_career"/>
+                <element inactive_on_update="false" label="Lack of Career Opportunities" sequence="3" value="resignation_lack_opportunities"/>
+                <element inactive_on_update="false" label="Pay and Benefits" sequence="4" value="resignation_pay"/>
+                <element inactive_on_update="false" label="Personal Reasons" sequence="5" value="resignation_personal"/>
+                <element inactive_on_update="false" label="Relationship with Manager" sequence="6" value="resignation_manager"/>
+                <element inactive_on_update="false" label="Work or Project Environment" sequence="7" value="resignation_environment"/>
+                <element inactive_on_update="false" label="Work Life Balance – Commute" sequence="8" value="resignation_commute"/>
+                <element inactive_on_update="false" label="Work Life Balance – Long Hours" sequence="9" value="resignation_hours"/>
+                <element inactive_on_update="false" label="Work Life Balance – Offer of Remote or Flexible Working" sequence="10" value="resignation_remote"/>
+                <element inactive_on_update="false" label="Inclusiveness / team culture" sequence="11" value="inclusiveness_teamculture"/>
+            </choice>
+        </element>
+        <element label="Redirect Email" max_length="40" name="redirect_email" read_only="true" type="boolean"/>
+        <element label="Redirect Email To" max_length="32" name="redirect_email_to" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Regional Staff" max_length="4000" name="regional_staff" reference="sys_user" type="glide_list"/>
+        <element dependent="company" dependent_on_field="company" label="Region/Division" max_length="32" name="region_division" read_only="true" reference="x_sigr_sisk_hr_co_region_division" type="reference" use_dependent_field="true"/>
+        <element label="Request Item" max_length="32" name="request_item" read_only="true" reference="sc_req_item" type="reference"/>
+        <element label="Send Notification" max_length="40" name="send_notification" type="boolean"/>
+        <element label="Staff Loan/Float" max_length="40" name="staff_loan_float" read_only="true" type="boolean"/>
+        <element label="Staff Purchase" max_length="40" name="staff_purchase" read_only="true" type="boolean"/>
+        <element label="Tablet" max_length="40" name="tablet" read_only="true" type="boolean"/>
+        <element label="Reprocess Leaver Request" max_length="40" name="u_reprocess_leaver_request" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Would you Re-hire" max_length="40" name="would_you_rehire" read_only="true" type="boolean"/>
+    </element>
+</database>

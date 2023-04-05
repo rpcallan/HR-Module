@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>list_of_other_devices</field>
         <mandatory>ignore</mandatory>
@@ -18,7 +19,7 @@
         <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
         <sys_updated_on>2018-05-02 15:50:13</sys_updated_on>
         <table>x_sigr_sisk_hr_co_leavers</table>
-        <ui_policy display_value="Other Reason">4efa2a860fb1170004a6716ce1050e17</ui_policy>
+        <ui_policy display_value="Other Devices">4efa2a860fb1170004a6716ce1050e17</ui_policy>
         <visible>true</visible>
     </sys_ui_policy_action>
 </record_update>

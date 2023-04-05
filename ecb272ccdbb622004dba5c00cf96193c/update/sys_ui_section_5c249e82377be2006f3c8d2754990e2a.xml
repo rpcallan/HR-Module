@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="5c249e82377be2006f3c8d2754990e2a" sys_domain="global" table="x_sigr_sisk_hr_co_coins_projects" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>job_number</element>
+            <position>0</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2017-03-06 10:27:11</sys_created_on>
+            <sys_id>d332149e0f9932004ac7fe5ce1050e46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_coins_projects" sys_domain="global" view="Default view">5c249e82377be2006f3c8d2754990e2a</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2017-03-06 10:27:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>region_division</element>
+            <position>1</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2017-03-06 10:27:11</sys_created_on>
+            <sys_id>5732149e0f9932004ac7fe5ce1050e46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_coins_projects" sys_domain="global" view="Default view">5c249e82377be2006f3c8d2754990e2a</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2017-03-06 10:27:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>2</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2017-03-06 10:27:11</sys_created_on>
+            <sys_id>d732149e0f9932004ac7fe5ce1050e46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_coins_projects" sys_domain="global" view="Default view">5c249e82377be2006f3c8d2754990e2a</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2017-03-06 10:27:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>3</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2017-03-06 10:27:11</sys_created_on>
+            <sys_id>5b32149e0f9932004ac7fe5ce1050e46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_coins_projects" sys_domain="global" view="Default view">5c249e82377be2006f3c8d2754990e2a</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2017-03-06 10:27:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2017-03-06 10:27:11</sys_created_on>
+            <sys_id>db32149e0f9932004ac7fe5ce1050e46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_coins_projects" sys_domain="global" view="Default view">5c249e82377be2006f3c8d2754990e2a</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2017-03-06 10:27:11</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_name</element>
+            <position>5</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2017-03-06 10:27:11</sys_created_on>
+            <sys_id>5f32149e0f9932004ac7fe5ce1050e46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_coins_projects" sys_domain="global" view="Default view">5c249e82377be2006f3c8d2754990e2a</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2017-03-06 10:27:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>6</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2017-03-06 10:27:11</sys_created_on>
+            <sys_id>df32149e0f9932004ac7fe5ce1050e46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_coins_projects" sys_domain="global" view="Default view">5c249e82377be2006f3c8d2754990e2a</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2017-03-06 10:27:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>7</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2017-03-06 10:27:11</sys_created_on>
+            <sys_id>5332149e0f9932004ac7fe5ce1050e47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_coins_projects" sys_domain="global" view="Default view">5c249e82377be2006f3c8d2754990e2a</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2017-03-06 10:27:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bi360_entity</element>
+            <position>8</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2017-03-06 10:27:11</sys_created_on>
+            <sys_id>d332149e0f9932004ac7fe5ce1050e47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_coins_projects" sys_domain="global" view="Default view">5c249e82377be2006f3c8d2754990e2a</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2017-03-06 10:27:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>id</element>
+            <position>9</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2017-03-06 10:27:11</sys_created_on>
+            <sys_id>5732149e0f9932004ac7fe5ce1050e47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_coins_projects" sys_domain="global" view="Default view">5c249e82377be2006f3c8d2754990e2a</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2017-03-06 10:27:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_company</element>
+            <position>10</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2017-10-23 16:47:06</sys_created_on>
+            <sys_id>38709b2c370283c0d68998a543990e12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_coins_projects" sys_domain="global" view="Default view">5c249e82377be2006f3c8d2754990e2a</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2017-10-23 16:47:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_sigr_sisk_hr_co_coins_projects</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2016-12-21 11:42:02</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>5c249e82377be2006f3c8d2754990e2a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>x_sigr_sisk_hr_co_coins_projects</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+            <sys_update_name>sys_ui_section_5c249e82377be2006f3c8d2754990e2a</sys_update_name>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2017-03-06 10:27:11</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

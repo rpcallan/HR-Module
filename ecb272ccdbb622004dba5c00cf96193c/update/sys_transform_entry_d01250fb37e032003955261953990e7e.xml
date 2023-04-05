@@ -5,7 +5,7 @@
         <coalesce_case_sensitive>false</coalesce_case_sensitive>
         <coalesce_empty_fields>false</coalesce_empty_fields>
         <date_format>yyyy-MM-dd hh:mm:ss</date_format>
-        <map display_value="COINS Projects Inport">38e110fb37e032003955261953990e59</map>
+        <map display_value="COINS Projects Import">38e110fb37e032003955261953990e59</map>
         <reference_value_field/>
         <source_field>u_country</source_field>
         <source_script>answer = (function transformEntry(source) {
@@ -18,7 +18,7 @@
         <sys_class_name>sys_transform_entry</sys_class_name>
         <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
         <sys_created_on>2017-02-01 19:30:14</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d01250fb37e032003955261953990e7e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>u_country</sys_name>

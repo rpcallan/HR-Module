@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="DELETE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>Director Import</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_sigr_sisk_hr_co_director_import</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-01-03 10:12:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>721c709e374032006f3c8d2754990e0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Director Import</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sys_transform_map_721c709e374032006f3c8d2754990e0b</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-01-03 10:12:18</sys_updated_on>
+        <target_table>x_sigr_sisk_hr_co_sisk_directors</target_table>
+    </sys_transform_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</application>
+        <file_path/>
+        <instance_id>604366656f4d754023b2a9cc5d3ee405</instance_id>
+        <instance_name>siskgroup</instance_name>
+        <name>sys_transform_map_721c709e374032006f3c8d2754990e0b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;Director Import&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;x_sigr_sisk_hr_co_director_import&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;r.callan@siskgroup.ie&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-01-03 10:12:18&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;721c709e374032006f3c8d2754990e0b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Director Import&lt;/sys_name&gt;&lt;sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co"&gt;ecb272ccdbb622004dba5c00cf96193c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Sisk Hr Contracts"&gt;ecb272ccdbb622004dba5c00cf96193c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_721c709e374032006f3c8d2754990e0b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;r.callan@siskgroup.ie&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-01-03 10:12:18&lt;/sys_updated_on&gt;&lt;target_table&gt;x_sigr_sisk_hr_co_sisk_directors&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2117974503</payload_hash>
+        <record_name>Director Import</record_name>
+        <reverted_from/>
+        <source>ecb272ccdbb622004dba5c00cf96193c</source>
+        <source_table>sys_store_app</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2017-01-03 10:12:18</sys_created_on>
+        <sys_id>f070af1a376c0f403955261953990e3f</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>15963d0afd00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Table Transform Map</type>
+        <update_guid/>
+        <update_guid_history/>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-08-15 14:52:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_transform_map">sys_transform_map</sys_db_object>
+        <sys_id>02dfb17c24c842d180fe86ee200a2c11</sys_id>
+        <sys_metadata>721c709e374032006f3c8d2754990e0b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Director Import</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_scope_delete display_value="">3f57090c102344369a525bed60375e31</sys_scope_delete>
+        <sys_update_name>sys_transform_map_721c709e374032006f3c8d2754990e0b</sys_update_name>
+        <sys_update_version display_value="sys_transform_map_721c709e374032006f3c8d2754990e0b">f070af1a376c0f403955261953990e3f</sys_update_version>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-08-15 14:52:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

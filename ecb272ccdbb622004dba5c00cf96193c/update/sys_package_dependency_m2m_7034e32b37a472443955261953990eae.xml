@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">0676ee2137013100d68998a543990ea8</dependency>
+        <min_version/>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-02-01 16:09:50</sys_created_on>
+        <sys_id>7034e32b37a472443955261953990eae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-02-01 16:09:50</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

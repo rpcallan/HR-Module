@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>address_line_3</field>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
         <sys_created_on>2017-01-31 12:39:48</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>568a61db3728fa006f3c8d2754990e63</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>address_line_3</sys_name>

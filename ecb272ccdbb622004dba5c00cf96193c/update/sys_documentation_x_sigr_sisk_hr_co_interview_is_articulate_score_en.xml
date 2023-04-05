@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="is_articulate_score" label="Score (1-5)" language="en" table="x_sigr_sisk_hr_co_interview">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>is_articulate_score</element>
+            <help/>
+            <hint/>
+            <label>Score (1-5)</label>
+            <language>en</language>
+            <name>x_sigr_sisk_hr_co_interview</name>
+            <plural>Score (1-5)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-11-04 10:37:25</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Score (1-5)</sys_name>
+            <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+            <sys_update_name>sys_documentation_x_sigr_sisk_hr_co_interview_is_articulate_score_en</sys_update_name>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-11-04 11:50:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

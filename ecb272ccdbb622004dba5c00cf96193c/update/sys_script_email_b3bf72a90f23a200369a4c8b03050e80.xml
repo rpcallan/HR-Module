@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>ato_sysapproval_approver_script</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[var item = new GlideRecord("x_sigr_sisk_hr_co_authority_to_offer");
+item.addQuery("sys_id", current.sysapproval);
+item.query();
+while(item.next()) {
+	template.print('<table style="border: 1px solid #707070; padding: 3px 7px 2px 7px; background-color: #d1d1d1;">');
+	template.print('<tr><td>Name:</td><td>' + item.first_name + ' ' + item.surname + '</td></tr>');
+	template.print('<tr><td>Company:</td><td>' + item.company.name + '</td></tr>');
+	template.print('<tr><td>Region/Division:</td><td>' + item.region_division.name + '</td></tr>');
+	template.print('<tr><td>Department:</td><td>' + item.department.name + '</td></tr>');
+	if(item.project != ''){
+		template.print('<tr><td>Project:</td><td>' + item.project.name + '</td></tr>');
+	}
+	template.print('<tr><td>Job Title:</td><td>' + item.job_title_text + '</td></tr>');
+	template.print('<tr><td>Basic Salary:</td><td>' + item.currency + " " + item.basic_salary + '</td></tr>');
+	template.print('<tr><td>Grade:</td><td>' + item.grade.getDisplayValue() + '</td></tr>');
+	if(item.grade.match(/^car_all.*$/)){
+		template.print('<tr><td>Car Allowance:</td><td>' + item.currency + ' ' + item.allowance + '</td></tr>');
+	}
+	template.print('<tr><td>Reporting Manager:</td><td>' + item.reporting_manager.name + '</td></tr>');
+	if(item.local_director != ''){
+		template.print('<tr><td>Regional Director:</td><td>' + item.local_director.name + '</td></tr>');
+	}
+	template.print('</table>');
+}]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2016-12-07 15:19:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b3bf72a90f23a200369a4c8b03050e80</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>ato_sysapproval_approver_script</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sys_script_email_b3bf72a90f23a200369a4c8b03050e80</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-02-01 22:20:57</sys_updated_on>
+    </sys_script_email>
+</record_update>

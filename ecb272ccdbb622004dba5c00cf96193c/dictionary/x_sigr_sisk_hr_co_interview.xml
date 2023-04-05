@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="92560f0087c75950b41dcbf90cbb353f" label="Interview" max_length="40" name="x_sigr_sisk_hr_co_interview" type="collection">
+        <element label="Candidate Home Location" max_length="100" name="candidate_home_location" type="string"/>
+        <element label="Candidate Name" max_length="100" name="candidate_name" type="string"/>
+        <element attributes="ref_sequence=order" choice="1" label="Competency" max_length="32" name="competency_1" reference="x_sigr_sisk_hr_co_competency" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference">
+            <choice/>
+        </element>
+        <element attributes="ref_sequence=order" choice="1" label="Competency" max_length="32" name="competency_2" reference="x_sigr_sisk_hr_co_competency" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference">
+            <choice/>
+        </element>
+        <element attributes="ref_sequence=order" choice="1" label="Competency" max_length="32" name="competency_3" reference="x_sigr_sisk_hr_co_competency" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference">
+            <choice/>
+        </element>
+        <element label="Competency Evidence" max_length="1000" name="competency_evidence_1" type="string"/>
+        <element label="Competency Evidence" max_length="1000" name="competency_evidence_2" type="string"/>
+        <element label="Competency Evidence" max_length="1000" name="competency_evidence_3" type="string"/>
+        <element label="Available Competency Questions" max_length="4000" name="competency_question_1" read_only="true" type="html"/>
+        <element dependent="competency_2" dependent_on_field="competency_2" label="Available Competency Questions" max_length="4000" name="competency_question_2" read_only="true" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="html" use_dependent_field="true"/>
+        <element dependent="competency_3" dependent_on_field="competency_3" label="Available Competency Questions" max_length="4000" name="competency_question_3" read_only="true" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="html" use_dependent_field="true"/>
+        <element choice="1" label="Competency Score (1-5)" max_length="40" name="competency_score_1" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element choice="1" label="Competency Score (1-5)" max_length="40" name="competency_score_2" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element choice="1" label="Competency Score (1-5)" max_length="40" name="competency_score_3" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element label="CSCS / SMSTS / SSST / Safepass - Status &amp; Expiry Date" max_length="240" name="cscs_smsts_ssst_safepass_status_expiry_date" type="string"/>
+        <element choice="1" label="Driving Licence" max_length="40" name="driving_licence" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="Evidence" max_length="1000" name="energy_and_attitude" type="string"/>
+        <element default="Overall assessment of energy, attitude, and level of enthusiasm for the role" label="Energy And Attitude Question" max_length="240" name="energy_and_attitude_question" read_only="true" type="string"/>
+        <element choice="1" label="Score (1-5)" max_length="40" name="energy_and_attitude_score" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element choice="1" label="Has Required Qualifications" max_length="40" name="has_required_qualifications" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="Immigration / Visa Status" max_length="240" name="immigration_visa_status" type="string"/>
+        <element label="Interviewers Notes" max_length="8000" name="interviewers_notes" type="string"/>
+        <element label="Interview Date" max_length="40" name="interview_date" type="glide_date"/>
+        <element default="&lt;table&gt;&#13;&#10;&lt;tbody&gt;&#13;&#10;&lt;tr&gt;&lt;td style=&quot;border: solid #B00730 1.0pt; background: #B00730; padding: 0 5 0 5;&quot;&gt;&lt;span style=&quot;color: white;&quot;&gt;Reminder for interview panel to:&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&#10;&lt;tr&gt;&lt;td style=&quot;border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5 0 5;&quot;&gt;Give an overview of the Company, Department, Team, Role&lt;/td&gt;&lt;/tr&gt;&#13;&#10;&lt;tr&gt;&lt;td style=&quot;border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5 0 5;&quot;&gt;Give an overview on the project(s) or functional they could be involved in&lt;/td&gt;&lt;/tr&gt;&#13;&#10;&lt;tr&gt;&lt;td style=&quot;border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5 0 5;&quot;&gt;Explain location / business need for flexibility&lt;/td&gt;&lt;/tr&gt;&#13;&#10;&lt;tr&gt;&lt;td style=&quot;border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5 0 5;&quot;&gt;Explain hours of work&lt;/td&gt;&lt;/tr&gt;&#13;&#10;&lt;tr&gt;&lt;td style=&quot;border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5 0 5;&quot;&gt;Provide overview of benefits package (&lt;a href=&quot;https://siskgroup.sharepoint.com/sites/iSiteKnowledge/Documents/15.%20HR-Our%20People%20Ref%20Docs/Rewards/Total%20Rewards%20-%20Ireland.pdf?CT=1678463782278&amp;OR=Outlook-Body&amp;CID=FF6D22FA-4D00-47EC-A45E-E9D2C0B828C4&quot; target=&quot;_blank&quot;&gt;Total Rewards - Ireland&lt;/a&gt; and &lt;a href=&quot;https://siskgroup.sharepoint.com/sites/iSiteKnowledge/Documents/15.%20HR-Our%20People%20Ref%20Docs/Rewards/Total%20Rewards%20-%20UK.pdf?CT=1678464021280&amp;OR=Outlook-Body&amp;CID=58F0772A-C8AF-4757-9829-031DB2BEE5B6&quot; target=&quot;_blank&quot;&gt;Total Rewards - UK)&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&#13;&#10;&lt;tr&gt;&lt;td style=&quot;border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5 0 5;&quot;&gt;Provide an opportunity for the candidate to ask questions at the end of the interview&lt;/td&gt;&lt;/tr&gt;&#13;&#10;&lt;tr&gt;&lt;td style=&quot;border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5 0 5;&quot;&gt;Ask if they have any holidays booked / planned?&lt;/td&gt;&lt;/tr&gt;&#13;&#10;&lt;tr&gt;&lt;td style=&quot;border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5 0 5;&quot;&gt;Advise on the next stage of the process and when next contact will be made&lt;/td&gt;&lt;/tr&gt;&#13;&#10;&lt;tr&gt;&lt;td style=&quot;border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5 0 5; color: red&quot;&gt;Once processed, all physcical copies of this form needs to be shredded and disposed of as confidential waste&lt;/td&gt;&lt;/tr&gt;&#13;&#10;&lt;tr&gt;&lt;td style=&quot;border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5 0 5; color: red&quot;&gt;Be aware that this form can be disclosed to the interviewee under a Subject Access Request as a Right of access &lt;/td&gt;&lt;/tr&gt;&#13;&#10;&lt;/tbody&gt;&#13;&#10;&lt;/table&gt;" label="Interview Header" max_length="1000" name="interview_header" read_only="true" type="html"/>
+        <element label="Interview Notes Completed By" max_length="100" name="interview_notes_completed_by" type="string"/>
+        <element label="Interview Notes Completed Date" max_length="40" name="interview_notes_completed_date" type="glide_date"/>
+        <element choice="1" label="Interview Outcome " max_length="40" name="interview_outcome" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Offer Position" sequence="0" value="offer_position"/>
+                <element inactive_on_update="false" label="Reject" sequence="1" value="reject"/>
+                <element inactive_on_update="false" label="Recommend for 2nd Interview" sequence="2" value="2nd_interview"/>
+                <element inactive_on_update="false" label="Recommend elsewhere in Sisk &amp; potential region / location" sequence="3" value="elsewhere"/>
+            </choice>
+        </element>
+        <element label="Interview Panel" max_length="1000" name="interview_panel" type="string"/>
+        <element default="&lt;table style=&quot;border-collapse: collapse; width: 316pt;&quot; border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width: 78pt;&quot; /&gt; &lt;col style=&quot;width: 119pt;&quot; span=&quot;2&quot; /&gt;&lt;/colgroup&gt;&#13;&#10;&lt;tbody&gt;&#13;&#10;&lt;tr style=&quot;height: 17.25pt;&quot;&gt;&#13;&#10;&lt;td style=&quot;width: 316pt; font-size: 13pt; font-weight: bold; text-decoration: underline; text-align: left; vertical-align: top; padding-top: 1px; padding-right: 1px; padding-left: 1px; color: black; font-style: normal; font-family: Calibri, sans-serif; border: none; white-space: nowrap;&quot; colspan=&quot;3&quot;&gt;Interview Q's selection:&lt;/td&gt;&#13;&#10;&lt;/tr&gt;&#13;&#10;&lt;tr style=&quot;height: 15.0pt;&quot;&gt;&#13;&#10;&lt;td style=&quot;text-align: left; vertical-align: top; padding-top: 1px; padding-right: 1px; padding-left: 1px; color: black; font-size: 11pt; font-weight: 400; font-style: normal; font-family: Calibri, sans-serif; border: none; white-space: nowrap;&quot; colspan=&quot;3&quot;&gt;Select the 3 most important competencies for the role from the Career Toolkit (highlighted in grey below)&lt;/td&gt;&#13;&#10;&lt;/tr&gt;&#13;&#10;&lt;tr style=&quot;height: 15.0pt;&quot;&gt;&#13;&#10;&lt;td style=&quot;text-align: left; vertical-align: top; padding-top: 1px; padding-right: 1px; padding-left: 1px; color: black; font-size: 11pt; font-weight: 400; font-style: normal; font-family: Calibri, sans-serif; border: none; white-space: nowrap;&quot; colspan=&quot;3&quot;&gt;The key elements of the interview are - CV discussion, 2 x technical questions and 3 x competency questions.&lt;/td&gt;&#13;&#10;&lt;/tr&gt;&#13;&#10;&lt;tr style=&quot;height: 15.0pt;&quot;&gt;&#13;&#10;&lt;td style=&quot;text-align: left; vertical-align: top; padding-top: 1px; padding-right: 1px; padding-left: 1px; color: black; font-size: 11pt; font-weight: 400; font-style: normal; font-family: Calibri, sans-serif; border: none; white-space: nowrap;&quot; colspan=&quot;3&quot;&gt;Make summary short notes on the interview form and attach to the ATO, along with the CV,&amp;nbsp; when seeking approval to hire.&lt;/td&gt;&#13;&#10;&lt;/tr&gt;&#13;&#10;&lt;/tbody&gt;&#13;&#10;&lt;/table&gt;" label="Interview Question Selection" max_length="65536" name="interview_question_selection" read_only="true" type="html"/>
+        <element choice="1" label="Interview Round" max_length="40" name="interview_round" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="-- New choice --" sequence="0" value="-- New choice --"/>
+                <element inactive_on_update="false" label="1st Round" sequence="0" value="1st_round"/>
+                <element inactive_on_update="false" label="2nd Round" sequence="1" value="2nd_round"/>
+            </choice>
+        </element>
+        <element label="Evidence" max_length="1000" name="is_articulate" type="string"/>
+        <element default="Is articulate in how the candidate tells the story of their career to date (CV)" label="Is Articulate Question" max_length="240" name="is_articulate_question" read_only="true" type="string"/>
+        <element choice="1" label="Score (1-5)" max_length="40" name="is_articulate_score" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element label="Location" max_length="100" name="location" type="string"/>
+        <element label="Manager To Review" max_length="32" name="manager_to_review" reference="sys_user" reference_qual="active=true^company.x_sigr_sisk_hr_co_customer_type=construction^EQ" reference_qual_condition="active=true^company.x_sigr_sisk_hr_co_customer_type=construction^EQ" type="reference"/>
+        <element label="Notice Period / Availability" max_length="240" name="notice_period_availability" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Opened By" max_length="32" name="opened_by" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Position" max_length="240" name="position" type="string"/>
+        <element label="Evidence" max_length="1000" name="professional_qualifications" type="string"/>
+        <element default="Professional Qualifications, Continuous Professional Development (CPD) and Sectoral Experience." label="Professional Qualifications Question" max_length="240" name="professional_qualifications_question" read_only="true" type="string"/>
+        <element choice="1" label="Recruitment Type" max_length="40" name="recruitment_type" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="-- New choice --" sequence="0" value="-- New choice --"/>
+                <element inactive_on_update="false" label="Direct Applicant" sequence="0" value="direct"/>
+                <element inactive_on_update="false" label="Agency" sequence="1" value="agency"/>
+                <element inactive_on_update="false" label="Employee Referral" sequence="2" value="referral"/>
+            </choice>
+        </element>
+        <element label="Reference 1 details, confirm complete and outcome " max_length="1000" name="reference_1_details_confirm_complete_and_outcome" type="string"/>
+        <element label="Reference 2 details, confirm complete and outcome " max_length="1000" name="reference_2_details_confirm_complete_and_outcome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Evidence" max_length="1000" name="role_specific_q1" type="string"/>
+        <element label="Role Specific Q1 Question" max_length="240" name="role_specific_q1_question" type="string"/>
+        <element choice="1" label="Score (1-5)" max_length="40" name="role_specific_q1_score" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element label="Evidence" max_length="1000" name="role_specific_q2" type="string"/>
+        <element label="Role Specific Q2 Question" max_length="240" name="role_specific_q2_question" type="string"/>
+        <element choice="1" label="Score (1-5)" max_length="40" name="role_specific_q2_score" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element label="Salary / Package Expectations" max_length="240" name="salary_package_expectations" type="string"/>
+        <element default="&lt;table&gt;&#13;&#10;&lt;tbody&gt;&#13;&#10;&lt;tr&gt;&#13;&#10;&lt;td style=&quot;border: solid #B00730 1.0pt; background: #B00730; padding: 0 5; text-align: center;&quot; colspan=&quot;5&quot;&gt;&#13;&#10;&lt;strong&gt;&lt;span style=&quot;color: white;&quot;&gt;Assessment Scoring (1-5)&lt;/span&gt;&lt;/strong&gt;&#13;&#10;&lt;/td&gt;&#13;&#10;&lt;/tr&gt;&#13;&#10;&lt;tr&gt;&#13;&#10;&lt;td style=&quot;border: solid #D9D9D9 1.0pt; border-top: none; background: #B00730; padding: 0 5; text-align: center;&quot; width=&quot;150px&quot;&gt;&#13;&#10;&lt;strong&gt;&lt;span style=&quot;font-size: 10.0pt; color: white;&quot;&gt;1- No Evidence&lt;/span&gt;&lt;/strong&gt;&#13;&#10;&lt;/td&gt;&#13;&#10;&lt;td style=&quot;border: solid #D9D9D9 1.0pt; border-top: none; background: #B00730; padding: 0 5; text-align: center;&quot; width=&quot;150px&quot;&gt;&#13;&#10;&lt;strong&gt;&lt;span style=&quot;color: white;&quot;&gt;2 - Limited Evidence&lt;/span&gt;&lt;/strong&gt;&#13;&#10;&lt;/td&gt;&#13;&#10;&lt;td style=&quot;border: solid #D9D9D9 1.0pt; border-top: none; background: #B00730; padding: 0 5; text-align: center;&quot; width=&quot;150px&quot;&gt;&#13;&#10;&lt;strong&gt;&lt;span style=&quot;color: white;&quot;&gt;3 - Average&lt;/span&gt;&lt;/strong&gt;&#13;&#10;&lt;/td&gt;&#13;&#10;&lt;td style=&quot;border: solid #D9D9D9 1.0pt; border-top: none; background: #B00730; padding: 0 5; text-align: center;&quot; width=&quot;150px&quot;&gt;&#13;&#10;&lt;strong&gt;&lt;span style=&quot;color: white;&quot;&gt;4 - Strong&lt;/span&gt;&lt;/strong&gt;&#13;&#10;&lt;/td&gt;&#13;&#10;&lt;td style=&quot;border: solid #D9D9D9 1.0pt; border-top: none; background: #B00730; padding: 0 5; text-align: center;&quot; width=&quot;150px&quot;&gt;&#13;&#10;&lt;strong&gt;&lt;span style=&quot;color: white;&quot;&gt;5 - Excellent&lt;/span&gt;&lt;/strong&gt;&#13;&#10;&lt;/td&gt;&#13;&#10;&lt;/tr&gt;&#13;&#10;&lt;tr&gt;&#13;&#10;&lt;td style=&quot;border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5; text-align: center;&quot; valign=&quot;top&quot;&gt;No evidence provided&lt;/td&gt;&#13;&#10;&lt;td style=&quot;border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5; text-align: center;&quot; valign=&quot;top&quot;&gt;A few success criteria partially observed but many critical skills/behaviours omitted&lt;/td&gt;&#13;&#10;&lt;td style=&quot;border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5; text-align: center;&quot; valign=&quot;top&quot;&gt;Some success criteria fully or partially observed but some critical skills/behaviours omitted&lt;/td&gt;&#13;&#10;&lt;td style=&quot;border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5; text-align: center;&quot; valign=&quot;top&quot;&gt;Most success criteria observed in full&lt;/td&gt;&#13;&#10;&lt;td style=&quot;border: solid #D9D9D9 1.0pt; border-top: none; padding: 0 5; text-align: center;&quot; valign=&quot;top&quot;&gt;All success criteria observed in full and in some cases surpassed&lt;/td&gt;&#13;&#10;&lt;/tr&gt;&#13;&#10;&lt;/tbody&gt;" label="Scoring Overview" max_length="8000" name="scoring_overview" read_only="true" type="html"/>
+        <element label="Evidence" max_length="1000" name="sisk_values" type="string"/>
+        <element default="Examples of demonstrating Sisk Values (Care, Integrity, Excellence)" label="Sisk Values Question" max_length="240" name="sisk_values_question" read_only="true" type="string"/>
+        <element choice="1" label="Score (1-5)" max_length="40" name="sisk_values_score" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element label="Evidence" max_length="1000" name="technology_experience" type="string"/>
+        <element default="IT Skills / Technology Experience" label="Technology Experience Question" max_length="240" name="technology_experience_question" read_only="true" type="string"/>
+        <element choice="1" label="Score (1-5)" max_length="40" name="technology_experience_score" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element label="Total Score" max_length="40" name="total_score" read_only="true" type="integer"/>
+        <element label="Watch List" max_length="4000" name="watch_list" reference="sys_user" reference_qual="active=true^company.x_sigr_sisk_hr_co_customer_type=construction^EQ" reference_qual_condition="active=true^company.x_sigr_sisk_hr_co_customer_type=construction^EQ" type="glide_list"/>
+        <element label="Is Candidate willing to Travel" max_length="40" name="willing_to_travel" type="boolean"/>
+        <index name="index">
+            <element name="competency_1"/>
+        </index>
+        <index name="index2">
+            <element name="competency_2"/>
+        </index>
+        <index name="index3">
+            <element name="competency_3"/>
+        </index>
+        <index name="index4">
+            <element name="competency_question_1"/>
+        </index>
+        <index name="index5">
+            <element name="competency_question_2"/>
+        </index>
+        <index name="index6">
+            <element name="competency_question_3"/>
+        </index>
+        <index name="index7">
+            <element name="manager_to_review"/>
+        </index>
+        <index name="index8">
+            <element name="opened_by"/>
+        </index>
+    </element>
+</database>

@@ -5,30 +5,41 @@
         <coalesce_case_sensitive>false</coalesce_case_sensitive>
         <coalesce_empty_fields>false</coalesce_empty_fields>
         <date_format>yyyy-MM-dd hh:mm:ss</date_format>
-        <map display_value="COINS Projects Inport">38e110fb37e032003955261953990e59</map>
+        <map display_value="COINS Projects Import">38e110fb37e032003955261953990e59</map>
         <reference_value_field/>
         <source_field>u_region_division</source_field>
-        <source_script>answer = (function transformEntry(source) {
-
-	// Add your code here
-	return ""; // return the value to be put into the target field
-
+        <source_script>answer = (function transformEntry(source) {&#13;
+&#13;
+if(region){&#13;
+	var reg = new GlideRecord('x_sigr_sisk_hr_co_region_division');&#13;
+       reg.addQuery('u_code', source.region_division)&#13;
+      reg.query();&#13;
+&#13;
+     if(reg.next()){&#13;
+	return reg;&#13;
+     } else {&#13;
+       return ''; &#13;
+    }&#13;
+} else {&#13;
+       return '', //source.region_division; &#13;
+}&#13;
+&#13;
 })(source);</source_script>
         <source_table>x_sigr_sisk_hr_co_coins_project_import</source_table>
         <sys_class_name>sys_transform_entry</sys_class_name>
         <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
         <sys_created_on>2017-02-01 19:30:14</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>501250fb37e032003955261953990e7f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>u_region_division</sys_name>
         <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
         <sys_update_name>sys_transform_entry_501250fb37e032003955261953990e7f</sys_update_name>
-        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:30:14</sys_updated_on>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2021-04-22 13:52:29</sys_updated_on>
         <target_field>region_division</target_field>
         <target_table>x_sigr_sisk_hr_co_coins_projects</target_table>
         <use_source_script>false</use_source_script>

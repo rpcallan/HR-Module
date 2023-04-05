@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>generate.pdf</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Generate PDF</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[action.setRedirectURL(current);
+
+var q1 = 'Role Specific Tecnical Question Q1. Please enter question asked';
+if (current.role_specific_q1_question != '') {
+    q1 = current.role_specific_q1_question;
+}
+var q2 = 'Role Specific Tecnical Question Q2. Please enter question asked';
+if (current.role_specific_q2_question != '') {
+    q2 = current.role_specific_q2_question;
+}
+
+var style = '<style>';
+style += '.label {background: #B00730; color: #FFFFFF}';
+style += '.question {overflow-wrap: break-word; display: block; overflow: auto; white-space: pre;}';
+style += '.choices {word-break: break-word; max-width: 1000px;}';
+style += '.evidence {overflow-wrap: break-word; display: block; border: solid 1px; padding: 5px; min-height: 100px;overflow: auto; white-space: pre;}';
+style += '.score {display: block; border: solid 1px; padding: 5px; min-height: 100px;overflow: auto; white-space: pre;}';
+style += '.normal {display: block; border: solid 1px; padding: 5px; min-height: 20px;overflow: auto; white-space: pre;}';
+style += '.break  {page-break-after: always;}';
+style += '.strong  {font-weight: bold;}';
+style += '</style>';
+
+var html = style + '<div>';
+html += current.interview_header;
+html += '</div>';
+html += '<div><table>';
+html += '<tr><td width="150px" class="label">Candidate Name:</td><td width="350px" class="normal">' + current.candidate_name + '</td>';
+html += '<td width="150px" class="label">Position:</td><td width="350px" class="normal">' + current.position + '</td></tr>';
+html += '<tr><td class="label">Location:</td><td class="normal">' + current.location + '</td>';
+html += '<td class="label">Recruitment Type:</td><td class="normal">' + current.recruitment_type + '</td></tr>';
+html += '<tr><td class="label">Interview Panel:</td><td colspan="3" class="normal">' + current.interview_panel + '</td></tr>';
+html += '<tr><td class="label">Interview Date:</td><td class="normal">' + current.interview_date + '</td>';
+html += '<td class="label">Interview Round:</td><td class="normal">' + current.interview_round + '</tr>';
+html += '<tr><td class="label">Candidate Home Location:</td><td class="normal">' + current.candidate_home_location + '</td>';
+html += '<td class="label">Candidate Willing To Travel:</td><td class="normal">' + current.willing_to_travel + '</td></tr>';
+html += '</table></div>';
+
+html += '<div>';
+html += current.scoring_overview;
+html += '</div>';
+
+html += '<p class="choices">';
+html += current.interview_question_selection;
+html += '</p>';
+
+html += '<div class="break"></div>';
+
+html += '<div><h2>Technical Requirements</h2></div>';
+html += '<div><table>';
+html += '<thead>';
+html += '<tr><th width="800px" class="label">Evidence</th><th width="200px" class="label">Assessment Score (1-5)</th></tr>';
+html += '</thead>';
+html += '<tbody>';
+html += '<tr><td colspan="2"><span class="question">' + current.professional_qualifications_question + '</span></td></tr>';
+html += '<tr><td><span class="evidence">' + current.professional_qualifications + '</span></td>';
+html += '<td><span class="score">' + current.has_required_qualifications + '</span></td></tr>';
+html += '<tr><td><span colspan="2" class="question">' + current.is_articulate_question + '</span></td></tr>';
+html += '<tr><td><span class="evidence">' + current.is_articulate + '</span></td>';
+html += '<td><span class="score">' + current.is_articulate_score + '</span></td></tr>';
+html += '<tr><td><span colspan="2" class="question">' + q1 + '</span></td></tr>';
+html += '<tr><td><span class="evidence">' + current.role_specific_q1 + '</span></td>';
+html += '<td><span class="score">' + current.role_specific_q1_score + '</span></td></tr>';
+html += '<tr><td><span colspan="2" class="question">' + q2 + '</span></td>';
+html += '<tr><td><span class="evidence">' + current.role_specific_q2 + '</span></td>';
+html += '<td><span class="score">' + current.role_specific_q2_score + '</span></td></tr>';
+html += '<tr><td><span colspan="2" class="question">' + current.technology_experience_question + '</span></td></tr>';
+html += '<tr><td><span class="evidence">' + current.technology_experience + '</span></td>';
+html += '<td><span class="score">' + current.technology_experience_score + '</span></td></tr>';
+html += '</tbody></table></div>';
+
+html += '<div class="break"></div>';
+
+html += '<div><h2>Competencies / Behaviours</h2></div>';
+html += '<div><table>';
+html += '<thead>';
+html += '<tr><th width="800px" class="label">Evidence</th><th width="200px" class="label">Assessmet Score (1-5)</th></tr>';
+html += '</thead></table></div>';
+html += '<div class="question strong">' + current.competency_1.name + '</div>';
+html += '<div class="choices">' + current.competency_question_1 + '</div>';
+html += '<div><table><tbody>';
+html += '<tr><td width="800px" class="evidence">' + current.competency_evidence_1 + '</td>';
+html += '<td width="200px" class="score">' + current.competency_score_1 + '</td></tr>';
+html += '</tbody></table></div>';
+html += '<div class="question strong">' + current.competency_2.name + '</div>';
+html += '<div class="choices">' + current.competency_question_2 + '</div>';
+html += '<div><table><tbody>';
+html += '<tr><td width="800px" class="evidence">' + current.competency_evidence_2 + '</span></td>';
+html += '<td width="200px" class="score">' + current.competency_score_2 + '</span></td></tr>';
+html += '</tbody></table></div>';
+html += '<div class="question strong">' + current.competency_3.name + '</div>';
+html += '<div class="choices">' + current.competency_question_3 + '</div>';
+html += '<div><table><tbody>';
+html += '<tr><td width="800px" class="evidence">' + current.competency_evidence_3 + '</span></td>';
+html += '<td width="200px" class="score">' + current.competency_score_3 + '</span></td></tr>';
+html += '</tbody></table></div>';
+
+html += '<div class="break"></div>';
+
+html += '<div><h2>Cultural Fit</h2></div>';
+html += '<div><table>';
+html += '<thead>';
+html += '<tr><th width="800px" class="label">Evidence</th><th width="200px" class="label">Assessmet Score (1-5)</th></tr>';
+html += '</thead>';
+html += '<tbody>';
+html += '<tr><td colspan="2"><span class="question">' + current.sisk_values_question + '</td></tr>';
+html += '<tr><td><span class="evidence">' + current.sisk_values + '</td>';
+html += '<td><span class="score">' + current.sisk_values_score + '</td></tr>';
+html += '<tr><td><span colspan="2" class="question">' + current.energy_and_attitude_question + '</td></tr>';
+html += '<tr><td><span class="evidence">' + current.energy_and_attitude + '</td>';
+html += '<td><span class="score">' + current.energy_and_attitude_score + '</td></tr>';
+html += '</tbody></table></div>';
+
+html += '<div><h2>Candidate Status</h2></div>';
+html += '<div><table>';
+html += '<tr><td width="150px" class="label">Immigration / Visa Status:</td><td width="350px" class="normal">' + current.immigration_visa_status + '</td>';
+html += '<td width="150px" class="label">Salary / Package Expectations:</td><td width="350px" class="normal">' + current.salary_package_expectations + '</td></tr>';
+html += '<tr><td class="label">Driving Licence:</td><td class="normal">' + current.driving_licence + '</td>';
+html += '<td class="label">Notice Period / Availability:</td><td class="normal">' + current.notice_period_availability + '</td></tr>';
+html += '<tr><td class="label">CSCS / SMSTS / SSST / Safepass - Status & Expiry Date:</td><td colspan="3" class="normal">' + current.cscs_smsts_ssst_safepass_status_expiry_date + '</td></tr>';
+html += '</table></div>';
+
+html += '<div><h2>Conclusion / Recommendation / Next Steps</h2></div>';
+html += '<div><table>';
+html += '<tr><td width="150px" class="label">Interview Outcome:</td><td width="350px" class="normal">' + current.interview_outcome + '</td>';
+html += '<td width="150px"></td><td width="350px"></td></tr>';
+html += '<tr><td class="label">Reference 1 details, confirm complete and outcome:</td><td class="normal">' + current.reference_1_details_confirm_complete_and_outcome + '</td>';
+html += '<td class="label">Reference 2 details, confirm complete and outcome:</td><td class="normal">' + current.reference_2_details_confirm_complete_and_outcome + '</td></tr>';
+html += '<tr><td class="label">Interview Notes Completed By:</td><td class="normal">' + current.interview_notes_completed_by + '</td>';
+html += '<td class="label">Interview Notes Completed Date:</td><td class="normal">' + current.interview_notes_completed_date + '</td></tr>';
+html += '</table></div>';
+
+html += '<div class="break"></div>';
+
+html += '<div><h2>Notes</h2></div>';
+html += '<div>';
+html += current.interviewers_notes;
+html += '</div>';
+
+var v = new sn_pdfgeneratorutils.PDFGenerationAPI;
+var result = v.convertToPDF(html, "x_sigr_sisk_hr_co_interview", current.sys_id, 'Interview Form ' + current.number);
+gs.info(JSON.stringify(result));]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>callanra</sys_created_by>
+        <sys_created_on>2022-11-10 12:06:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>05e12e06874f95106cb6fd99cebb354c</sys_id>
+        <sys_mod_count>104</sys_mod_count>
+        <sys_name>Generate PDF</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sys_ui_action_05e12e06874f95106cb6fd99cebb354c</sys_update_name>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2023-01-10 09:15:23</sys_updated_on>
+        <table>x_sigr_sisk_hr_co_interview</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

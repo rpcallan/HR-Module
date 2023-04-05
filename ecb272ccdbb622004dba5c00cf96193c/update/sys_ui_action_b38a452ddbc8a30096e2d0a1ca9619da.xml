@@ -15,6 +15,7 @@
         <form_link>false</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
         <hint/>
         <isolate_script>false</isolate_script>
         <list_action>false</list_action>
@@ -25,111 +26,111 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
+        <messages/>
         <name>Create IT Request</name>
         <onclick>submitToIT()</onclick>
         <order>100</order>
         <script><![CDATA[//Client-side 'onclick' function
-function submitToIT(){
-	var email = g_form.getValue('email');
-	var employeeNumber =  g_form.getValue('hrpro_number');
-	var employeeLevel =  g_form.getValue('hrpro_level');
-	var startDate =  g_form.getValue('start_date_confirmed');
-	
-	g_form.hideFieldMsg('email');
-	g_form.hideFieldMsg('hrpro_number');
-	g_form.hideFieldMsg('hrpro_level');
-	g_form.hideFieldMsg('start_date_confirmed');
-	
-	if(!email || employeeNumber == '' || employeeLevel == '' || startDate == ''){
-		if(!email){	
-			g_form.setMandatory('email', true);
-			g_form.showFieldMsg('email','Email needs to be selected if user requires IT Access','error');
-		}
-		if(employeeNumber == ''){	
-			g_form.setMandatory('hrpro_number', true);
-			g_form.showFieldMsg('hrpro_number','Employee Number is required.','error');
-		}
-		if(employeeLevel == ''){	
-			g_form.setMandatory('hrpro_level', true);
-			g_form.showFieldMsg('hrpro_level','Employee Level is required.','error');
-		}
-		if(startDate == ''){	
-			g_form.setMandatory('start_date_confirmed', true);
-			g_form.showFieldMsg('start_date_confirmed','Confirmed Start Date is required for IT.','error');
-		}
-		return false;  //Abort submission
-	}
-	//Call the UI Action and skip the 'onclick' function
-	gsftSubmit(null, g_form.getFormElement(), 'create_it_request'); //MUST call the 'Action name' set in this UI Action
+function submitToIT() {
+    var email = g_form.getValue('email');
+    var employeeNumber = g_form.getValue('hrpro_number');
+    var employeeLevel = g_form.getValue('hrpro_level');
+    var startDate = g_form.getValue('start_date_confirmed');
+
+    g_form.hideFieldMsg('email');
+    g_form.hideFieldMsg('hrpro_number');
+    g_form.hideFieldMsg('hrpro_level');
+    g_form.hideFieldMsg('start_date_confirmed');
+
+    if (!email || employeeNumber == '' || employeeLevel == '' || startDate == '') {
+        if (!email) {
+            g_form.setMandatory('email', true);
+            g_form.showFieldMsg('email', 'Email needs to be selected if user requires IT Access', 'error');
+        }
+        if (employeeNumber == '') {
+            g_form.setMandatory('hrpro_number', true);
+            g_form.showFieldMsg('hrpro_number', 'Employee Number is required.', 'error');
+        }
+        if (employeeLevel == '') {
+            g_form.setMandatory('hrpro_level', true);
+            g_form.showFieldMsg('hrpro_level', 'Employee Level is required.', 'error');
+        }
+        if (startDate == '') {
+            g_form.setMandatory('start_date_confirmed', true);
+            g_form.showFieldMsg('start_date_confirmed', 'Confirmed Start Date is required for IT.', 'error');
+        }
+        return false; //Abort submission
+    }
+    //Call the UI Action and skip the 'onclick' function
+    gsftSubmit(null, g_form.getFormElement(), 'create_it_request'); //MUST call the 'Action name' set in this UI Action
 }
 
 //Code that runs without 'onclick'
 //Ensure call to server-side function with no browser errors
-if(typeof window == 'undefined'){
-	createITRequest();
+if (typeof window == 'undefined') {
+    createITRequest();
 }
 
-function createITRequest(){
-	var uam = new GlideRecord('u_user_access');
-	uam.initialize();
-	uam.u_ato = current.sys_id; //reference the ato in the uam form. This will mean that the UAM request is auto approved
-	uam.u_first_name = current.first_name;
-	uam.u_surname = current.surname;
-	uam.company = current.company;
-	uam.u_business_unit = current.region_division;
-	uam.u_department = current.department;
-	uam.u_role_group = current.job_title.role_group;
-	uam.u_job_description = current.job_title_text;
-	uam.u_start_date = current.start_date_confirmed;
-	uam.u_end_date = current.contract_end_date;
-	uam.u_employment_type = 'employee';
-	uam.u_reporting_manager = current.reporting_manager;
-	uam.u_hrpro_number = current.hrpro_number;
-	uam.u_hrpro_level = current.hrpro_level;
-	uam.u_job_number = current.project.job_number;
-	
-	uam.u_email = current.email;
-	uam.u_personal_data_share = current.personal_data_share;
-	uam.u_vpn_access = current.remote_access;
-	uam.u_shared_drive_access = current.shared_drive_access;
-	uam.u_printer_access = current.printer_access;
-	uam.u_shared_drives = current.list_shared_drives;
-	uam.u_printers_required = current.list_printers;
-	
-	var bundle = current.role_package;
-	if(bundle == ''){
-		bundle = 'standard';
-	}
-	uam.u_job_role_package = bundle;
-	uam.u_computer = current.computer_type;
-	uam.u_reuse_computer = current.reuse_computer;
-	
-	uam.u_docking_station = current.docking_station;
-	uam.u_keyboard = current.keyboard;
-	uam.u_mouse = current.mouse;
-	uam.u_headset = current.headset;
-	uam.u_monitor = current.monitor;
-	uam.u_monitor_qty = current.monitor_qty;
-	
-	uam.u_ipad_required = current.ipad_required;
-	uam.u_phone = current.phone_type;
-	uam.u_reuse_phone = current.reuse_phone;
-	uam.u_sim_type = current.sim_type;
-	uam.u_roaming = current.mobile_data_roaming;
-	uam.u_international_calls = current.mobile_international_calls;
-	
-	uam.location = current.delivery_location;
-	uam.u_delivery_contact_number = current.delivery_contact_number;
-	uam.u_delivery_address = current.delivery_address;
-	uam.u_additional_details = current.existing_computer_details;
-	
-	current.uam_form = uam.insert();
-	current.update();
-	gs.info('UAM ' + current.uam_form.number + 'Created');
-	action.setRedirectURL(current);
-}
+function createITRequest() {
+    var uam = new GlideRecord('u_user_access');
+    uam.initialize();
+    uam.u_ato = current.sys_id; //reference the ato in the uam form. This will mean that the UAM request is auto approved
+    uam.u_first_name = current.first_name;
+    uam.u_surname = current.surname;
+    uam.company = current.company;
+    uam.u_business_unit = current.region_division;
+    uam.u_department = current.department;
+    uam.u_role_group = current.job_title.role_group;
+    uam.u_job_description = current.job_title_text;
+    uam.u_start_date = current.start_date_confirmed;
+    uam.u_end_date = current.contract_end_date;
+    uam.u_employment_type = 'employee';
+    uam.u_reporting_manager = current.reporting_manager;
+	uam.u_regional_director = current.local_director;
+    uam.u_hrpro_number = current.hrpro_number;
+    uam.u_hrpro_level = current.hrpro_level;
+    uam.u_job_number = current.project.job_number;
 
-]]></script>
+    uam.u_email = current.email;
+    //uam.u_personal_data_share = current.personal_data_share; 2021/03/11 no longer required
+    uam.u_vpn_access = current.remote_access;
+    uam.u_shared_drive_access = current.shared_drive_access;
+    uam.u_printer_access = current.printer_access;
+    uam.u_shared_drives = current.list_shared_drives;
+    uam.u_printers_required = current.list_printers;
+
+    var bundle = current.role_package;
+    if (bundle == '') {
+        bundle = 'standard';
+    }
+    uam.u_job_role_package = bundle;
+    uam.u_computer = current.computer_type;
+    uam.u_reuse_computer = current.reuse_computer;
+
+    uam.u_docking_station = current.docking_station;
+    uam.u_keyboard = current.keyboard;
+    uam.u_mouse = current.mouse;
+    uam.u_headset = current.headset;
+    uam.u_monitor = current.monitor;
+    uam.u_monitor_qty = current.monitor_qty;
+
+    uam.u_ipad_required = current.ipad_required;
+    uam.u_phone = current.phone_type;
+    uam.u_reuse_phone = current.reuse_phone;
+    uam.u_sim_type = current.sim_type;
+    uam.u_roaming = current.mobile_data_roaming;
+    uam.u_international_calls = current.mobile_international_calls;
+
+    uam.location = current.delivery_location;
+    uam.u_delivery_contact_number = current.delivery_contact_number;
+    uam.u_delivery_address = current.delivery_address;
+    uam.u_additional_details = current.existing_computer_details;
+
+    current.uam_form = uam.insert();
+    current.update();
+    gs.info('UAM ' + current.uam_form.number + 'Created');
+    action.setRedirectURL(current);
+}]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -140,7 +141,7 @@ function createITRequest(){
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>b38a452ddbc8a30096e2d0a1ca9619da</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name>Create IT Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
@@ -148,8 +149,8 @@ function createITRequest(){
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
         <sys_update_name>sys_ui_action_b38a452ddbc8a30096e2d0a1ca9619da</sys_update_name>
-        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-        <sys_updated_on>2020-06-04 15:36:41</sys_updated_on>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2021-03-11 15:29:14</sys_updated_on>
         <table>x_sigr_sisk_hr_co_authority_to_offer</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>

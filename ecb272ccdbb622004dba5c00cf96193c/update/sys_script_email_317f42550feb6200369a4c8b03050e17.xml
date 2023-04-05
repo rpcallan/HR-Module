@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>sysapproval_approver_script_1</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[var item = new GlideRecord("x_sigr_sisk_hr_co_authority_to_offer");
+  item.addQuery("request", current.sysapproval);
+  item.query();
+  while(item.next()) {
+    template.print("<table><tr><td>Name:</td><td>" + item.first_name + " " + item.last_name + "</td></tr>");
+    template.print("<tr><td>Company:</td><td>" + item.company + "</td></tr>");
+    template.print("<tr><td>Business Unit:</td><td>" + item.business_unit + "</td></tr>");
+    template.print("<tr><td>Salary:</td><td>" + item.currency + " " +  item.basic_salary + "</tr>");
+    template.print("<tr><td>Grade:</td><td>" + item.grade + "</tr>");
+    if(item.currency == 'EUR') {
+        template.print("<tr><td>Allowance:</td><td>" + item.currency + " " +  item.allowance + "</tr>");
+    }
+    template.print("</table>");
+  }]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2016-12-06 17:10:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>317f42550feb6200369a4c8b03050e17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sysapproval_approver_script_1</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sys_script_email_317f42550feb6200369a4c8b03050e17</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2016-12-06 17:10:30</sys_updated_on>
+    </sys_script_email>
+</record_update>

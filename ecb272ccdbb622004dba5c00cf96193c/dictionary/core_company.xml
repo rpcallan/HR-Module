@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="global_search_config_handler=CompanySearchConfig,all_tables.text_index_translations=true" audit="true" create_roles="user_admin" db_object_id="a598a26537013100d68998a543990eaf" label="Company" max_length="40" name="core_company" text_index="true" type="collection">
+        <element choice="1" label="Customer Type" max_length="40" name="x_sigr_sisk_hr_co_customer_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Construction" sequence="0" value="construction"/>
+                <element inactive_on_update="false" label="Healthcare" sequence="1" value="healthcare"/>
+                <element inactive_on_update="false" label="Vendor" sequence="2" value="vendor"/>
+                <element inactive_on_update="false" label="Manufacturer" sequence="3" value="manufacturer"/>
+                <element inactive_on_update="false" label="Distribution" sequence="4" value="distribution"/>
+                <element inactive_on_update="false" label="Customer" sequence="5" value="customer"/>
+                <element inactive_on_update="false" label="IT" sequence="10" value="it"/>
+            </choice>
+        </element>
+        <element label="Hiring Company" max_length="40" name="x_sigr_sisk_hr_co_hiring_company" type="boolean"/>
+    </element>
+</database>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>callanra</sys_created_by>
+        <sys_created_on>2022-11-07 12:32:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a81d4b85878391106cb6fd99cebb35b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sigr_sisk_hr_co_competency_question.x_sigr_sisk_hr_co.user</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_security_acl display_value="x_sigr_sisk_hr_co_competency_question">6c1d4b85878391106cb6fd99cebb35b4</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a81d4b85878391106cb6fd99cebb35b7</sys_update_name>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2022-11-07 12:32:28</sys_updated_on>
+        <sys_user_role display_value="x_sigr_sisk_hr_co.user" name="x_sigr_sisk_hr_co.user">c9b27eccdbb622004dba5c00cf96190f</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</application>
+        <file_path/>
+        <instance_id>9e43aea16f41bd004c327b2f5d3ee4d5</instance_id>
+        <instance_name>siskgroupdev</instance_name>
+        <name>sys_security_acl_role_a81d4b85878391106cb6fd99cebb35b7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>callanra</sys_created_by><sys_created_on>2022-11-07 12:32:28</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>a81d4b85878391106cb6fd99cebb35b7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_sigr_sisk_hr_co_competency_question.x_sigr_sisk_hr_co.user</sys_name><sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope><sys_security_acl display_value="x_sigr_sisk_hr_co_competency_question">6c1d4b85878391106cb6fd99cebb35b4</sys_security_acl><sys_update_name>sys_security_acl_role_a81d4b85878391106cb6fd99cebb35b7</sys_update_name><sys_updated_by>callanra</sys_updated_by><sys_updated_on>2022-11-07 12:32:28</sys_updated_on><sys_user_role display_value="x_sigr_sisk_hr_co.user" name="x_sigr_sisk_hr_co.user">c9b27eccdbb622004dba5c00cf96190f</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>824950365</payload_hash>
+        <record_name>x_sigr_sisk_hr_co_competency_question.x_sigr_sisk_hr_co.user</record_name>
+        <reverted_from/>
+        <source>533cd36287e299106cb6fd99cebb35f6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>callanra</sys_created_by>
+        <sys_created_on>2022-11-07 12:32:28</sys_created_on>
+        <sys_id>6c1d4b85878391106cb6fd99cebb35b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1845213ed790000001</sys_recorded_at>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2022-11-07 12:32:28</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>641d4b85dc83911036d4a5aa7ed42db9</update_guid>
+        <update_guid_history>641d4b85dc83911036d4a5aa7ed42db9:824950365</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 10-01-2023 09:07:07">d4d308f587d8e110b41dcbf90cbb35bd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>callanra</sys_created_by>
+        <sys_created_on>2023-01-10 09:07:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0a486c74fe294582b9fdbbe2fc0c9901</sys_id>
+        <sys_metadata>a81d4b85878391106cb6fd99cebb35b7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sigr_sisk_hr_co_competency_question.x_sigr_sisk_hr_co.user</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_parent display_value="x_sigr_sisk_hr_co_competency_question">6c1d4b85878391106cb6fd99cebb35b4</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_scope_delete display_value="">3f57090c102344369a525bed60375e31</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_a81d4b85878391106cb6fd99cebb35b7</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_a81d4b85878391106cb6fd99cebb35b7">6c1d4b85878391106cb6fd99cebb35b9</sys_update_version>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2023-01-10 09:07:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

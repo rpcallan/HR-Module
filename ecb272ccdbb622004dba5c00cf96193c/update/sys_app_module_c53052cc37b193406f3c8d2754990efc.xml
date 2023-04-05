@@ -14,7 +14,7 @@
         <mobile_title>Leavers</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_sigr_sisk_hr_co_leavers</name>
-        <order>300</order>
+        <order>1010</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -27,7 +27,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>c53052cc37b193406f3c8d2754990efc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Leavers</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
@@ -35,8 +35,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
         <sys_update_name>sys_app_module_c53052cc37b193406f3c8d2754990efc</sys_update_name>
-        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-        <sys_updated_on>2018-05-03 12:13:32</sys_updated_on>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2022-11-08 09:24:27</sys_updated_on>
         <timeline_page/>
         <title>Leavers</title>
         <uncancelable>false</uncancelable>

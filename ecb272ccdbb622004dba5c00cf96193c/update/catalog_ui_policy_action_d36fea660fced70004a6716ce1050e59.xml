@@ -2,9 +2,11 @@
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
         <catalog_item display_value="Leaver Request">0c0e1ec837f193406f3c8d2754990ebb</catalog_item>
         <catalog_variable>IO:e3af14d30f465b0004a6716ce1050e22</catalog_variable>
+        <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
         <mandatory>true</mandatory>
+        <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
         <sys_created_on>2018-05-16 15:42:00</sys_created_on>
@@ -20,7 +22,7 @@
         <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
         <sys_updated_on>2018-05-18 13:30:17</sys_updated_on>
         <table/>
-        <ui_policy display_value="Ntice Period">8b3f2a660fced70004a6716ce1050e98</ui_policy>
+        <ui_policy display_value="Notice Period">8b3f2a660fced70004a6716ce1050e98</ui_policy>
         <variable>paid_in_lieu</variable>
         <variable_set/>
         <visible>true</visible>

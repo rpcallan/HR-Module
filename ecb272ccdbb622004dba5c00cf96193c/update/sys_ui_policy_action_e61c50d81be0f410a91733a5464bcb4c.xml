@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>u_job_family_secondary</field>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>callanra</sys_created_by>
+        <sys_created_on>2021-05-31 16:45:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e61c50d81be0f410a91733a5464bcb4c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>u_job_family_secondary</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e61c50d81be0f410a91733a5464bcb4c</sys_update_name>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2022-08-05 13:42:55</sys_updated_on>
+        <table>x_sigr_sisk_hr_co_authority_to_offer</table>
+        <ui_policy display_value="Job Family Visible">2eeb90981be0f410a91733a5464bcb26</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2018-07-10 10:10:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8dd2b0d4db1f9bc0a1cde2e15b96198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sigr_sisk_hr_co_staff_list.*.admin</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_security_acl display_value="x_sigr_sisk_hr_co_staff_list.*">64d2b0d4db1f9bc0a1cde2e15b96198b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8dd2b0d4db1f9bc0a1cde2e15b96198f</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2018-07-10 10:10:03</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

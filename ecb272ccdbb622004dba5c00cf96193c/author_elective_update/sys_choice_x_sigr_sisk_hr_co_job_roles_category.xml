@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_sigr_sisk_hr_co_job_roles" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <name>x_sigr_sisk_hr_co_job_roles</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-02-01 16:11:21</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>category</sys_name>
+            <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
+            <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+            <sys_update_name>sys_choice_x_sigr_sisk_hr_co_job_roles_category</sys_update_name>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2017-02-01 17:29:52</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Finance</label>
+            <language>en</language>
+            <name>x_sigr_sisk_hr_co_job_roles</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-02-01 16:11:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-02-01 16:11:21</sys_updated_on>
+            <value>Finance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HR</label>
+            <language>en</language>
+            <name>x_sigr_sisk_hr_co_job_roles</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-02-01 16:11:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-02-01 16:11:21</sys_updated_on>
+            <value>HR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Procurement</label>
+            <language>en</language>
+            <name>x_sigr_sisk_hr_co_job_roles</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-02-01 16:11:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-02-01 16:11:21</sys_updated_on>
+            <value>Procurement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Regional Site Staff</label>
+            <language>en</language>
+            <name>x_sigr_sisk_hr_co_job_roles</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-02-01 16:11:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-02-01 16:11:21</sys_updated_on>
+            <value>Regional Site Staff</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Site</label>
+            <language>en</language>
+            <name>x_sigr_sisk_hr_co_job_roles</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-02-01 16:11:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-02-01 16:11:21</sys_updated_on>
+            <value>Site</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Engineering</label>
+            <language>en</language>
+            <name>x_sigr_sisk_hr_co_job_roles</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-02-01 16:11:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-02-01 16:11:21</sys_updated_on>
+            <value>Engineering</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Commercial</label>
+            <language>en</language>
+            <name>x_sigr_sisk_hr_co_job_roles</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-02-01 16:11:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-02-01 16:11:21</sys_updated_on>
+            <value>Commercial</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Estimating</label>
+            <language>en</language>
+            <name>x_sigr_sisk_hr_co_job_roles</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-02-01 16:11:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-02-01 16:11:21</sys_updated_on>
+            <value>Estimating</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Planning</label>
+            <language>en</language>
+            <name>x_sigr_sisk_hr_co_job_roles</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-02-01 16:11:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-02-01 16:11:21</sys_updated_on>
+            <value>Planning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Building Services</label>
+            <language>en</language>
+            <name>x_sigr_sisk_hr_co_job_roles</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-02-01 16:11:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-02-01 16:11:21</sys_updated_on>
+            <value>Building Services</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Design</label>
+            <language>en</language>
+            <name>x_sigr_sisk_hr_co_job_roles</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-02-01 16:11:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-02-01 16:11:21</sys_updated_on>
+            <value>Design</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pre-Construction</label>
+            <language>en</language>
+            <name>x_sigr_sisk_hr_co_job_roles</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-02-01 16:11:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-02-01 16:11:21</sys_updated_on>
+            <value>Pre-Construction</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HSEQS</label>
+            <language>en</language>
+            <name>x_sigr_sisk_hr_co_job_roles</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-02-01 16:11:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-02-01 16:11:21</sys_updated_on>
+            <value>HSEQS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Site Support Team</label>
+            <language>en</language>
+            <name>x_sigr_sisk_hr_co_job_roles</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-02-01 16:11:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-02-01 16:11:21</sys_updated_on>
+            <value>Site Support Team</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

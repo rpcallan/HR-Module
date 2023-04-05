@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f4dc4785878391106cb6fd99cebb35a7" label="Competency Question" max_length="40" name="x_sigr_sisk_hr_co_competency_question" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Competency" max_length="32" name="competency" reference="x_sigr_sisk_hr_co_competency" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element display="true" label="Question" max_length="1000" name="question" type="string"/>
+        <index name="index">
+            <element name="competency"/>
+        </index>
+    </element>
+</database>

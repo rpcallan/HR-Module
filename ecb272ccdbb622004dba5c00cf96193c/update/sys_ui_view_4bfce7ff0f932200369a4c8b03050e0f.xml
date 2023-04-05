@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>offices</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2016-12-02 08:08:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4bfce7ff0f932200369a4c8b03050e0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Offices</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sys_ui_view_4bfce7ff0f932200369a4c8b03050e0f</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2016-12-02 08:08:13</sys_updated_on>
+        <title>Offices</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

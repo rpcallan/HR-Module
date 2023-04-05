@@ -2,9 +2,11 @@
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
         <catalog_item display_value="Leaver Request">0c0e1ec837f193406f3c8d2754990ebb</catalog_item>
         <catalog_variable>IO:cc827288373593406f3c8d2754990ed7</catalog_variable>
+        <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
         <mandatory>true</mandatory>
+        <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
         <sys_created_on>2018-05-16 14:48:42</sys_created_on>

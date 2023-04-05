@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="content_page" unload_date="2023-04-05 20:47:47">
+    <sys_portal action="delete_multiple" query="page=a79246743794f2006f3c8d2754990e9c">
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone10</dropzone>
+                <offset>0</offset>
+                <page display_value="Authority To Offer">a79246743794f2006f3c8d2754990e9c</page>
+                <summary/>
+                <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+                <sys_created_on>2017-06-13 12:06:38</sys_created_on>
+                <sys_id>116e9282371b3e40d68998a543990eba</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+                <sys_updated_on>2017-06-13 12:06:38</sys_updated_on>
+            </sys_portal>
+        </related_items_node>
+        <related_items_node>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>renderer</name>
+                <portal_section display_value="Created 13-06-2017 13:06:38">116e9282371b3e40d68998a543990eba</portal_section>
+                <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+                <sys_created_on>2017-06-13 12:06:38</sys_created_on>
+                <sys_id>156e9282371b3e40d68998a543990eba</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+                <sys_updated_on>2017-06-13 12:06:38</sys_updated_on>
+                <value>com.glide.cms.RenderBlock</value>
+            </sys_portal_preferences>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>sys_id</name>
+                <portal_section display_value="Created 13-06-2017 13:06:38">116e9282371b3e40d68998a543990eba</portal_section>
+                <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+                <sys_created_on>2017-06-13 12:06:38</sys_created_on>
+                <sys_id>516e9282371b3e40d68998a543990eba</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+                <sys_updated_on>2017-06-13 12:06:38</sys_updated_on>
+                <value>ff3d960e37d73e40d68998a543990e4b</value>
+            </sys_portal_preferences>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>current_page</name>
+                <portal_section display_value="Created 13-06-2017 13:06:38">116e9282371b3e40d68998a543990eba</portal_section>
+                <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+                <sys_created_on>2017-06-13 12:06:38</sys_created_on>
+                <sys_id>5d6e9282371b3e40d68998a543990eba</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+                <sys_updated_on>2017-06-13 12:06:38</sys_updated_on>
+                <value>a79246743794f2006f3c8d2754990e9c</value>
+            </sys_portal_preferences>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>title</name>
+                <portal_section display_value="Created 13-06-2017 13:06:38">116e9282371b3e40d68998a543990eba</portal_section>
+                <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+                <sys_created_on>2017-06-13 12:06:38</sys_created_on>
+                <sys_id>996e9282371b3e40d68998a543990eba</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+                <sys_updated_on>2017-06-13 12:06:38</sys_updated_on>
+                <value>Ato Moved</value>
+            </sys_portal_preferences>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>type</name>
+                <portal_section display_value="Created 13-06-2017 13:06:38">116e9282371b3e40d68998a543990eba</portal_section>
+                <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+                <sys_created_on>2017-06-13 12:06:38</sys_created_on>
+                <sys_id>d56e9282371b3e40d68998a543990eba</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+                <sys_updated_on>2017-06-13 12:06:38</sys_updated_on>
+                <value>content_block_static</value>
+            </sys_portal_preferences>
+        </related_items_node>
+    </sys_portal>
+    <content_page action="INSERT_OR_UPDATE">
+        <content_site display_value="Siskgroup Portal">71b705ba0f2212005df1936792050e95</content_site>
+        <content_theme/>
+        <description/>
+        <frame_buster>false</frame_buster>
+        <layout/>
+        <model_id/>
+        <model_table/>
+        <name>Siskgroup - Authority To Offer</name>
+        <order/>
+        <parent_page display_value="Siskgroup Portal">cab805fe0f2212005df1936792050e8a</parent_page>
+        <read_roles/>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>content_page</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-01-11 09:45:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>a79246743794f2006f3c8d2754990e9c</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Siskgroup - Authority To Offer</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>content_page_a79246743794f2006f3c8d2754990e9c</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-06-13 12:06:38</sys_updated_on>
+        <title>Authority To Offer</title>
+        <url_suffix>ato</url_suffix>
+        <user/>
+        <view/>
+        <workflow_state>published</workflow_state>
+    </content_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=a79246743794f2006f3c8d2754990e9c"/>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices>File=file,Database=db,None=none</choices>
+        <description>Configure the debug destination</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_sigr_sisk_hr_co.logging.destination</name>
+        <read_roles/>
+        <suffix>logging.destination</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2016-11-15 14:22:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1b5f55ee0f0b2600eba957d003050e57</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_sigr_sisk_hr_co.logging.destination</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sys_properties_1b5f55ee0f0b2600eba957d003050e57</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2016-11-15 14:26:04</sys_updated_on>
+        <type>choicelist</type>
+        <value>db</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=1b5f55ee0f0b2600eba957d003050e57"/>
+</record_update>

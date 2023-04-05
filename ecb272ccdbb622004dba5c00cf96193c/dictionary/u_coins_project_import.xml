@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cba794e437a583403955261953990e9d" extends="sys_import_set_row" label="COINS_Project_Import" max_length="40" name="u_coins_project_import" type="collection">
+        <element attributes="import_attribute_name=active,edge_encryption_enabled=true" label="active" max_length="40" name="u_active" type="string"/>
+        <element attributes="import_attribute_name=bi360_entity,edge_encryption_enabled=true" label="bi360_entity" max_length="40" name="u_bi360_entity" type="string"/>
+        <element attributes="import_attribute_name=country,edge_encryption_enabled=true" label="country" max_length="40" name="u_country" type="string"/>
+        <element attributes="import_attribute_name=id,edge_encryption_enabled=true" label="id" max_length="40" name="u_id" type="string"/>
+        <element attributes="import_attribute_name=job_number,edge_encryption_enabled=true" label="job_number" max_length="40" name="u_job_number" type="string"/>
+        <element attributes="import_attribute_name=name,edge_encryption_enabled=true" label="name" max_length="179" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=project_name,edge_encryption_enabled=true" label="project_name" max_length="162" name="u_project_name" type="string"/>
+        <element attributes="import_attribute_name=region_division,edge_encryption_enabled=true" label="region_division" max_length="40" name="u_region_division" type="string"/>
+        <element attributes="import_attribute_name=updated,edge_encryption_enabled=true" label="updated" max_length="40" name="u_updated" type="string"/>
+    </element>
+</database>

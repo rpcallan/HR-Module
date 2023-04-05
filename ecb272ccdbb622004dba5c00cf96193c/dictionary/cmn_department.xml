@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element create_roles="user_admin" db_object_id="d998a26537013100d68998a543990ea7" label="Department" max_length="40" name="cmn_department" type="collection">
+        <element label="Defined Job Titles" max_length="40" name="x_sigr_sisk_hr_co_defined_job_titles" type="boolean"/>
+        <element label="Project" max_length="40" name="x_sigr_sisk_hr_co_project" type="boolean"/>
+    </element>
+</database>

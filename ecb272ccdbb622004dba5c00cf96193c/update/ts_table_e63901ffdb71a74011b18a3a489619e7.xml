@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ts_table">
+    <ts_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <group display_value="Tasks">8c58a5aa0a0a0b07008047e8ef0fe07d</group>
+        <label/>
+        <name>x_sigr_sisk_hr_co_leavers</name>
+        <order>1000</order>
+        <searched>true</searched>
+        <sys_class_name>ts_table</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2018-11-22 15:23:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e63901ffdb71a74011b18a3a489619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sigr_sisk_hr_co_leavers</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>ts_table_e63901ffdb71a74011b18a3a489619e7</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2018-11-22 15:23:33</sys_updated_on>
+    </ts_table>
+</record_update>

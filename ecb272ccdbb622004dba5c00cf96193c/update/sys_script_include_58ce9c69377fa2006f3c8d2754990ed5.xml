@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_sigr_sisk_hr_co.General_ATO_Form</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Generate contract letter from Authority To Offer form.</description>
+        <name>General_ATO_Form</name>
+        <script><![CDATA[/**
+ * General_ATO_Form would be to extend GeneralForm and then override all of the methods in the extension based on the article by SERVICE-NOW\Syed.Faheem.
+ *
+ * @author Ray Callan
+ */
+var General_ATO_Form = Class.create();
+
+/**
+ * Utility to preview the form
+ * @param sysId {String} of GlideRecord
+ */
+General_ATO_Form.preview = function(sysId, sourceTable, templateTable, template, generalDebug) {
+	var generalForm = new General_ATO_Form({
+		tableId : (sysId) ? sysId : null,
+		generalDebug : (generalDebug) ? generalDebug : null,
+		mode : 'preview',
+		sourceTable : sourceTable,
+		templateTable : templateTable,
+		template : template,
+	});
+	generalForm.start();
+	generalForm.preview();
+};
+/**
+ * Utility to create a PDF for the form
+ * @param table, table id, target table, target id
+ */
+General_ATO_Form.generate = function(sysId, sourceTable, templateTable, template, generalDebug) {
+	gs.info('sysId '+ sysId+ '; sourceTable ' +sourceTable + '; templateTable ' + templateTable +'; template ' +template + '; generalDebug '+ generalDebug);
+	var generalForm = new x_sigr_sisk_hr_co.General_ATO_Form({
+		tableId : (sysId) ? sysId : null,
+		generalDebug : (generalDebug) ? generalDebug : null,
+		mode : 'pdf',
+		sourceTable : sourceTable,
+		templateTable : templateTable,
+		template : template,
+	});
+	
+	generalForm.start();
+	generalForm.createPDF();
+	
+};
+
+var generalForm = {
+	initialize : function() {
+		
+		global.GeneralForm.prototype.initialize.apply(this, arguments);
+		
+		// Set the table
+		this.tableName = this.sourceTable;
+		
+		var instance = gs.getProperty('glide.servlet.uri');
+		
+		// param1 : doc temple table
+		// param2 : doc type
+		this._getDocTempleInfo(this.templateTable, this.template, instance);
+		
+		// Set the theme
+		//this.themeId = 'base';
+	},
+	
+	_getDocTempleInfo : function(tableName, docType, instance){
+		
+		var gr = new GlideRecord(tableName);
+		gr.addQuery('name', docType);
+		gr.query();
+		if (gr.next()){
+				this.headerImage = gr.header_image.getDisplayValue() ? instance + gr.header.getDisplayValue() : '';
+				this.footerImage = gr.footer_image.getDisplayValue() ? instance + gr.footer.getDisplayValue() : '';
+			this.footnote    = gr.footnote + '';
+			this.headerPosition = gr.header_position + '';
+			this.footerPosition = gr.footer_position + '';
+			this.pageSize       = gr.page_size  + '';
+			this.body           = this.parseBody(gr.body + '', instance);
+			// setting filename
+			this.fileName = 'ATO '+ current.number + '.pdf';
+		}
+	},
+	
+	parseBody : function(docBody, instance){
+		
+		var parsedBody = docBody;
+		var gr = new GlideRecord(this.tableName);
+		gr.get(this.tableId);
+		
+		var date = new GlideDate().getDisplayValue();
+		parsedBody = parsedBody.replace(/\$\{date\}/gi, date);
+		
+		// parsing of variables dynamically
+		var sampleString=docBody.toString();
+		var reg = new RegExp('(?i)\\$\\{(.*?)\\}');
+		var match = reg.match(sampleString);
+		var count =0;
+		var variables = [];
+		var values = [];
+		var tmpValue;
+		while (match != null) {
+			variables.push(match.toString().substring(match.toString().indexOf(',')+1));
+			match = reg.match();
+			
+			values.push(variables[count]);
+			
+			if(gr.getDisplayValue(values[count])==null || JSUtil.nil(gr.getDisplayValue(values[count]))){
+				tmpValue='';
+			}
+			else
+				{
+				tmpValue=gr.getDisplayValue(values[count]);
+				
+			}
+			parsedBody = parsedBody.replace('${'+variables[count]+'}', tmpValue);
+			count++;
+		}
+		
+		// convert to the right image path
+		parsedBody = parsedBody.replace(/\/sys_attachment.do\?sys_id=(\w{32})/gi, '/$1.iix');
+		parsedBody = parsedBody.replace(/\/sys_attachment.do\?sys_id&#61;(\w{32})/gi, '/$1.iix');
+		parsedBody = parsedBody.replace(/src="\//gi, 'src="' + instance);
+		
+		return parsedBody;
+	},
+	
+	_setDocument : function() {
+		if (this.setDocument) {
+			this.setDocument();
+		} else {
+			
+			// This object allows us to control the properties for the Document,
+			// size, margins etc.
+			var pdfDoc = new global.GeneralPDF.Document(null, null, null, null, this.pageSize, this.headerImage);
+			//
+			// When possible all changes to the PDF Document objects
+			// should be done here, outside of the base object.
+			// Anything along the lines of properties on the PDF Document
+			// object.
+			//
+			// Set page size
+			// pdfDoc.setPageSize();
+			//
+			// Set rotation (landscape/portrait)
+			// pdfDoc.setRotation();
+			//
+			// Set author
+			// pdfDoc.setAuthor();
+			//
+			// Set margins
+			// pdfDoc.setMargins();
+			
+			// This object contains many options for creating PDFs in different ways.
+			this.document = new global.GeneralPDF(pdfDoc);
+			
+			// When possible all changes to the PDF Document object
+			// should be done here, outside of the base object.
+			//
+			// Examples include setting things here such as page break events,
+			// header, footer, styleSheets. Anything along the lines of
+			// writing the PDF file.
+			//
+			// Set page break events
+			//this.document.setPageBreakEvent();
+			//
+			
+			// set header, footer, footnote, header position, footer position, page size
+			this.document.setDocTempleInfo(this.headerImage, this.footerImage, this.footnote, this.headerPosition, this.footerPosition, this.pageSize);
+			
+			// Set iTextPdf CSS StyleSheet
+			// this.document.setStyleSheet();
+			
+			// Creates a new document open for writing then we will parse HTML
+			// and add it to the document. This allows us to control things such
+			// as
+			// page break based on a certain GeneralFormDemoElement type as one
+			// example.
+			// It also helps improve PDF creation performance because small
+			// blocks
+			// of HTML tables are added for each element in the form versus
+			// creating
+			// a single huge table and adding that to the document one time.
+			this.document.startHTMLParser();
+			
+			this.document.addHTML(this.body);
+			
+			this.debug.write();
+		}
+	},
+	
+	type : 'General_ATO_Form'
+};
+General_ATO_Form.prototype = Object.extendsObject(global.GeneralForm, generalForm);]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2016-12-19 14:50:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>58ce9c69377fa2006f3c8d2754990ed5</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>General_ATO_Form</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sys_script_include_58ce9c69377fa2006f3c8d2754990ed5</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2016-12-20 11:48:57</sys_updated_on>
+    </sys_script_include>
+</record_update>

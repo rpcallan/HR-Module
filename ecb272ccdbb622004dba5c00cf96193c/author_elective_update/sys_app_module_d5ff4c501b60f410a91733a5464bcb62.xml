@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Job Fmaily Primary</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_sigr_sisk_hr_co_job_fmaily_primary</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>callanra</sys_created_by>
+        <sys_created_on>2021-05-31 15:51:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d5ff4c501b60f410a91733a5464bcb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Job Fmaily Primary</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sys_app_module_d5ff4c501b60f410a91733a5464bcb62</sys_update_name>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2021-05-31 15:51:30</sys_updated_on>
+        <timeline_page/>
+        <title>Job Fmaily Primary</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</application>
+        <file_path/>
+        <instance_id>604366656f4d754023b2a9cc5d3ee405</instance_id>
+        <instance_name>siskgroup</instance_name>
+        <name>sys_app_module_d5ff4c501b60f410a91733a5464bcb62</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Job Fmaily Primary</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_sigr_sisk_hr_co_job_fmaily_primary</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>callanra</sys_created_by><sys_created_on>2021-05-31 15:51:30</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>d5ff4c501b60f410a91733a5464bcb62</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Job Fmaily Primary</sys_name><sys_overrides/><sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope><sys_update_name>sys_app_module_d5ff4c501b60f410a91733a5464bcb62</sys_update_name><sys_updated_by>callanra</sys_updated_by><sys_updated_on>2021-05-31 15:51:30</sys_updated_on><timeline_page/><title>Job Fmaily Primary</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>7252500</payload_hash>
+        <record_name>Job Fmaily Primary</record_name>
+        <reverted_from/>
+        <source>fdbae3eb37a4b604d68998a543990e96</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>callanra</sys_created_by>
+        <sys_created_on>2021-05-31 15:51:30</sys_created_on>
+        <sys_id>d9ff4c501b60f410a91733a5464bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179c31f7ae50000001</sys_recorded_at>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2021-05-31 15:51:30</sys_updated_on>
+        <type>Module</type>
+        <update_guid>d1ff4c50af60f41094ae6d61c59d7064</update_guid>
+        <update_guid_history>d1ff4c50af60f41094ae6d61c59d7064:7252500</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">8601dc181b60f410a91733a5464bcb82</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>callanra</sys_created_by>
+        <sys_created_on>2021-05-31 15:56:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>e8fa19e5047e4aca92cc4dcdc3152199</sys_id>
+        <sys_metadata>d5ff4c501b60f410a91733a5464bcb62</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Job Fmaily Primary</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_scope_delete display_value="">3f57090c102344369a525bed60375e31</sys_scope_delete>
+        <sys_update_name>sys_app_module_d5ff4c501b60f410a91733a5464bcb62</sys_update_name>
+        <sys_update_version display_value="sys_app_module_d5ff4c501b60f410a91733a5464bcb62">d9ff4c501b60f410a91733a5464bcb64</sys_update_version>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2021-05-31 15:56:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

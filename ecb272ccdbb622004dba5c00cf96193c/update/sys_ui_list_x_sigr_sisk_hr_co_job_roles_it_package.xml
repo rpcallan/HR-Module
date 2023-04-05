@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_sigr_sisk_hr_co_job_roles" version="2" view="IT_Package">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_sigr_sisk_hr_co_job_roles" element="NULL" name="x_sigr_sisk_hr_co_job_roles" parent="NULL" relationship="NULL" sys_domain="global" view="4b0d9ecddb39d8906c6f54e8489619c3">93fefa7fdb854410e0039af4db9619f5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2019-11-18 09:32:55</sys_created_on>
+            <sys_id>d7fefa7fdb854410e0039af4db9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2019-11-18 09:32:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>it_package</element>
+            <list_id display_value="x_sigr_sisk_hr_co_job_roles" element="NULL" name="x_sigr_sisk_hr_co_job_roles" parent="NULL" relationship="NULL" sys_domain="global" view="4b0d9ecddb39d8906c6f54e8489619c3">93fefa7fdb854410e0039af4db9619f5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2019-11-18 09:32:55</sys_created_on>
+            <sys_id>5bfefa7fdb854410e0039af4db9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2019-11-18 09:32:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_sigr_sisk_hr_co_job_roles" element="NULL" name="x_sigr_sisk_hr_co_job_roles" parent="NULL" relationship="NULL" sys_domain="global" view="4b0d9ecddb39d8906c6f54e8489619c3">93fefa7fdb854410e0039af4db9619f5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2019-11-18 09:32:55</sys_created_on>
+            <sys_id>dbfefa7fdb854410e0039af4db9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2019-11-18 09:32:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="x_sigr_sisk_hr_co_job_roles" element="NULL" name="x_sigr_sisk_hr_co_job_roles" parent="NULL" relationship="NULL" sys_domain="global" view="4b0d9ecddb39d8906c6f54e8489619c3">93fefa7fdb854410e0039af4db9619f5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2019-11-18 09:32:55</sys_created_on>
+            <sys_id>5ffefa7fdb854410e0039af4db9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2019-11-18 09:32:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_sigr_sisk_hr_co_job_roles" element="NULL" name="x_sigr_sisk_hr_co_job_roles" parent="NULL" relationship="NULL" sys_domain="global" view="4b0d9ecddb39d8906c6f54e8489619c3">93fefa7fdb854410e0039af4db9619f5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2019-11-18 09:32:55</sys_created_on>
+            <sys_id>dffefa7fdb854410e0039af4db9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2019-11-18 09:32:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_by</element>
+            <list_id display_value="x_sigr_sisk_hr_co_job_roles" element="NULL" name="x_sigr_sisk_hr_co_job_roles" parent="NULL" relationship="NULL" sys_domain="global" view="4b0d9ecddb39d8906c6f54e8489619c3">93fefa7fdb854410e0039af4db9619f5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2019-11-18 09:32:55</sys_created_on>
+            <sys_id>53fefa7fdb854410e0039af4db9619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2019-11-18 09:32:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_sigr_sisk_hr_co_job_roles</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2019-11-18 09:32:55</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>93fefa7fdb854410e0039af4db9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sigr_sisk_hr_co_job_roles</sys_name>
+            <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+            <sys_update_name>sys_ui_list_x_sigr_sisk_hr_co_job_roles_IT_Package</sys_update_name>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2019-11-18 09:32:55</sys_updated_on>
+            <sys_user/>
+            <view display_value="IT Package" name="IT_Package">4b0d9ecddb39d8906c6f54e8489619c3</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

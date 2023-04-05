@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_report">
+    <sysauto_report action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <address_list/>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <group_list/>
+        <include_detail>false</include_detail>
+        <include_with/>
+        <name>Scheduled execution of Construction and IT Users</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <omit_if_no_records>false</omit_if_no_records>
+        <output_type>XLSX</output_type>
+        <page_height_in_pixels>612</page_height_in_pixels>
+        <page_size>Letter</page_size>
+        <page_width_in_pixels>792</page_width_in_pixels>
+        <report display_value="Construction and IT Users">bba80e0e1be3389002f75354604bcb23</report>
+        <report_body/>
+        <report_title>Service-Now Users</report_title>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2021-11-02 14:28:06</run_start>
+        <run_time>1970-01-01 09:10:00</run_time>
+        <run_type>daily</run_type>
+        <sys_class_name>sysauto_report</sys_class_name>
+        <sys_created_by>callanra</sys_created_by>
+        <sys_created_on>2021-11-02 14:29:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>be4bc6ca1b27389002f75354604bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Scheduled execution of Construction and IT Users</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sysauto_report_be4bc6ca1b27389002f75354604bcb49</sys_update_name>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2021-11-02 14:29:10</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+        <user_list>402017351ba6ac10a91733a5464bcb8a</user_list>
+        <zip>false</zip>
+    </sysauto_report>
+</record_update>

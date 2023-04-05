@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_sigr_sisk_hr_co_interview</collection>
+        <email_layout display_value="Sisk Email">8df8be160fb98b0004a6716ce1050e3f</email_layout>
+        <message/>
+        <message_html><![CDATA[<p>Hi ${manager_to_review.first_name}.</p>
+<p>Please can you review interview form <a title="${number}" href="https://siskgroup.service-now.com/sp?sys_id=${sys_id}&amp;view=sp&amp;id=form&amp;table=x_sigr_sisk_hr_co_interview">${number}</a> headline details below</p>
+<p><strong>Headline Information</strong></p>
+<table>
+<tbody>
+<tr>
+<td class="field-label">Name:</td>
+<td class="form-control">${candidate_name}</td>
+</tr>
+<tr>
+<td class="field-label">Position:</td>
+<td class="form-control">${position}</td>
+</tr>
+<tr>
+<td class="field-label">Interview Round:</td>
+<td class="form-control">${interview_round}</td>
+</tr>
+<tr>
+<td class="field-label">Interview Date:</td>
+<td class="form-control">${interview_date}</td>
+</tr>
+<tr>
+<td class="field-label">Interview Outcome:</td>
+<td class="form-control">${interview_outcome}</td>
+</tr>
+<tr>
+<td class="field-label">Score %:</td>
+<td class="form-control">${total_score}</td>
+</tr>
+</tbody>
+</table>
+<p>Regards</p>
+<p>${opened_by.name}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>interview.manager.review</name>
+        <sms_alternate/>
+        <subject>Interview form for  ${candidate_name} for position of ${position}</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>callanra</sys_created_by>
+        <sys_created_on>2023-03-09 09:13:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>29acaa9887212910b41dcbf90cbb3532</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>interview.manager.review</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sysevent_email_template_29acaa9887212910b41dcbf90cbb3532</sys_update_name>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2023-03-09 09:24:52</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

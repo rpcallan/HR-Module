@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true" db_object_id="790372ccdbb622004dba5c00cf96193d" label="Job Titles" max_length="40" name="x_sigr_sisk_hr_co_job_roles" text_index="true" type="collection">
+        <element choice="1" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Finance" sequence="0" value="Finance"/>
+                <element inactive_on_update="false" label="HR" sequence="0" value="HR"/>
+                <element inactive_on_update="false" label="Procurement" sequence="0" value="Procurement"/>
+                <element inactive_on_update="false" label="Regional Site Staff" sequence="0" value="Regional Site Staff"/>
+                <element inactive_on_update="false" label="Site" sequence="0" value="Site"/>
+                <element inactive_on_update="false" label="Engineering" sequence="1" value="Engineering"/>
+                <element inactive_on_update="false" label="Commercial" sequence="2" value="Commercial"/>
+                <element inactive_on_update="false" label="Estimating" sequence="3" value="Estimating"/>
+                <element inactive_on_update="false" label="Planning" sequence="4" value="Planning"/>
+                <element inactive_on_update="false" label="Building Services" sequence="5" value="Building Services"/>
+                <element inactive_on_update="false" label="Design" sequence="6" value="Design"/>
+                <element inactive_on_update="false" label="Pre-Construction" sequence="7" value="Pre-Construction"/>
+                <element inactive_on_update="false" label="HSEQS" sequence="8" value="HSEQS"/>
+                <element inactive_on_update="false" label="Site Support Team" sequence="9" value="Site Support Team"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_job_role_package" choice_table="u_user_access" label="IT Package" max_length="40" name="it_package" reference="u_company_roles" reference_qual="u_active=true^EQ" reference_qual_condition="u_active=true^EQ" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Standard" sequence="0" value="standard"/>
+                <element inactive_on_update="false" label="Senior Management" sequence="1" value="senior_management"/>
+                <element inactive_on_update="false" label="Design Management" sequence="2" value="design_management"/>
+                <element inactive_on_update="false" label="Planning" sequence="3" value="planning"/>
+                <element inactive_on_update="false" label="BIM" sequence="4" value="bim"/>
+                <element inactive_on_update="false" label="Building Services" sequence="5" value="building_services"/>
+                <element inactive_on_update="false" label="Engineering" sequence="6" value="engineering"/>
+                <element inactive_on_update="false" label="Site Operation Team" sequence="7" value="site_ops"/>
+                <element inactive_on_update="false" label="Commercial" sequence="8" value="commercial"/>
+                <element inactive_on_update="false" label="Site Support" sequence="9" value="site_support"/>
+            </choice>
+        </element>
+        <element display="true" label="Name" max_length="80" name="name" type="string"/>
+        <index name="index">
+            <element name="name"/>
+        </index>
+    </element>
+</database>

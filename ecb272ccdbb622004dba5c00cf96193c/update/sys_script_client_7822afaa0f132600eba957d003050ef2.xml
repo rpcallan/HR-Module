@@ -6,100 +6,101 @@
         <description>Confingure form on load</description>
         <field>address_line_1</field>
         <global>true</global>
+        <isolate_script>false</isolate_script>
         <messages/>
         <name>Form onLoad</name>
         <order/>
         <script><![CDATA[function onLoad() {
-	//get the sys_id's of the relevant fields
-	var dept = g_form.getValue('department');
-	var grade = g_form.getValue('grade');
-	var st = g_form.getValue('state');
-	var ph = g_form.getValue('mobile_phone_required');
-	
-	//get the id's of the approvers
-	var ldir = g_form.getValue('local_director');
-	var dir = g_form.getValue('director_name');
-	var fdir = g_form.getValue('finance_director');
-	
-	//get the id's of the current user
-	var curUserID = g_user.userID;
-	var isHR = g_user.hasRole('x_sigr_sisk_hr_co.user');
-	
-	
-	//hide choice fields
-	g_form.setMandatory('job_title_text',false);
-	g_form.setMandatory('project',false);
-	
-	g_form.setDisplay('job_title_text',false);
-	g_form.setDisplay('project',false);
-	g_form.setDisplay('allowance', false);
-	g_form.setDisplay('mobile_international_calls', false);
-	g_form.setDisplay('mobile_data_roaming', false);
-	
-	//hide admin and activies
-	if(!g_user.hasRoles() || st == '-5'){
-		g_form.setSectionDisplay('hr_details', false);
-		g_form.setSectionDisplay('activities', false);
-	}
-	
-	//display the international calls and roaming fields if relevant choice selected
-	if (ph == 'true'){
-		g_form.setDisplay('mobile_international_calls',true);
-		g_form.setDisplay('mobile_data_roaming',true);
-	}
-	
-	//make salary fields editable for approvers when approval at their stage
-	if (st != -5 && st != -6){
-		g_form.setReadOnly('director',true);
-		g_form.setReadOnly('local_director',true);
-		g_form.setReadonly('basic_salary',true);
-		g_form.setReadOnly('grade',true);
-		g_form.setReadOnly('allowance',true);
-		
-		if((st == -9 && ldir == curUserID) || (st == -10 && dir == curUserID) || (st == -11 && fdir == curUserID || (st == -12 && isHR))){
-			g_form.setReadonly('basic_salary',false);
-			g_form.setReadOnly('grade',false);
-			g_form.setReadOnly('allowance',false);
-		}
-	}
-	
-	//get the department name from the sys_id
-	var job = new GlideAjax('SISK_HR_Contract');
-	job.addParam('sysparm_name', 'getJobTitleType');
-	job.addParam('sysparm_cat', dept);
-	job.getXML(jobInput);
-	
-	//display the allowance field if relevant choice selected
-	if (grade.match(/^car_all.*$/)){
-		g_form.setDisplay('allowance', true);
-	}
+    //get the sys_id's of the relevant fields
+
+    var dept = g_form.getValue('department');
+    var grade = g_form.getValue('grade');
+    var st = g_form.getValue('state');
+    var ph = g_form.getValue('mobile_phone_required');
+
+    //get the id's of the approvers
+    var ldir = g_form.getValue('local_director');
+    var dir = g_form.getValue('director_name');
+    var fdir = g_form.getValue('finance_director');
+
+    //get the id's of the current user
+    var curUserID = g_user.userID;
+    var isHR = g_user.hasRole('x_sigr_sisk_hr_co.user');
+
+    var notOnCOINS = g_form.getValue('project_not_on_coins');
+
+
+    //hide choice fields
+    g_form.setMandatory('job_title_text', false);
+    g_form.setMandatory('project', false);
+
+    g_form.setDisplay('job_title_text', false);
+    g_form.setDisplay('allowance', false);
+    g_form.setDisplay('mobile_international_calls', false);
+    g_form.setDisplay('mobile_data_roaming', false);
+
+    //hide admin and activies
+    if (!g_user.hasRoles() || st == '-5') {
+        g_form.setSectionDisplay('hr_details', false);
+        g_form.setSectionDisplay('activities', false);
+    }
+
+    //display the international calls and roaming fields if relevant choice selected
+    if (ph == 'true') {
+        g_form.setDisplay('mobile_international_calls', true);
+        g_form.setDisplay('mobile_data_roaming', true);
+    }
+
+    //make salary fields editable for approvers when approval at their stage
+    if (st != -5 && st != -6 && !g_user.hasRole('admin')) {
+        g_form.setReadOnly('director', true);
+        g_form.setReadOnly('local_director', true);
+        g_form.setReadonly('basic_salary', true);
+        g_form.setReadOnly('grade', true);
+        g_form.setReadOnly('allowance', true);
+
+        if ((st == -9 && ldir != curUserID) || (st == -10 && dir != curUserID) || (st == -11 && fdir != curUserID) || ((st == -12 || st == -16) && isHR)) {
+            g_form.setReadonly('basic_salary', false);
+            g_form.setReadOnly('grade', false);
+            g_form.setReadOnly('allowance', false);
+        }
+    }
+
+    //get the department name from the sys_id
+    var job = new GlideAjax('SISK_HR_Contract');
+    job.addParam('sysparm_name', 'getJobTitleType');
+    job.addParam('sysparm_cat', dept);
+    job.getXML(jobInput);
+
+    //display the allowance field if relevant choice selected
+    if (grade.match(/^car_all.*$/)) {
+        g_form.setDisplay('allowance', true);
+    }
 }
 
 function jobInput(response) {
-	//set the jobtitle and project fields
-	var answer = response.responseXML.documentElement.getAttribute("answer");
-	if(answer == 'both' || answer == 'freetext'){
-		//replace choice job title with free text
-		g_form.setMandatory('job_title',false);
-		g_form.setDisplay('job_title',false);
-		
-		g_form.setDisplay('job_title_text',true);
-		g_form.setMandatory('job_title_text',true);
-	}
-	if(answer == 'both' || answer == 'project'){
-		//set project filed
-		g_form.setDisplay('project',true);
-		g_form.setMandatory('Project',true);
-	}
-	
+    //set the jobtitle and project fields
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+    if (answer == 'both' || answer == 'freetext') {
+        //replace choice job title with free text
+        g_form.setMandatory('job_title', false);
+        g_form.setDisplay('job_title', false);
+
+        g_form.setDisplay('job_title_text', true);
+        g_form.setMandatory('job_title_text', true);
+    }
+    if ((answer == 'both' || answer == 'project') && !notOnCOINS) {
+        //set project filed
+        g_form.setMandatory('project', true);
+    }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
         <sys_created_on>2016-11-28 10:12:00</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>7822afaa0f132600eba957d003050ef2</sys_id>
-        <sys_mod_count>83</sys_mod_count>
+        <sys_mod_count>114</sys_mod_count>
         <sys_name>Form onLoad</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
@@ -107,8 +108,8 @@ function jobInput(response) {
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
         <sys_update_name>sys_script_client_7822afaa0f132600eba957d003050ef2</sys_update_name>
-        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-        <sys_updated_on>2017-05-31 15:49:53</sys_updated_on>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2022-10-07 10:07:01</sys_updated_on>
         <table>x_sigr_sisk_hr_co_authority_to_offer</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

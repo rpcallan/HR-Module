@@ -35,7 +35,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_sigr_sisk_hr_co_leavers" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">132ada0837f193406f3c8d2754990ec4</sys_ui_form>
-            <sys_ui_section caption="Company Car" display_value="Company Car" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">172ada0837f193406f3c8d2754990ec1</sys_ui_section>
+            <sys_ui_section caption="Transport" display_value="Transport" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="Default view">172ada0837f193406f3c8d2754990ec1</sys_ui_section>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
             <sys_updated_on>2018-04-26 09:28:29</sys_updated_on>
         </sys_ui_form_section>

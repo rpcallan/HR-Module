@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_sigr_sisk_hr_co_authority_to_offer" version="2" view="admin">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_sigr_sisk_hr_co_authority_to_offer" element="NULL" name="x_sigr_sisk_hr_co_authority_to_offer" parent="NULL" relationship="NULL" sys_domain="global" view="535e9032379f6200d68998a543990eb1">98a0d5d30fe722004ac7fe5ce1050e17</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2016-12-12 17:43:49</sys_created_on>
+            <sys_id>dca0d5d30fe722004ac7fe5ce1050e17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2016-12-12 17:43:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approval</element>
+            <list_id display_value="x_sigr_sisk_hr_co_authority_to_offer" element="NULL" name="x_sigr_sisk_hr_co_authority_to_offer" parent="NULL" relationship="NULL" sys_domain="global" view="535e9032379f6200d68998a543990eb1">98a0d5d30fe722004ac7fe5ce1050e17</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2016-12-12 17:43:49</sys_created_on>
+            <sys_id>50a0d5d30fe722004ac7fe5ce1050e18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2016-12-12 17:43:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="x_sigr_sisk_hr_co_authority_to_offer" element="NULL" name="x_sigr_sisk_hr_co_authority_to_offer" parent="NULL" relationship="NULL" sys_domain="global" view="535e9032379f6200d68998a543990eb1">98a0d5d30fe722004ac7fe5ce1050e17</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2016-12-12 17:43:49</sys_created_on>
+            <sys_id>d0a0d5d30fe722004ac7fe5ce1050e18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2016-12-12 17:43:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_sigr_sisk_hr_co_authority_to_offer" element="NULL" name="x_sigr_sisk_hr_co_authority_to_offer" parent="NULL" relationship="NULL" sys_domain="global" view="535e9032379f6200d68998a543990eb1">98a0d5d30fe722004ac7fe5ce1050e17</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2016-12-12 17:43:49</sys_created_on>
+            <sys_id>54a0d5d30fe722004ac7fe5ce1050e18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2016-12-12 17:43:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>full_address</element>
+            <list_id display_value="x_sigr_sisk_hr_co_authority_to_offer" element="NULL" name="x_sigr_sisk_hr_co_authority_to_offer" parent="NULL" relationship="NULL" sys_domain="global" view="535e9032379f6200d68998a543990eb1">98a0d5d30fe722004ac7fe5ce1050e17</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2016-12-12 17:43:49</sys_created_on>
+            <sys_id>d4a0d5d30fe722004ac7fe5ce1050e18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2016-12-12 17:43:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_sigr_sisk_hr_co_authority_to_offer</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2016-12-12 17:43:49</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>98a0d5d30fe722004ac7fe5ce1050e17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sigr_sisk_hr_co_authority_to_offer</sys_name>
+            <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+            <sys_update_name>sys_ui_list_x_sigr_sisk_hr_co_authority_to_offer_admin</sys_update_name>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2016-12-12 17:43:49</sys_updated_on>
+            <sys_user/>
+            <view display_value="Admin" name="admin">535e9032379f6200d68998a543990eb1</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>in.progress</action_name>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition>current.state == 1</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <name>Work In Progress</name>
+        <onclick/>
+        <order>1000</order>
+        <script><![CDATA[current.state = 2;
+current.update();]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-09 13:21:09</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d39ed6760feef20004a6716ce1050e0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Work In Progress</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sys_ui_action_d39ed6760feef20004a6716ce1050e0a</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-09 13:21:09</sys_updated_on>
+        <table>sc_request</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</application>
+        <file_path/>
+        <instance_id>604366656f4d754023b2a9cc5d3ee405</instance_id>
+        <instance_name>siskgroup</instance_name>
+        <name>sys_ui_action_d39ed6760feef20004a6716ce1050e0a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;in.progress&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;comments/&gt;&lt;condition&gt;current.state == 1&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;hint/&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;name&gt;Work In Progress&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;1000&lt;/order&gt;&lt;script&gt;&lt;![CDATA[current.state = 2;
+current.update();]]&gt;&lt;/script&gt;&lt;show_insert&gt;false&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;r.callan@siskgroup.ie&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-05-09 13:21:09&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;d39ed6760feef20004a6716ce1050e0a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Work In Progress&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co"&gt;ecb272ccdbb622004dba5c00cf96193c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Sisk Hr Contracts"&gt;ecb272ccdbb622004dba5c00cf96193c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_d39ed6760feef20004a6716ce1050e0a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;r.callan@siskgroup.ie&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-05-09 13:21:09&lt;/sys_updated_on&gt;&lt;table&gt;sc_request&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;true&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-792745607</payload_hash>
+        <record_name>Work In Progress</record_name>
+        <reverted_from/>
+        <source>c6929946378bba00d68998a543990eeb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-05-31 20:19:52</sys_created_on>
+        <sys_id>3f92d9c6378bba00d68998a543990e91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>15c602a1e400000000</sys_recorded_at>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-05-31 20:19:52</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid/>
+        <update_guid_history/>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2019-04-02 10:21:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>56be0822878e41bd86b10187a39a7ef9</sys_id>
+        <sys_metadata>d39ed6760feef20004a6716ce1050e0a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Work In Progress</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_parent display_value="Request">4e572ea137013100d68998a543990efa</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_scope_delete display_value="">3f57090c102344369a525bed60375e31</sys_scope_delete>
+        <sys_update_name>sys_ui_action_d39ed6760feef20004a6716ce1050e0a</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_d39ed6760feef20004a6716ce1050e0a">3f92d9c6378bba00d68998a543990e91</sys_update_version>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2019-04-02 10:21:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

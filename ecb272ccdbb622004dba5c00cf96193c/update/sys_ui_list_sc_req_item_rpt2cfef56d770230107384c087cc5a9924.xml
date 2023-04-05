@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="sc_req_item" version="2" view="RPT2cfef56d770230107384c087cc5a9924">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="sc_req_item" element="NULL" name="sc_req_item" parent="NULL" relationship="NULL" sys_domain="global" view="63121f19873391506cb6fd99cebb3538">2f121f19873391506cb6fd99cebb3539</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-12-15 14:20:06</sys_created_on>
+            <sys_id>27121f19873391506cb6fd99cebb353b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-12-15 14:20:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cat_item</element>
+            <list_id display_value="sc_req_item" element="NULL" name="sc_req_item" parent="NULL" relationship="NULL" sys_domain="global" view="63121f19873391506cb6fd99cebb3538">2f121f19873391506cb6fd99cebb3539</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-12-15 14:20:06</sys_created_on>
+            <sys_id>ab121f19873391506cb6fd99cebb353b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-12-15 14:20:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>stage</element>
+            <list_id display_value="sc_req_item" element="NULL" name="sc_req_item" parent="NULL" relationship="NULL" sys_domain="global" view="63121f19873391506cb6fd99cebb3538">2f121f19873391506cb6fd99cebb3539</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-12-15 14:20:06</sys_created_on>
+            <sys_id>2f121f19873391506cb6fd99cebb353b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-12-15 14:20:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>request</element>
+            <list_id display_value="sc_req_item" element="NULL" name="sc_req_item" parent="NULL" relationship="NULL" sys_domain="global" view="63121f19873391506cb6fd99cebb3538">2f121f19873391506cb6fd99cebb3539</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-12-15 14:20:06</sys_created_on>
+            <sys_id>af121f19873391506cb6fd99cebb353b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-12-15 14:20:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>request.requested_for</element>
+            <list_id display_value="sc_req_item" element="NULL" name="sc_req_item" parent="NULL" relationship="NULL" sys_domain="global" view="63121f19873391506cb6fd99cebb3538">2f121f19873391506cb6fd99cebb3539</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-12-15 14:20:06</sys_created_on>
+            <sys_id>23121f19873391506cb6fd99cebb353c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-12-15 14:20:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>request.opened_by</element>
+            <list_id display_value="sc_req_item" element="NULL" name="sc_req_item" parent="NULL" relationship="NULL" sys_domain="global" view="63121f19873391506cb6fd99cebb3538">2f121f19873391506cb6fd99cebb3539</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-12-15 14:20:06</sys_created_on>
+            <sys_id>a3121f19873391506cb6fd99cebb353c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-12-15 14:20:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>due_date</element>
+            <list_id display_value="sc_req_item" element="NULL" name="sc_req_item" parent="NULL" relationship="NULL" sys_domain="global" view="63121f19873391506cb6fd99cebb3538">2f121f19873391506cb6fd99cebb3539</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-12-15 14:20:06</sys_created_on>
+            <sys_id>27121f19873391506cb6fd99cebb353c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-12-15 14:20:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>quantity</element>
+            <list_id display_value="sc_req_item" element="NULL" name="sc_req_item" parent="NULL" relationship="NULL" sys_domain="global" view="63121f19873391506cb6fd99cebb3538">2f121f19873391506cb6fd99cebb3539</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-12-15 14:20:06</sys_created_on>
+            <sys_id>a7121f19873391506cb6fd99cebb353c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-12-15 14:20:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sc_req_item</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2022-12-15 14:20:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>2f121f19873391506cb6fd99cebb3539</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sc_req_item</sys_name>
+            <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+            <sys_update_name>sys_ui_list_sc_req_item_RPT2cfef56d770230107384c087cc5a9924</sys_update_name>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2022-12-15 14:20:06</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt2cfef56d770230107384c087cc5a9924" name="RPT2cfef56d770230107384c087cc5a9924">63121f19873391506cb6fd99cebb3538</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

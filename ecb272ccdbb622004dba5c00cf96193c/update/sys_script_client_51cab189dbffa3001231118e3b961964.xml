@@ -6,6 +6,7 @@
         <description/>
         <field>delivery_location</field>
         <global>true</global>
+        <isolate_script>false</isolate_script>
         <messages/>
         <name>Location onChange</name>
         <order/>

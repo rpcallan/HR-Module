@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="263d84541b20f410a91733a5464bcb71" label="Job Family (Secondary)" max_length="40" name="x_sigr_sisk_hr_co_job_family_secondary" type="collection">
+        <element display="true" label="Description" max_length="80" name="u_description" type="string"/>
+        <element label="Parent" max_length="32" name="u_parent" reference="x_sigr_sisk_hr_co_job_family_primary" type="reference"/>
+        <index name="index">
+            <element name="u_parent"/>
+        </index>
+    </element>
+</database>

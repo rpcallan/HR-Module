@@ -3,12 +3,12 @@
         <access>public</access>
         <actions_access>false</actions_access>
         <alter_access>false</alter_access>
+        <caller_access/>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
         <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
         <delete_access>false</delete_access>
-        <extension_model/>
         <is_extendable>false</is_extendable>
         <label>Staff List</label>
         <live_feed_enabled>false</live_feed_enabled>
@@ -16,10 +16,9 @@
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
         <super_class/>
-        <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
-        <sys_class_path/>
         <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
         <sys_created_on>2018-04-26 09:38:47</sys_created_on>
         <sys_customer_update>false</sys_customer_update>

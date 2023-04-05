@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a19a4b81878391106cb6fd99cebb3579" label="Competency" max_length="40" name="x_sigr_sisk_hr_co_competency" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Order" max_length="40" name="order" type="integer"/>
+    </element>
+</database>

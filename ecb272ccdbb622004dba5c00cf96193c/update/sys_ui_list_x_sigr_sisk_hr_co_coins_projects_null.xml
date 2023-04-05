@@ -3,107 +3,137 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_sigr_sisk_hr_co_coins_projects" element="NULL" name="x_sigr_sisk_hr_co_coins_projects" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f281a5da37517a80d68998a543990ed2</list_id>
+            <list_id display_value="x_sigr_sisk_hr_co_coins_projects" element="NULL" name="x_sigr_sisk_hr_co_coins_projects" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2cb0a4dddbe73f4011b18a3a48961939</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2017-03-06 16:13:41</sys_created_on>
-            <sys_id>f681a5da37517a80d68998a543990ed2</sys_id>
+            <sys_created_on>2019-08-27 14:02:19</sys_created_on>
+            <sys_id>68b0a4dddbe73f4011b18a3a4896193a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2017-03-06 16:13:41</sys_updated_on>
+            <sys_updated_on>2019-08-27 14:02:19</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>job_number</element>
-            <list_id display_value="x_sigr_sisk_hr_co_coins_projects" element="NULL" name="x_sigr_sisk_hr_co_coins_projects" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f281a5da37517a80d68998a543990ed2</list_id>
+            <list_id display_value="x_sigr_sisk_hr_co_coins_projects" element="NULL" name="x_sigr_sisk_hr_co_coins_projects" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2cb0a4dddbe73f4011b18a3a48961939</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2017-03-06 16:13:41</sys_created_on>
-            <sys_id>7a81a5da37517a80d68998a543990ed2</sys_id>
+            <sys_created_on>2019-08-27 14:02:19</sys_created_on>
+            <sys_id>ecb0a4dddbe73f4011b18a3a4896193a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2017-03-06 16:13:41</sys_updated_on>
+            <sys_updated_on>2019-08-27 14:02:19</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>bi360_entity</element>
-            <list_id display_value="x_sigr_sisk_hr_co_coins_projects" element="NULL" name="x_sigr_sisk_hr_co_coins_projects" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f281a5da37517a80d68998a543990ed2</list_id>
+            <element>project_name</element>
+            <list_id display_value="x_sigr_sisk_hr_co_coins_projects" element="NULL" name="x_sigr_sisk_hr_co_coins_projects" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2cb0a4dddbe73f4011b18a3a48961939</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2017-03-06 16:13:41</sys_created_on>
-            <sys_id>fa81a5da37517a80d68998a543990ed2</sys_id>
+            <sys_created_on>2019-08-27 14:02:19</sys_created_on>
+            <sys_id>60b0a4dddbe73f4011b18a3a4896193b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2017-03-06 16:13:41</sys_updated_on>
+            <sys_updated_on>2019-08-27 14:02:19</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>region_division</element>
-            <list_id display_value="x_sigr_sisk_hr_co_coins_projects" element="NULL" name="x_sigr_sisk_hr_co_coins_projects" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f281a5da37517a80d68998a543990ed2</list_id>
+            <element>bi360_entity</element>
+            <list_id display_value="x_sigr_sisk_hr_co_coins_projects" element="NULL" name="x_sigr_sisk_hr_co_coins_projects" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2cb0a4dddbe73f4011b18a3a48961939</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2017-03-06 16:13:41</sys_created_on>
-            <sys_id>7e81a5da37517a80d68998a543990ed2</sys_id>
+            <sys_created_on>2019-08-27 14:02:19</sys_created_on>
+            <sys_id>e0b0a4dddbe73f4011b18a3a4896193b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2017-03-06 16:13:41</sys_updated_on>
+            <sys_updated_on>2019-08-27 14:02:19</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>country</element>
-            <list_id display_value="x_sigr_sisk_hr_co_coins_projects" element="NULL" name="x_sigr_sisk_hr_co_coins_projects" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f281a5da37517a80d68998a543990ed2</list_id>
+            <element>location</element>
+            <list_id display_value="x_sigr_sisk_hr_co_coins_projects" element="NULL" name="x_sigr_sisk_hr_co_coins_projects" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2cb0a4dddbe73f4011b18a3a48961939</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2017-03-06 16:13:41</sys_created_on>
-            <sys_id>fe81a5da37517a80d68998a543990ed2</sys_id>
+            <sys_created_on>2019-08-27 14:02:19</sys_created_on>
+            <sys_id>64b0a4dddbe73f4011b18a3a4896193b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2017-03-06 16:13:41</sys_updated_on>
+            <sys_updated_on>2019-08-27 14:02:19</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_created_on</element>
-            <list_id display_value="x_sigr_sisk_hr_co_coins_projects" element="NULL" name="x_sigr_sisk_hr_co_coins_projects" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f281a5da37517a80d68998a543990ed2</list_id>
+            <element>region_division</element>
+            <list_id display_value="x_sigr_sisk_hr_co_coins_projects" element="NULL" name="x_sigr_sisk_hr_co_coins_projects" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2cb0a4dddbe73f4011b18a3a48961939</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2017-03-06 16:13:41</sys_created_on>
-            <sys_id>7281a5da37517a80d68998a543990ed3</sys_id>
+            <sys_created_on>2019-08-27 14:02:19</sys_created_on>
+            <sys_id>e4b0a4dddbe73f4011b18a3a4896193b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2017-03-06 16:13:41</sys_updated_on>
+            <sys_updated_on>2019-08-27 14:02:19</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_updated_on</element>
-            <list_id display_value="x_sigr_sisk_hr_co_coins_projects" element="NULL" name="x_sigr_sisk_hr_co_coins_projects" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f281a5da37517a80d68998a543990ed2</list_id>
+            <element>country</element>
+            <list_id display_value="x_sigr_sisk_hr_co_coins_projects" element="NULL" name="x_sigr_sisk_hr_co_coins_projects" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2cb0a4dddbe73f4011b18a3a48961939</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2017-03-06 16:13:41</sys_created_on>
-            <sys_id>f281a5da37517a80d68998a543990ed3</sys_id>
+            <sys_created_on>2019-08-27 14:02:19</sys_created_on>
+            <sys_id>68b0a4dddbe73f4011b18a3a4896193b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2017-03-06 16:13:41</sys_updated_on>
+            <sys_updated_on>2019-08-27 14:02:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_sigr_sisk_hr_co_coins_projects" element="NULL" name="x_sigr_sisk_hr_co_coins_projects" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2cb0a4dddbe73f4011b18a3a48961939</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2019-08-27 14:02:19</sys_created_on>
+            <sys_id>e8b0a4dddbe73f4011b18a3a4896193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2019-08-27 14:02:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_sigr_sisk_hr_co_coins_projects" element="NULL" name="x_sigr_sisk_hr_co_coins_projects" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2cb0a4dddbe73f4011b18a3a48961939</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2019-08-27 14:02:19</sys_created_on>
+            <sys_id>6cb0a4dddbe73f4011b18a3a4896193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2019-08-27 14:02:19</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -117,10 +147,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2017-03-06 16:13:41</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_created_on>2019-08-27 14:02:19</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>f281a5da37517a80d68998a543990ed2</sys_id>
+            <sys_id>2cb0a4dddbe73f4011b18a3a48961939</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_sigr_sisk_hr_co_coins_projects</sys_name>
             <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
@@ -129,7 +159,7 @@
             <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
             <sys_update_name>sys_ui_list_x_sigr_sisk_hr_co_coins_projects_null</sys_update_name>
             <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2017-03-06 16:13:41</sys_updated_on>
+            <sys_updated_on>2019-08-27 14:02:19</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

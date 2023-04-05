@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Activities" section_id="2ba8f6560f7d170004a6716ce1050efb" sys_domain="global" table="x_sigr_sisk_hr_co_leavers" version="3" view="HR">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>activity.xml</element>
+            <element>u_reprocess_leaver_request</element>
             <position>0</position>
-            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
-            <sys_created_on>2018-05-03 11:28:07</sys_created_on>
-            <sys_id>b7a83a560f7d170004a6716ce1050e6b</sys_id>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2021-05-05 14:21:50</sys_created_on>
+            <sys_id>9a12c6731b3be010bf29400de54bcbd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Activities" display_value="Activities" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="67a8b6560f7d170004a6716ce1050e02">2ba8f6560f7d170004a6716ce1050efb</sys_ui_section>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2021-05-05 14:21:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>1</position>
+            <sys_created_by>callanra</sys_created_by>
+            <sys_created_on>2021-05-05 14:21:50</sys_created_on>
+            <sys_id>1612c6731b3be010bf29400de54bcbd3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
             <sys_ui_section caption="Activities" display_value="Activities" name="x_sigr_sisk_hr_co_leavers" sys_domain="global" view="67a8b6560f7d170004a6716ce1050e02">2ba8f6560f7d170004a6716ce1050efb</sys_ui_section>
-            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-            <sys_updated_on>2018-05-03 11:28:07</sys_updated_on>
+            <sys_updated_by>callanra</sys_updated_by>
+            <sys_updated_on>2021-05-05 14:21:50</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
@@ -26,7 +40,7 @@
             <sys_domain>global</sys_domain>
             <sys_id>2ba8f6560f7d170004a6716ce1050efb</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Activities</sys_name>
+            <sys_name>x_sigr_sisk_hr_co_leavers</sys_name>
             <sys_overrides/>
             <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
             <sys_policy/>

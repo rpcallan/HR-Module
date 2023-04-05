@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Sisk Hr Contracts">a9b27eccdbb622004dba5c00cf961933</application>
+        <filter/>
+        <name>Sisk Directors</name>
+        <order>300</order>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_sigr_sisk_hr_co.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2016-11-20 18:25:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>714740500f176200369a4c8b03050eba</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Sisk Directors</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sys_ui_module_714740500f176200369a4c8b03050eba</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2016-12-05 15:34:43</sys_updated_on>
+        <table>x_sigr_sisk_hr_co_sisk_directors</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

@@ -166,7 +166,7 @@
             <sys_domain>global</sys_domain>
             <sys_id>d72ada0837f193406f3c8d2754990ec0</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Assets</sys_name>
+            <sys_name>x_sigr_sisk_hr_co_leavers</sys_name>
             <sys_overrides/>
             <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
             <sys_policy/>

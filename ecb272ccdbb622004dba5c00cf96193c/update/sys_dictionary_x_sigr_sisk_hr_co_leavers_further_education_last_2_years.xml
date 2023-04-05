@@ -2,8 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="further_education_last_2_years" table="x_sigr_sisk_hr_co_leavers">
         <active>true</active>
         <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -30,6 +29,7 @@
         <element>further_education_last_2_years</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="">boolean</internal_type>
@@ -47,15 +47,12 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>callanra</sys_created_by>
         <sys_created_on>2022-04-29 07:51:43</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>aa4b519387878910b41dcbf90cbb3570</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>Further Education Last 2 Years</sys_name>
         <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
         <sys_policy/>
@@ -71,6 +68,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

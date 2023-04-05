@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true" audit="true" db_object_id="c0f80d490fe36200eba957d003050ef2" extends="task" label="Authority To Offer" max_length="40" name="x_sigr_sisk_hr_co_authority_to_offer" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Additional Comments" max_length="4000" name="additional_comments" type="translated_text"/>
+        <element label="Address Line 1" mandatory="true" max_length="40" name="address_line_1" type="string"/>
+        <element label="Address Line 2" max_length="40" name="address_line_2" type="string"/>
+        <element label="Address Line 3" max_length="40" name="address_line_3" type="string"/>
+        <element label="Agency Name" mandatory="true" max_length="40" name="agency_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Allocated Buddy" max_length="32" name="allocated_buddy" reference="sys_user" reference_qual="active=true^u_company_type=construction^EQ" reference_qual_condition="active=true^u_company_type=construction^EQ" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Car Allowance" max_length="40" name="allowance" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Basic Salary" mandatory="true" max_length="40" name="basic_salary" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Benefits Changed" max_length="40" name="benefits_changed" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Computer Type" max_length="40" name="computer_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="laptop"/>
+                <element inactive="true" inactive_on_update="true" label="Non-Standard IT Laptop Package based on specific functional activity" sequence="0" value="non_standard_laptop"/>
+                <element inactive_on_update="false" label="Desktop" sequence="1" value="desktop"/>
+                <element inactive="true" inactive_on_update="true" label="Non-Standard IT Desktop Package based on specific functional activity" sequence="1" value="non_standard_desktop"/>
+                <element inactive_on_update="false" label="None Required" sequence="2" value="none"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Contract Category" mandatory="true" max_length="40" name="contract_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Permanent" sequence="0" value="perm"/>
+                <element inactive_on_update="false" label="Fixed Term Contract" sequence="1" value="fixed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Contract End Date" mandatory="true" max_length="40" name="contract_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Contract Template" max_length="32" name="contract_template" reference="x_sigr_sisk_hr_co_contract_templates" type="reference">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Contract Type" mandatory="true" max_length="40" name="contract_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Full-time" sequence="0" value="full-time"/>
+                <element inactive_on_update="false" label="Part-time" sequence="1" value="part-time"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Country" mandatory="true" max_length="32" name="country" reference="core_country" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Currency" max_length="5" name="currency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="EUR" sequence="0" value="EUR"/>
+                <element inactive_on_update="false" label="GBP" sequence="1" value="GBP"/>
+            </choice>
+        </element>
+        <element label="Delivery Address" max_length="4000" name="delivery_address" type="string"/>
+        <element label="Delivery Contact Number" max_length="40" name="delivery_contact_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Delivery Location" max_length="32" name="delivery_location" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" dependent="company" dependent_on_field="company" label="Department" mandatory="true" max_length="32" name="department" reference="cmn_department" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Business Unit MD" mandatory="true" max_length="32" name="director" reference="x_sigr_sisk_hr_co_sisk_directors" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Director Name" max_length="32" name="director_name" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Docking Station" max_length="40" name="docking_station" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Employment Category" mandatory="true" max_length="40" name="employment_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Contracts Management" sequence="0" value="cm"/>
+                <element inactive_on_update="false" label="Engineering" sequence="1" value="eng"/>
+                <element inactive_on_update="false" label="Quantity Surveying &amp; Estimating" sequence="2" value="qse"/>
+                <element inactive_on_update="false" label="Site Management" sequence="3" value="sm"/>
+                <element inactive_on_update="false" label="Building Services" sequence="4" value="bs"/>
+                <element inactive_on_update="false" label="HSE" sequence="5" value="hse"/>
+                <element inactive_on_update="false" label="Support" sequence="6" value="sup"/>
+                <element inactive_on_update="false" label="Other" sequence="7" value="oth"/>
+            </choice>
+        </element>
+        <element label="Additional Information for IT" max_length="1000" name="existing_computer_details" type="string"/>
+        <element label="Existing Phone Details" max_length="1000" name="existing_phone_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Finance Director" max_length="32" name="finance_director" reference="sys_user" type="reference"/>
+        <element label="First Name" mandatory="true" max_length="50" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" calculation="current.full_address = current.address_line_1 + '&lt;br/&gt;';&#10;if(current.address_line_2 != ''){&#10;&#9;current.full_address += current.address_line_2 + '&lt;br/&gt;';&#10;}&#10;if(current.address_line_3 != ''){&#10;&#9;current.full_address += current.address_line_3 + '&lt;br/&gt;';&#10;}&#10;&#10;current.full_address += current.town_city + '&lt;br/&gt;';&#10;current.full_address += current.state_county + '&lt;br/&gt;';&#10;&#10;if(current.post_code != ''){&#10;&#9;current.full_address += current.post_code + '&lt;br/&gt;';&#10;}&#10;current.full_address += current.country.name;" label="Full Address" max_length="400" name="full_address" type="translated_html" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="currency" dependent_on_field="currency" label="Grade" mandatory="true" max_length="32" name="grade" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="EUR" inactive_on_update="false" label="No Entitlement" sequence="1" value="car_none"/>
+                <element dependent_value="GBP" inactive_on_update="false" label="No Entitlement" sequence="1" value="band_none"/>
+                <element dependent_value="EUR" inactive_on_update="false" label="Car Allowance Level 1" sequence="2" value="car_all_l1"/>
+                <element dependent_value="EUR" inactive_on_update="false" label="Car Allowance Level 2" sequence="3" value="car_all_l2"/>
+                <element dependent_value="EUR" inactive_on_update="false" label="Car Allowance Level 3" sequence="4" value="car_all_l3"/>
+                <element dependent_value="EUR" inactive_on_update="false" label="Car Allowance Level 4" sequence="5" value="car_all_l4"/>
+                <element dependent_value="EUR" inactive_on_update="false" label="Company Vehicle Level 1" sequence="6" value="car_veh_l1"/>
+                <element dependent_value="EUR" inactive_on_update="false" label="Company Vehicle Level 2" sequence="7" value="car_veh_l2"/>
+                <element dependent_value="EUR" inactive_on_update="false" label="Company Vehicle Level 3" sequence="8" value="car_veh_l3"/>
+                <element dependent_value="EUR" inactive_on_update="false" label="Company Vehicle Level 4" sequence="9" value="car_veh_l4"/>
+                <element dependent_value="EUR" inactive_on_update="false" label="Commercial Vehicle" sequence="10" value="car_veh"/>
+                <element dependent_value="GBP" inactive_on_update="false" label="Band 1  - car allowance value £3450" sequence="11" value="band_1"/>
+                <element dependent_value="EUR" inactive_on_update="false" label="Car Allowance or Company Vehicle - Level 1" sequence="11" value="car_all_veh_l1"/>
+                <element dependent_value="GBP" inactive_on_update="false" label="Band 2  - car allowance value £4200" sequence="12" value="band_2"/>
+                <element dependent_value="EUR" inactive_on_update="false" label="Car Allowance or Company Vehicle - Level 2" sequence="12" value="car_all_veh_l2"/>
+                <element dependent_value="GBP" inactive_on_update="false" label="Band 3 – car allowance value £4800" sequence="13" value="band_3"/>
+                <element dependent_value="EUR" inactive_on_update="false" label="Car Allowance or Company Vehicle - Level 3" sequence="13" value="car_all_veh_l3"/>
+                <element dependent_value="GBP" inactive_on_update="false" label="Band 4 – car allowance value £5940" sequence="14" value="band_4"/>
+                <element dependent_value="EUR" inactive_on_update="false" label="Car Allowance or Company Vehicle - Level 4" sequence="14" value="car_all_veh_l4"/>
+                <element dependent_value="GBP" inactive_on_update="false" label="Band 5 – car allowance value £7080" sequence="15" value="band_5"/>
+                <element dependent_value="GBP" inactive_on_update="false" label="Band 6 – car allowance value £8280" sequence="16" value="band_6"/>
+                <element dependent_value="GBP" inactive_on_update="false" label="Band 7 – car allowance value £10860" sequence="17" value="band_7"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Headset" max_length="40" name="headset" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="26" label="Holiday Entitlement (Days)" mandatory="true" max_length="10" name="holiday_entitlement_days" type="integer"/>
+        <element label="Personal Email" mandatory="true" max_length="40" name="home_email" type="string"/>
+        <element label="Personal Phone" max_length="40" name="home_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="HrPro Level" max_length="40" name="hrpro_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Employee" sequence="100" value="employee"/>
+                <element inactive_on_update="false" label="Line Manager" sequence="200" value="manager"/>
+                <element inactive_on_update="false" label="Director" sequence="300" value="director"/>
+            </choice>
+        </element>
+        <element label="HrPro Number" max_length="40" name="hrpro_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Initiated By" max_length="32" name="initiated_by" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="IT Access Type" mandatory="true" max_length="40" name="it_access_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No IT Access Required" sequence="0" value="no_access"/>
+                <element inactive_on_update="false" label="New Hire or Contractor  that requires IT Access" sequence="1" value="it_access"/>
+                <element inactive_on_update="false" label="Contractor that already has IT Access and Sisk Equipment" sequence="2" value="contractor"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Job Title" mandatory="true" max_length="32" name="job_title" reference="x_sigr_sisk_hr_co_job_roles" type="reference"/>
+        <element label="Job Title" mandatory="true" max_length="80" name="job_title_text" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Keyboard &amp; Mouse Bundle" max_length="40" name="keyboard" type="boolean"/>
+        <element label="Known As" max_length="50" name="known_as" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Laptop Required" max_length="40" name="laptop_required" type="boolean"/>
+        <element label="List Printers" max_length="400" name="list_printers" type="string"/>
+        <element label="List Shared Drives" max_length="400" name="list_shared_drives" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Regional Director" max_length="32" name="local_director" reference="sys_user" reference_qual="active=true^u_company_type=construction^EQ" reference_qual_condition="active=true^u_company_type=construction^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Location Not Listed" max_length="40" name="location_not_listed" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Data Roaming" max_length="40" name="mobile_data_roaming" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="International Calls" max_length="40" name="mobile_international_calls" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Mobile Phone Required" max_length="40" name="mobile_phone_required" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Monitor" max_length="40" name="monitor" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Monitor Qty" max_length="40" name="monitor_qty" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="200" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Mouse" max_length="40" name="mouse" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;// Add your code here&#10;&#9;return current.first_name + ' ' + current.surname;  // return the calculated value&#10;&#10;})(current);" label="Name" max_length="151" name="name" type="string" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Notice Period" mandatory="true" max_length="32" name="notice_period" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1 Week" sequence="0" value="1w"/>
+                <element inactive_on_update="false" label="4 Weeks" sequence="1" value="4_weeks"/>
+                <element inactive_on_update="false" label="1 Month" sequence="2" value="1m"/>
+                <element inactive_on_update="false" label="3 Months" sequence="3" value="3m"/>
+                <element inactive_on_update="false" label="6 Months" sequence="4" value="6m"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="mth" label="Payment Type" mandatory="true" max_length="40" name="payment_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Monthly" sequence="0" value="mth"/>
+                <element inactive_on_update="false" label="Hourly" sequence="1" value="hr"/>
+                <element inactive_on_update="false" label="Director Monthly" sequence="2" value="dm"/>
+                <element inactive_on_update="false" label="Weekly" sequence="3" value="wk"/>
+                <element inactive_on_update="false" label="Executive  Monthly" sequence="4" value="em"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Personal Data Share" max_length="40" name="personal_data_share" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Phone Type" max_length="40" name="phone_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Standard Phone" sequence="100" value="standard"/>
+                <element inactive_on_update="false" label="None / Order Seperately" sequence="200" value="none"/>
+            </choice>
+        </element>
+        <element label="Post Code" max_length="12" name="post_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Printer Access" max_length="40" name="printer_access" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Project" mandatory="true" max_length="32" name="project" reference="x_sigr_sisk_hr_co_coins_projects" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Project not on COINS" max_length="10" name="project_not_on_coins" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Recruitment Cost" mandatory="true" max_length="40" name="recruitment_cost" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Recruitment Currency" mandatory="true" max_length="5" name="recruitment_currency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="EUR" sequence="0" value="EUR"/>
+                <element inactive_on_update="false" label="GBP" sequence="1" value="GBP"/>
+            </choice>
+        </element>
+        <element label="Referral Name" mandatory="true" max_length="80" name="referral_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Region/Division" mandatory="true" max_length="32" name="region_division" reference="x_sigr_sisk_hr_co_region_division" reference_qual="company.x_sigr_sisk_hr_co_customer_typeINconstruction,it^EQ" reference_qual_condition="company.x_sigr_sisk_hr_co_customer_typeINconstruction,it^EQ" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Remote Access" max_length="40" name="remote_access" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Reporting Manager" mandatory="true" max_length="32" name="reporting_manager" reference="sys_user" reference_qual="active=true^u_company_type=construction^ORu_company_type=it^EQ" reference_qual_condition="active=true^u_company_type=construction^ORu_company_type=it^EQ" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Reuse Computer (If Available)" max_length="40" name="reuse_computer" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Reuse Phone (If Available)" max_length="40" name="reuse_phone" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_job_role_package" choice_table="u_user_access" label="Role Group" max_length="40" name="role_group" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Standard" sequence="0" value="standard"/>
+                <element inactive_on_update="false" label="Senior Management" sequence="1" value="senior_management"/>
+                <element inactive_on_update="false" label="Design Management" sequence="2" value="design_management"/>
+                <element inactive_on_update="false" label="Planning" sequence="3" value="planning"/>
+                <element inactive_on_update="false" label="BIM" sequence="4" value="bim"/>
+                <element inactive_on_update="false" label="Building Services" sequence="5" value="building_services"/>
+                <element inactive_on_update="false" label="Engineering" sequence="6" value="engineering"/>
+                <element inactive_on_update="false" label="Site Operation Team" sequence="7" value="site_ops"/>
+                <element inactive_on_update="false" label="Commercial" sequence="8" value="commercial"/>
+                <element inactive_on_update="false" label="Site Support" sequence="9" value="site_support"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_job_role_package" choice_table="u_user_access" label="IT Package Bundle Type" max_length="40" name="role_package" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Standard" sequence="0" value="standard"/>
+                <element inactive_on_update="false" label="Senior Management" sequence="1" value="senior_management"/>
+                <element inactive_on_update="false" label="Design Management" sequence="2" value="design_management"/>
+                <element inactive_on_update="false" label="Planning" sequence="3" value="planning"/>
+                <element inactive_on_update="false" label="BIM" sequence="4" value="bim"/>
+                <element inactive_on_update="false" label="Building Services" sequence="5" value="building_services"/>
+                <element inactive_on_update="false" label="Engineering" sequence="6" value="engineering"/>
+                <element inactive_on_update="false" label="Site Operation Team" sequence="7" value="site_ops"/>
+                <element inactive_on_update="false" label="Commercial" sequence="8" value="commercial"/>
+                <element inactive_on_update="false" label="Site Support" sequence="9" value="site_support"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Shared Drive Access" max_length="40" name="shared_drive_access" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="F" max_length="40" name="shift_f" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="M" max_length="40" name="shift_m" type="boolean"/>
+        <element label="Shift Pattern" max_length="40" name="shift_pattern" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Th" max_length="40" name="shift_th" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Tu" max_length="40" name="shift_tu" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="W" max_length="40" name="shift_w" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="SIM Type" max_length="40" name="sim_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ROI Sim" sequence="100" value="sim_roi"/>
+                <element inactive_on_update="false" label="UK Sim" sequence="200" value="sim_uk"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Source" mandatory="true" max_length="32" name="source" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Direct" sequence="0" value="direct"/>
+                <element inactive_on_update="false" label="Referral" sequence="1" value="referral"/>
+                <element inactive_on_update="false" label="Agency" sequence="2" value="agency"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Start Date (Confirmed)" max_length="40" name="start_date_confirmed" type="glide_date"/>
+        <element label="Start Date (Provisional)" mandatory="true" max_length="40" name="start_date_provisional" type="string"/>
+        <element label="State / County" mandatory="true" max_length="50" name="state_county" type="string"/>
+        <element label="Surname" mandatory="true" max_length="50" name="surname" type="string"/>
+        <element label="Town / City" mandatory="true" max_length="50" name="town_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="UAM Form" max_length="32" name="uam_form" reference="u_user_access" type="reference"/>
+        <element label="Job Family (Primary)" mandatory="true" max_length="32" name="u_job_family_primary" reference="x_sigr_sisk_hr_co_job_family_primary" type="reference"/>
+        <element dependent="u_job_family_primary" dependent_on_field="u_job_family_primary" label="job Family (Secondary)" max_length="32" name="u_job_family_secondary" reference="x_sigr_sisk_hr_co_job_family_secondary" type="reference" use_dependent_field="true"/>
+        <element label="Job Title (Known As)" max_length="80" name="u_job_title_known_as" type="string"/>
+        <element label="Nationality" max_length="80" name="u_nationality" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Weekly Working Hours" mandatory="true" max_length="15" name="weekly_working_hours" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Working Pattern" mandatory="true" max_length="40" name="working_pattern" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Mon-Fri" sequence="0" value="m_f"/>
+                <element inactive_on_update="false" label="Local Roster" sequence="1" value="roster"/>
+            </choice>
+        </element>
+    </element>
+</database>

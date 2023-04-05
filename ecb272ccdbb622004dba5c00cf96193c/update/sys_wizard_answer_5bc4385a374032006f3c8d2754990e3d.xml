@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Authority To Offer</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Authority To Offer</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">a5800d0237200200d68998a543990ee8</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-01-03 09:39:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5bc4385a374032006f3c8d2754990e3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Authority To Offer</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sys_wizard_answer_5bc4385a374032006f3c8d2754990e3d</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-01-03 09:39:42</sys_updated_on>
+        <table/>
+        <target_url>x_sigr_sisk_hr_co_authority_to_offer.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

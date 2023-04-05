@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>sysapproval_approver</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<div>Hi ${sysapproval.opened_by.first_name},</div>
+<div>
+<p>You are receiving this e-mail as ${approver} requires ${sysapproval.number} to be modified.</p>
+<p>The reason given is: <em>${comments}</em></p>
+<p>Once you have made the necessary modifications, please click Submit for Approval to re-process the form</p>
+<p>Kind Regards,<br />Human Resources</p>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>ato.request.rejected</name>
+        <sms_alternate/>
+        <subject>${sysapproval.sys_class_name} ${sysapproval} needs to be modified</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2017-01-09 10:46:03</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c37bf3040f54b2004ac7fe5ce1050e54</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>ato.request.rejected</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sysevent_email_template_c37bf3040f54b2004ac7fe5ce1050e54</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2017-08-21 13:06:54</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

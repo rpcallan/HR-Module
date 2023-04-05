@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_sigr_sisk_hr_co_leavers</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_sigr_sisk_hr_co_leavers">u_reprocess_leaver_requestCHANGESTOtrue^EQ<item endquery="false" field="u_reprocess_leaver_request" goto="false" newquery="false" operator="CHANGESTO" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Leaver - ReSubmit Notification</name>
+        <order>500</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+		
+	if(current.leaver){
+		//create leaver request
+		var cart = new global.Cart();
+		
+		var item = cart.addItem('6f3809bc0ffe1640d459936792050eff');
+		cart.setVariable(item, 'leaver_name', current.leaver);
+		cart.setVariable(item, 'leaver_email_redirect', current.redirect_email_to);
+		cart.setVariable(item, 'leaving_date', current.leaving_date);
+		cart.setVariable(item, 'leaver_mobile', swap(current.keep_mobile));
+		cart.setVariable(item, 'leaver_keep_mobile', current.keep_mobile);
+		cart.setVariable(item, 'leaver_keep_number', current.keep_mobile_number);
+		cart.setVariable(item, 'leavel_cancer_number', swap(current.keep_mobile_number));
+		cart.setVariable(item, 'leaver_number', current.mobile_number);
+		cart.setVariable(item, 'leaver_other_equip', current.other_devices);
+		
+		var newSerReq = cart.placeOrder();
+		newSerReq.opened_by = '6816f79cc0a8016401c5a33be04be441'; // admin
+		newSerReq.requested_for = current.opened_by;
+		newSerReq.due_date = current.leaving_date;
+		newSerReq.u_disable_notification = true;
+		newSerReq.update();
+		
+		var activityLogMsg = 'Service Request ' + newSerReq.number + ' is created';
+		
+		current.work_notes = activityLogMsg;
+		current.request_item = getRITM(newSerReq.sys_id);
+		current.u_reprocess_leaver_request = false;
+		current.update();
+	}
+	
+	function getRITM(serReq) {
+		var grRITM = new GlideRecord('sc_req_item');
+		grRITM.addQuery('request',serReq);
+		grRITM.query();
+		
+		if(grRITM.next()) {
+			return grRITM.sys_id;
+		}
+		return '';
+	}
+	
+})(current, previous);
+
+function swap(value){
+	if(value){
+		return false;
+	}
+	if(!value){
+		return true;
+	}
+}
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>callanra</sys_created_by>
+        <sys_created_on>2021-05-05 14:27:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>2c63cab31b73a010a91733a5464bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leaver - ReSubmit Notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sys_script_2c63cab31b73a010a91733a5464bcbff</sys_update_name>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2021-05-05 14:27:28</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+</record_update>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="7384e36b37a472443955261953990e8e" label="Sisk HR Co Sisk HR Contracts" max_length="40" name="x_sigr_sisk_hr_co_sisk_hr_contracts" type="collection">
+        <element label="Address Line 1" mandatory="true" max_length="40" name="address_line_1" type="string"/>
+        <element label="Address Line 2" max_length="40" name="address_line_2" type="string"/>
+        <element label="Address Line 3" max_length="40" name="address_line_3" type="string"/>
+        <element label="Agency Name" mandatory="true" max_length="40" name="agency_name" type="string"/>
+        <element dependent="company" dependent_on_field="company" label="Allocated Buddy" mandatory="true" max_length="32" name="allocated_buddy" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dependent_field="true"/>
+        <element label="Allowance" mandatory="true" max_length="40" name="allowance" type="decimal"/>
+        <element choice="1" default="pending" label="Approval" max_length="40" name="approval" read_only="true" type="choice">
+            <choice/>
+        </element>
+        <element label="Basic Salary" mandatory="true" max_length="40" name="basic_salary" type="decimal"/>
+        <element choice_field="u_type" choice_table="u_business_units" dependent="company" dependent_on_field="company" label="Business Unit" mandatory="true" max_length="32" name="business_unit" reference="u_business_units" reference_qual="u_type=construstion^EQ" reference_qual_condition="u_type=construstion^EQ" type="reference" use_dependent_field="true"/>
+        <element choice="1" label="Company" mandatory="true" max_length="32" name="company" reference="core_company" reference_qual="customer=true^x_sigr_sisk_hr_co_customer_type=construction^x_sigr_sisk_hr_co_hiring_company=true^EQ" reference_qual_condition="customer=true^x_sigr_sisk_hr_co_customer_type=construction^x_sigr_sisk_hr_co_hiring_company=true^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="Contract Category" mandatory="true" max_length="40" name="contract_category" type="choice">
+            <choice/>
+        </element>
+        <element label="Contract End Date" mandatory="true" max_length="40" name="contract_end_date" type="glide_date"/>
+        <element choice="1" label="Contract Type" mandatory="true" max_length="40" name="contract_type" type="choice">
+            <choice/>
+        </element>
+        <element label="Country" mandatory="true" max_length="32" name="country" reference="core_country" type="reference"/>
+        <element choice="1" label="Currency" max_length="5" name="currency" read_only="true" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" dependent="company" dependent_on_field="company" label="Department" mandatory="true" max_length="32" name="department" reference="cmn_department" type="reference" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element choice="2" label="Director" mandatory="true" max_length="32" name="director" reference="x_sigr_sisk_hr_co_sisk_directors" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element choice="1" label="Employment Category" mandatory="true" max_length="40" name="employment_category" type="choice">
+            <choice/>
+        </element>
+        <element label="First Name" mandatory="true" max_length="50" name="first_name" type="string"/>
+        <element choice="1" label="Grade" mandatory="true" max_length="32" name="grade" type="choice">
+            <choice/>
+        </element>
+        <element label="Hardware" max_length="32" name="hardware" reference="cmdb_hardware_product_model" reference_qual="bundle=true^EQ" reference_qual_condition="bundle=true^EQ" type="reference"/>
+        <element default="26" label="Holiday Entitlement (Days)" mandatory="true" max_length="40" name="holiday_entitlement" type="integer"/>
+        <element label="Home Email" mandatory="true" max_length="40" name="home_email" type="string"/>
+        <element label="Home Phone" max_length="40" name="home_phone" type="string"/>
+        <element choice="3" label="Job Title" mandatory="true" max_length="32" name="job_title" reference="x_sigr_sisk_hr_co_job_roles" type="reference">
+            <choice/>
+        </element>
+        <element label="Job Title" mandatory="true" max_length="80" name="job_title_text" type="string"/>
+        <element label="Surname" mandatory="true" max_length="50" name="last_name" type="string"/>
+        <element label="Known As" max_length="50" name="middle_name" type="string"/>
+        <element choice="1" label="Notice Period" mandatory="true" max_length="40" name="notice_period" type="choice">
+            <choice/>
+        </element>
+        <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element dependent="company" dependent_on_field="company" label="Office" mandatory="true" max_length="32" name="office" reference="cmn_location" reference_qual="x_sigr_sisk_hr_co_location_type=office^EQ" reference_qual_condition="x_sigr_sisk_hr_co_location_type=office^EQ" type="reference" use_dependent_field="true"/>
+        <element choice="1" label="Payment Type" mandatory="true" max_length="40" name="payment_type" type="choice">
+            <choice/>
+        </element>
+        <element label="Post Code" max_length="12" name="post_code" type="string"/>
+        <element label="Printers" max_length="40" name="printers" type="string"/>
+        <element label="Project" mandatory="true" max_length="151" name="project" type="string"/>
+        <element label="Recruitment Cost" mandatory="true" max_length="40" name="recruitment_cost" type="decimal"/>
+        <element choice="1" label="Recruitment Currency" mandatory="true" max_length="12" name="recruitment_currency" type="choice">
+            <choice/>
+        </element>
+        <element label="Referral Name" mandatory="true" max_length="40" name="referral_name" type="string"/>
+        <element dependent="company" dependent_on_field="company" label="Reporting Manager" mandatory="true" max_length="32" name="reporting_manager" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dependent_field="true"/>
+        <element label="Shared Drives" max_length="40" name="shared_drives" type="string"/>
+        <element label="Software" max_length="32" name="software" reference="cmdb_software_product_model" reference_qual="bundle=true^EQ" reference_qual_condition="bundle=true^EQ" type="reference"/>
+        <element choice="1" label="Source" mandatory="true" max_length="40" name="source" type="choice">
+            <choice/>
+        </element>
+        <element label="Start Date (Provisional)" mandatory="true" max_length="40" name="start_date" type="string"/>
+        <element label="Start Date (Confirmed)" max_length="40" name="start_date_confirmed" type="glide_date"/>
+        <element choice="3" default="0" label="State" max_length="40" name="state" read_only="true" type="choice">
+            <choice/>
+        </element>
+        <element label="State / County" mandatory="true" max_length="40" name="state_county" type="string"/>
+        <element label="Threshold" max_length="20" name="threshold" type="decimal"/>
+        <element label="Town / City" mandatory="true" max_length="40" name="town_city" type="string"/>
+        <element label="Weekly Working Hours" mandatory="true" max_length="40" name="weekly_working_hours" type="integer"/>
+        <element label="Working Pattern" max_length="40" name="working_pattern" type="string"/>
+        <index name="index">
+            <element name="allocated_buddy"/>
+        </index>
+        <index name="index2">
+            <element name="business_unit"/>
+        </index>
+        <index name="index3">
+            <element name="company"/>
+        </index>
+        <index name="index4">
+            <element name="country"/>
+        </index>
+        <index name="index5">
+            <element name="department"/>
+        </index>
+        <index name="index6">
+            <element name="director"/>
+        </index>
+        <index name="index7">
+            <element name="hardware"/>
+        </index>
+        <index name="index8">
+            <element name="job_title"/>
+        </index>
+        <index name="index9">
+            <element name="office"/>
+        </index>
+        <index name="index10">
+            <element name="reporting_manager"/>
+        </index>
+        <index name="index11">
+            <element name="software"/>
+        </index>
+    </element>
+</database>

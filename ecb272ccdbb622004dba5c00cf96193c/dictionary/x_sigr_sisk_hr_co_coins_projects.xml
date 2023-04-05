@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true,hasLabels=true" audit="true" db_object_id="216add790f73e2004ac7fe5ce1050e62" label="COINS Projects" max_length="40" name="x_sigr_sisk_hr_co_coins_projects" text_index="true" type="collection">
+        <element label="Active" max_length="32" name="active" type="boolean"/>
+        <element label="BI360 Entity" max_length="40" name="bi360_entity" type="string"/>
+        <element label="Country" max_length="32" name="country" reference="core_country" reference_qual="order=1^EQ" reference_qual_condition="order=1^EQ" type="reference"/>
+        <element label="ID" max_length="40" name="id" type="string"/>
+        <element label="Job Number" max_length="25" name="job_number" type="string"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element label="Name" max_length="151" name="name" type="string"/>
+        <element label="Project Name" max_length="151" name="project_name" type="string"/>
+        <element label="Region/Division" max_length="32" name="region_division" reference="x_sigr_sisk_hr_co_region_division" reference_qual="type=construction^EQ" reference_qual_condition="type=construction^EQ" type="reference"/>
+        <index name="index">
+            <element name="country"/>
+        </index>
+        <index name="index2">
+            <element name="id"/>
+        </index>
+        <index name="index3">
+            <element name="location"/>
+        </index>
+        <index name="index4">
+            <element name="name"/>
+        </index>
+        <index name="index5">
+            <element name="project_name"/>
+        </index>
+        <index name="index6">
+            <element name="region_division"/>
+        </index>
+    </element>
+</database>

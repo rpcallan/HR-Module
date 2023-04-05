@@ -166,7 +166,7 @@
             <sys_domain>global</sys_domain>
             <sys_id>724f1ec6377be2006f3c8d2754990e7b</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>IT Details</sys_name>
+            <sys_name>x_sigr_sisk_hr_co_region_division</sys_name>
             <sys_overrides/>
             <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
             <sys_policy/>

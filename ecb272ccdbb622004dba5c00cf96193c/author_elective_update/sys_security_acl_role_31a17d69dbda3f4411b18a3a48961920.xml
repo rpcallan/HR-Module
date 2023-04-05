@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2019-06-27 11:17:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>31a17d69dbda3f4411b18a3a48961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sigr_sisk_hr_co_leavers.itil</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_security_acl display_value="x_sigr_sisk_hr_co_leavers">8d3092cc37b193406f3c8d2754990e05</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_31a17d69dbda3f4411b18a3a48961920</sys_update_name>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2019-06-27 11:17:03</sys_updated_on>
+        <sys_user_role display_value="itil" name="itil">99662e2137013100d68998a543990ee6</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</application>
+        <file_path/>
+        <instance_id>604366656f4d754023b2a9cc5d3ee405</instance_id>
+        <instance_name>siskgroup</instance_name>
+        <name>sys_security_acl_role_31a17d69dbda3f4411b18a3a48961920</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>r.callan@siskgroup.ie</sys_created_by><sys_created_on>2019-06-27 11:17:03</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>31a17d69dbda3f4411b18a3a48961920</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_sigr_sisk_hr_co_leavers.itil</sys_name><sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope><sys_security_acl display_value="x_sigr_sisk_hr_co_leavers">8d3092cc37b193406f3c8d2754990e05</sys_security_acl><sys_update_name>sys_security_acl_role_31a17d69dbda3f4411b18a3a48961920</sys_update_name><sys_updated_by>r.callan@siskgroup.ie</sys_updated_by><sys_updated_on>2019-06-27 11:17:03</sys_updated_on><sys_user_role display_value="itil" name="itil">99662e2137013100d68998a543990ee6</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>344046286</payload_hash>
+        <record_name>x_sigr_sisk_hr_co_leavers.itil</record_name>
+        <reverted_from/>
+        <source>fdbae3eb37a4b604d68998a543990e96</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2019-06-27 11:17:03</sys_created_on>
+        <sys_id>89e171e9dbda3f4411b18a3a489619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16b98a734750000001</sys_recorded_at>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2019-06-27 11:17:03</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>81e171e947da3f4486ccc4bd0c6254e5</update_guid>
+        <update_guid_history>81e171e947da3f4486ccc4bd0c6254e5:344046286</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">9ff135e9dbda3f4411b18a3a48961931</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2019-06-27 11:17:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0a34c247124f46179899a2bc347d3c31</sys_id>
+        <sys_metadata>31a17d69dbda3f4411b18a3a48961920</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sigr_sisk_hr_co_leavers.itil</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_parent display_value="x_sigr_sisk_hr_co_leavers">8d3092cc37b193406f3c8d2754990e05</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_scope_delete display_value="">3f57090c102344369a525bed60375e31</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_31a17d69dbda3f4411b18a3a48961920</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_31a17d69dbda3f4411b18a3a48961920">89e171e9dbda3f4411b18a3a489619e5</sys_update_version>
+        <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+        <sys_updated_on>2019-06-27 11:17:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

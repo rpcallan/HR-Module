@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="d2270c500f176200369a4c8b03050e17" label="Sisk Directors" max_length="40" name="x_sigr_sisk_hr_co_sisk_directors" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Business Units" max_length="32" name="business_units" reference="x_sigr_sisk_hr_co_region_division" reference_qual="type=construction^EQ" reference_qual_condition="type=construction^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="HR Approver" max_length="4000" name="hr_approver" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+        <element label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element label="Signature" max_length="40" name="signature" type="user_image"/>
+        <element attributes="slushbucket_ref_no_expand=true,no_sort=true" label="Watchlist" max_length="4000" name="watchlist" reference="sys_user" type="glide_list"/>
+        <index name="index">
+            <element name="business_units"/>
+        </index>
+        <index name="index2">
+            <element name="name"/>
+        </index>
+    </element>
+</database>

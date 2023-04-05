@@ -6,12 +6,13 @@
         <description/>
         <field>contract_category</field>
         <global>true</global>
+        <isolate_script>false</isolate_script>
         <messages/>
         <name>Contract Category onChange</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 	if (isLoading || newValue === '') {
-		setDisplay(newValue);
+		setDisplay(oldValue);
 		return;
 	}
 	
@@ -38,10 +39,10 @@ function setDisplay(newValue){
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-28 10:40:47</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>f57e37e4dbfe22004dba5c00cf961981</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Contract Category onChange</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
@@ -50,7 +51,7 @@ function setDisplay(newValue){
         <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
         <sys_update_name>sys_script_client_f57e37e4dbfe22004dba5c00cf961981</sys_update_name>
         <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
-        <sys_updated_on>2017-04-14 14:36:24</sys_updated_on>
+        <sys_updated_on>2017-11-01 12:05:25</sys_updated_on>
         <table>x_sigr_sisk_hr_co_authority_to_offer</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

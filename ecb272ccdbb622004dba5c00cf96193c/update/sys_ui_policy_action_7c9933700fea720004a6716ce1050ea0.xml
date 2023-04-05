@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
         <disabled>true</disabled>
         <field>shift_pattern</field>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
         <sys_created_on>2017-05-03 14:46:13</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>7c9933700fea720004a6716ce1050ea0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>shift_pattern</sys_name>

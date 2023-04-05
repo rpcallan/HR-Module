@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="SISK HR" name="SISK HR">2db7c748db5103009ca35101ce961999</category>
+        <collection>x_sigr_sisk_hr_co_leavers</collection>
+        <condition table="x_sigr_sisk_hr_co_leavers">leaverISEMPTY^EQ<item endquery="false" field="leaver" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from>Leaver Request &lt;siskgroup@service-now.com&gt;</from>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hi Team,</p>
+<p>A Leaver Request ${number} for ${name} with a leaving date of ${last_date_of_work} has been submitted with the Leaver field not populated.</p>
+<p>While it is likely that this may be an employee with no IT Access of Equipment, on occasion the submitter may have misspelt the name or can't select the the employee as their AD Account is already disabled.</p>
+<p>Please confirm if this leaver has an active AD Account and if so log a Leaver Notification</p>
+<p>Regards</p>
+<p>Siskgroup IT</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Leaver Notify Security</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>afc76eec376d71003955261953990e5a,siskgroup@service-now.com,36003a630f335200d459936792050e50</recipient_users>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Leaver Request ${number} for ${name} has no Leaver Populated</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+        <sys_created_on>2020-05-18 15:18:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>a37f9526dbb450906c6f54e848961907</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Leaver Notify Security</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sysevent_email_action_a37f9526dbb450906c6f54e848961907</sys_update_name>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2022-09-16 09:44:54</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

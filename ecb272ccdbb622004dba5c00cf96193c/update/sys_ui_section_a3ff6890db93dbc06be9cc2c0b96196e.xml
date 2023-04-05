@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="a3ff6890db93dbc06be9cc2c0b96196e" sys_domain="global" table="x_sigr_sisk_hr_co_region_division" version="3" view="Other_Contacts">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-07-10 09:57:13</sys_created_on>
+            <sys_id>a3ff2094db93dbc06be9cc2c0b961950</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_region_division" sys_domain="global" view="ebff6890db93dbc06be9cc2c0b96196a">a3ff6890db93dbc06be9cc2c0b96196e</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-07-10 09:57:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-07-10 09:57:13</sys_created_on>
+            <sys_id>abff2094db93dbc06be9cc2c0b961950</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_region_division" sys_domain="global" view="ebff6890db93dbc06be9cc2c0b96196a">a3ff6890db93dbc06be9cc2c0b96196e</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-07-10 09:57:13</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_contacts</element>
+            <position>2</position>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-07-10 09:57:13</sys_created_on>
+            <sys_id>2fff2094db93dbc06be9cc2c0b961950</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sigr_sisk_hr_co_region_division" sys_domain="global" view="ebff6890db93dbc06be9cc2c0b96196a">a3ff6890db93dbc06be9cc2c0b96196e</sys_ui_section>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-07-10 09:57:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_sigr_sisk_hr_co_region_division</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>r.callan@siskgroup.ie</sys_created_by>
+            <sys_created_on>2018-07-10 09:57:13</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>a3ff6890db93dbc06be9cc2c0b96196e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sigr_sisk_hr_co_region_division</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+            <sys_update_name>sys_ui_section_a3ff6890db93dbc06be9cc2c0b96196e</sys_update_name>
+            <sys_updated_by>r.callan@siskgroup.ie</sys_updated_by>
+            <sys_updated_on>2018-07-10 09:57:13</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Other Contacts" name="Other_Contacts">ebff6890db93dbc06be9cc2c0b96196a</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
