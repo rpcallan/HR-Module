@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_sigr_sisk_hr_co.user" name="x_sigr_sisk_hr_co.user">c9b27eccdbb622004dba5c00cf96190f</contains>
+        <role display_value="x_sigr_sisk_hr_co.admin" name="x_sigr_sisk_hr_co.admin">ae1ffbe8876125106cb6fd99cebb359f</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>callanra</sys_created_by>
+        <sys_created_on>2023-04-07 08:38:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>07af3be187cee9d06cb6fd99cebb3518</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_sigr_sisk_hr_co.user.x_sigr_sisk_hr_co.admin</sys_name>
+        <sys_package display_value="Sisk Hr Contracts" source="x_sigr_sisk_hr_co">ecb272ccdbb622004dba5c00cf96193c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Sisk Hr Contracts">ecb272ccdbb622004dba5c00cf96193c</sys_scope>
+        <sys_update_name>sys_user_role_contains_07af3be187cee9d06cb6fd99cebb3518</sys_update_name>
+        <sys_updated_by>callanra</sys_updated_by>
+        <sys_updated_on>2023-04-07 08:38:53</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>
